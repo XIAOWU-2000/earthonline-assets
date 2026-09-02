@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 940" width="1160" height="940" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <title>页面设计稿 P3 · 起课 + 解法三层 + 结算</title>
+  <desc>核心交互三屏 · 含动效时间轴标注</desc>
+
+  <defs>
+    <pattern id="rainP3" width="26" height="46" patternUnits="userSpaceOnUse">
+      <g fill="#00FF41" font-size="11">
+        <text x="2" y="12" opacity="0.14">☵</text><text x="15" y="18" opacity="0.11">☰</text>
+        <text x="2" y="40" opacity="0.05">☷</text>
+      </g>
+    </pattern>
+    <filter id="glowP3" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1160" height="940" fill="#F7F5F0"/>
+  <text x="28" y="34" font-size="19" font-weight="700" fill="#1A1A1A">页面设计稿 P3 · 起课 + 解法三层 + 结算</text>
+  <text x="28" y="56" font-size="11.5" fill="#8A8478">产品最核心的三屏 —— 用户在这里真正拿到"怎么做、怎么说"</text>
+
+  <!-- ════════ 屏 1 · 事件提交 ════════ -->
+  <g>
+    <text x="28" y="88" font-size="12" font-weight="600" fill="#5A5142">⑦ 提交一件事</text>
+    <rect x="28" y="98" width="336" height="700" rx="16" fill="#05070A" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1.2"/>
+    <rect x="28" y="98" width="336" height="700" rx="16" fill="url(#rainP3)" opacity="0.35"/>
+
+    <text x="48" y="152" font-size="15" font-weight="700" fill="#E8EDF5">现在推不动什么事？</text>
+
+    <!-- 输入框 -->
+    <rect x="48" y="176" width="296" height="104" rx="8" fill="#020305" stroke="#00F0FF" stroke-opacity="0.3"/>
+    <text x="66" y="204" font-size="11.5" fill="#E8EDF5">今天要跟老板谈涨薪，拖了半个月</text>
+    <text x="66" y="226" font-size="11.5" fill="#E8EDF5">了，一直不敢开口。</text>
+    <text x="66" y="258" font-size="10" fill="#3A4451">一句话就行，比如「要跟老板谈涨薪」</text>
+
+    <!-- 快捷标签 -->
+    <text x="48" y="308" font-size="10" fill="#5A6472">或直接选</text>
+    <g font-size="9.5">
+      <rect x="48" y="318" width="58" height="24" rx="12" fill="#141A23" stroke="#2A3441"/>
+      <text x="77" y="334" text-anchor="middle" fill="#9AA5B4">谈薪</text>
+      <rect x="114" y="318" width="58" height="24" rx="12" fill="#141A23" stroke="#2A3441"/>
+      <text x="143" y="334" text-anchor="middle" fill="#9AA5B4">道歉</text>
+      <rect x="180" y="318" width="58" height="24" rx="12" fill="#141A23" stroke="#2A3441"/>
+      <text x="209" y="334" text-anchor="middle" fill="#9AA5B4">提离职</text>
+      <rect x="246" y="318" width="58" height="24" rx="12" fill="#141A23" stroke="#2A3441"/>
+      <text x="275" y="334" text-anchor="middle" fill="#9AA5B4">催款</text>
+      <rect x="48" y="350" width="58" height="24" rx="12" fill="#141A23" stroke="#2A3441"/>
+      <text x="77" y="366" text-anchor="middle" fill="#9AA5B4">拒绝</text>
+      <rect x="114" y="350" width="58" height="24" rx="12" fill="#141A23" stroke="#2A3441"/>
+      <text x="143" y="366" text-anchor="middle" fill="#9AA5B4">求助</text>
+    </g>
+
+    <!-- 起课时刻 -->
+    <rect x="48" y="404" width="296" height="72" rx="8" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.25"/>
+    <text x="66" y="430" font-size="10" fill="#5A6472">起课时刻（正时）</text>
+    <text x="66" y="456" font-family="monospace" font-size="15" fill="#E8EDF5">09-03 14:30</text>
+    <text x="326" y="456" text-anchor="end" font-size="9" fill="#5A6472">可改</text>
+    <text x="66" y="474" font-family="monospace" font-size="8.5" fill="#3A4451">经度 116.4° · 自动取真太阳时</text>
+
+    <text x="48" y="510" font-size="9" fill="#5A6472">事件文本只用于分类，不参与起课计算</text>
+
+    <rect x="48" y="600" width="296" height="48" rx="6" fill="#00F0FF" filter="url(#glowP3)"/>
+    <text x="196" y="630" text-anchor="middle" font-size="14" font-weight="700" fill="#05070A">起课</text>
+
+    <!-- 起课动效轴 -->
+    <text x="196" y="676" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#3A4451">0ms 按压 → 100ms 卦眼收缩</text>
+    <text x="196" y="692" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#3A4451">320ms 卦象定格 → 480ms 故障</text>
+    <text x="196" y="708" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#3A4451">600ms 解法页</text>
+  </g>
+
+  <!-- ════════ 屏 2 · 解法页（三层）═══════ -->
+  <g>
+    <text x="404" y="88" font-size="12" font-weight="600" fill="#5A5142">⑧ 解法页 · 三层</text>
+    <rect x="404" y="98" width="336" height="700" rx="16" fill="#05070A" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1.2"/>
+    <line x1="404" y1="140" x2="740" y2="140" stroke="#00F0FF" stroke-opacity="0.2"/>
+    <text x="424" y="126" font-family="monospace" font-size="9.5" fill="#00FF41">#WRK-01 贪狼·薪</text>
+
+    <text x="424" y="176" font-size="14" font-weight="700" fill="#E8EDF5">和老板谈涨薪</text>
+    <text x="424" y="196" font-family="monospace" font-size="8.5" fill="#5A6472">初传亥 · 中传戌 · 末传酉</text>
+
+    <!-- 表层 -->
+    <rect x="424" y="214" width="296" height="126" rx="7" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.35"/>
+    <text x="440" y="238" font-size="10" font-weight="700" fill="#00F0FF">层 · 表层</text>
+    <text x="440" y="258" font-size="10.5" fill="#E8EDF5">这件事现在走到哪一步</text>
+    <text x="440" y="278" font-size="9.5" fill="#9AA5B4">初传滞留 → 中传拖延 → 末传有反馈</text>
+    <g font-size="9">
+      <text x="440" y="298" fill="#E8EDF5">1 整理三项产出，10 分钟</text>
+      <text x="440" y="314" fill="#E8EDF5">2 今天不发消息，等</text>
+      <text x="440" y="330" fill="#E8EDF5">3 三天后没动静，约当面</text>
+    </g>
+
+    <!-- 中层 -->
+    <rect x="424" y="352" width="296" height="118" rx="7" fill="#0C1016" stroke="#00E5A0" stroke-opacity="0.35"/>
+    <text x="440" y="376" font-size="10" font-weight="700" fill="#00E5A0">层 · 中层</text>
+    <text x="440" y="396" font-size="10.5" fill="#E8EDF5">跟你这个人的互动</text>
+    <text x="440" y="416" font-size="9.5" fill="#9AA5B4">你日主偏弱，「主动开口」对你更难</text>
+    <text x="440" y="438" font-size="9" fill="#E8EDF5">1 写下最坏结果，看能否接受</text>
+    <text x="440" y="454" font-size="9" fill="#E8EDF5">2 开场先说事，不直接说钱</text>
+
+    <!-- 深层 -->
+    <rect x="424" y="482" width="296" height="98" rx="7" fill="#0C1016" stroke="#F5C518" stroke-opacity="0.35"/>
+    <text x="440" y="506" font-size="10" font-weight="700" fill="#F5C518">层 · 深层</text>
+    <text x="440" y="526" font-size="10.5" fill="#E8EDF5">跟「底气」副本的关系</text>
+    <text x="440" y="546" font-size="9.5" fill="#9AA5B4">开了口就算推进，副本 +1</text>
+    <text x="440" y="567" font-size="9" fill="#F5C518">别为刷进度硬开口，没准备好等一天不扣分</text>
+
+    <!-- 话术 -->
+    <text x="424" y="606" font-size="10" fill="#5A6472">可以这样说</text>
+    <rect x="424" y="616" width="296" height="46" rx="5" fill="#020305" stroke="#00F0FF" stroke-opacity="0.25"/>
+    <text x="438" y="636" font-size="10" fill="#E8EDF5">「我整理了这半年做的三件事，</text>
+    <text x="438" y="652" font-size="10" fill="#E8EDF5">想跟您约个时间聊聊。」</text>
+    <g font-size="9">
+      <rect x="424" y="670" width="94" height="24" rx="4" fill="#141A23"/>
+      <text x="471" y="686" text-anchor="middle" fill="#5A6472">温和</text>
+      <rect x="524" y="670" width="94" height="24" rx="4" fill="#00F0FF"/>
+      <text x="571" y="686" text-anchor="middle" fill="#05070A" font-weight="700">直接</text>
+      <rect x="624" y="670" width="94" height="24" rx="4" fill="#141A23"/>
+      <text x="671" y="686" text-anchor="middle" fill="#5A6472">坚定</text>
+    </g>
+    <text x="424" y="716" font-family="monospace" font-size="8" fill="#3A4451">三层分别从 顶/右/底 飞入，错落 80ms</text>
+    <text x="424" y="732" font-family="monospace" font-size="8" fill="#3A4451">话术切换 120ms 淡入淡出</text>
+  </g>
+
+  <!-- ════════ 屏 3 · 结算 ════════ -->
+  <g>
+    <text x="780" y="88" font-size="12" font-weight="600" fill="#5A5142">⑨ 结算（必须用户主动确认）</text>
+    <rect x="780" y="98" width="336" height="700" rx="16" fill="#05070A" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1.2"/>
+    <rect x="780" y="98" width="336" height="700" rx="16" fill="#000" opacity="0.55"/>
+
+    <!-- 面板 -->
+    <rect x="780" y="392" width="336" height="406" rx="16" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.4"/>
+
+    <text x="800" y="440" font-size="15" font-weight="700" fill="#E8EDF5">这件事推进得怎样？</text>
+    <text x="800" y="462" font-family="monospace" font-size="9" fill="#5A6472">#WRK-01 贪狼·薪</text>
+
+    <!-- 三个选项 -->
+    <g>
+      <rect x="800" y="486" width="296" height="52" rx="6" fill="#0C1016" stroke="#2A3441"/>
+      <text x="820" y="510" font-size="12" fill="#E8EDF5">全部完成</text>
+      <text x="820" y="528" font-size="9" fill="#5A6472">开口了，也拿到回应</text>
+
+      <rect x="800" y="548" width="296" height="52" rx="6" fill="#0A1A18" stroke="#00E5A0" stroke-width="1.6"/>
+      <text x="820" y="572" font-size="12" fill="#E8EDF5">做了一部分</text>
+      <text x="820" y="590" font-size="9" fill="#5A6472">准备了，还没开口</text>
+      <text x="1076" y="576" text-anchor="end" font-size="12" fill="#00E5A0">✓</text>
+
+      <rect x="800" y="610" width="296" height="52" rx="6" fill="#0C1016" stroke="#2A3441"/>
+      <text x="820" y="634" font-size="12" fill="#E8EDF5">没开始</text>
+      <text x="820" y="652" font-size="9" fill="#5A6472">今天没动</text>
+    </g>
+
+    <!-- 记一句 -->
+    <text x="800" y="690" font-size="10" fill="#5A6472">记一句（可选）</text>
+    <rect x="800" y="700" width="296" height="36" rx="5" fill="#020305" stroke="#2A3441"/>
+    <text x="814" y="722" font-size="9.5" fill="#3A4451">……</text>
+
+    <rect x="800" y="752" width="296" height="44" rx="6" fill="#00F0FF" filter="url(#glowP3)"/>
+    <text x="948" y="780" text-anchor="middle" font-size="13" font-weight="700" fill="#05070A">完成结算</text>
+
+    <!-- 反馈校准说明 -->
+    <rect x="800" y="300" width="296" height="76" rx="7" fill="#1A1206" stroke="#F5C518" stroke-opacity="0.4"/>
+    <text x="818" y="324" font-size="10" font-weight="700" fill="#F5C518">结算后会写入反馈校准</text>
+    <text x="818" y="344" font-size="9.5" fill="#E8EDF5">记录「当时的判断 vs 实际结果」</text>
+    <text x="818" y="362" font-size="9.5" fill="#E8EDF5">按事件分类统计，调整你个人的权重</text>
+
+    <text x="948" y="212" text-anchor="middle" font-size="11" fill="#FF6B60">⚠ 无自动完成逻辑</text>
+    <text x="948" y="232" text-anchor="middle" font-size="9.5" fill="#9AA5B4">结算必须由用户主动点</text>
+    <text x="948" y="252" text-anchor="middle" font-size="9.5" fill="#9AA5B4">否则「真实完成率」是假的</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="28" y="828" width="1104" height="92" rx="8" fill="#2E3A4A"/>
+  <text x="50" y="854" font-size="12" font-weight="700" fill="#F0D9A0">设计要点</text>
+  <text x="50" y="878" font-size="11" fill="#D8DCE2">· 三层用三种颜色区分（青/绿/黄），让用户一眼知道「这是三种不同的事」</text>
+  <text x="50" y="898" font-size="11" fill="#D8DCE2">· 【止】写在深层卡底部 —— 它既是合规字段，也是"别硬来"的提醒</text>
+  <text x="580" y="878" font-size="11" fill="#D8DCE2">· 结算面板从底部滑入，背景暗化 55%，让注意力集中在"我做到了多少"</text>
+  <text x="580" y="898" font-size="11" fill="#F0D9A0">· 「没开始」选项不扣分 —— 反内卷体现在具体的交互细节上</text>
+</svg>

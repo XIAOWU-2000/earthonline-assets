@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 940" width="1160" height="940" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <title>页面设计稿 P4 · 长期副本 + 图鉴 + 出牌</title>
+  <desc>副本可选 · 图鉴积累 · 出牌动感最强</desc>
+
+  <defs>
+    <pattern id="rainP4" width="26" height="46" patternUnits="userSpaceOnUse">
+      <g fill="#00FF41" font-size="11">
+        <text x="2" y="12" opacity="0.13">☵</text><text x="15" y="18" opacity="0.10">☰</text>
+      </g>
+    </pattern>
+    <filter id="glowP4" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1160" height="940" fill="#F7F5F0"/>
+  <text x="28" y="34" font-size="19" font-weight="700" fill="#1A1A1A">页面设计稿 P4 · 长期副本 + 图鉴 + 出牌</text>
+  <text x="28" y="56" font-size="11.5" fill="#8A8478">副本给日常的事累积感 · 图鉴看到自己扛过多少 · 出牌必须落到真实行动</text>
+
+  <!-- ════════ 屏 1 · 长期副本 ════════ -->
+  <g>
+    <text x="28" y="88" font-size="12" font-weight="600" fill="#5A5142">⑩ 长期副本（可选，不打也行）</text>
+    <rect x="28" y="98" width="336" height="700" rx="16" fill="#05070A" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1.2"/>
+    <line x1="28" y1="140" x2="364" y2="140" stroke="#00F0FF" stroke-opacity="0.2"/>
+    <text x="48" y="126" font-family="monospace" font-size="10" fill="#00FF41">长期副本</text>
+
+    <text x="48" y="172" font-size="13" fill="#E8EDF5">你的基本盘显示，这些地方容易拖你后腿</text>
+    <text x="48" y="192" font-size="9.5" fill="#5A6472">选一个当下想攻的，不打也不影响主线</text>
+
+    <!-- 副本1：进行中 -->
+    <rect x="48" y="214" width="296" height="104" rx="8" fill="#0A1A18" stroke="#00E5A0" stroke-width="1.6"/>
+    <text x="66" y="242" font-size="14" font-weight="700" fill="#E8EDF5">底气</text>
+    <text x="66" y="262" font-size="9.5" fill="#9AA5B4">日主偏弱 · 主动争取类事件更难</text>
+    <rect x="240" y="228" width="86" height="22" rx="4" fill="#00E5A0"/>
+    <text x="283" y="243" text-anchor="middle" font-size="9.5" font-weight="700" fill="#05070A">进行中</text>
+    <!-- 进度 -->
+    <rect x="66" y="278" width="260" height="6" rx="3" fill="#141A23"/>
+    <rect x="66" y="278" width="156" height="6" rx="3" fill="#00E5A0" filter="url(#glowP4)"/>
+    <text x="66" y="302" font-family="monospace" font-size="9" fill="#5A6472">进度 60% · 攻克后获得「开口力」</text>
+
+    <!-- 副本2：可选 -->
+    <rect x="48" y="332" width="296" height="76" rx="8" fill="#0C1016" stroke="#2A3441"/>
+    <text x="66" y="358" font-size="13" font-weight="700" fill="#E8EDF5">内耗</text>
+    <text x="66" y="378" font-size="9.5" fill="#9AA5B4">印星不足 · 决策类事件更难</text>
+    <rect x="240" y="348" width="86" height="22" rx="4" fill="none" stroke="#5A6472" stroke-dasharray="4 2"/>
+    <text x="283" y="363" text-anchor="middle" font-size="9.5" fill="#9AA5B4">未开启</text>
+
+    <!-- 副本3 -->
+    <rect x="48" y="420" width="296" height="76" rx="8" fill="#0C1016" stroke="#2A3441"/>
+    <text x="66" y="446" font-size="13" font-weight="700" fill="#E8EDF5">口舌</text>
+    <text x="66" y="466" font-size="9.5" fill="#9AA5B4">食伤过旺 · 沟通类事件风险更高</text>
+    <rect x="240" y="436" width="86" height="22" rx="4" fill="none" stroke="#5A6472" stroke-dasharray="4 2"/>
+    <text x="283" y="451" text-anchor="middle" font-size="9.5" fill="#9AA5B4">未开启</text>
+
+    <!-- 驯化说明 -->
+    <rect x="48" y="520" width="296" height="88" rx="7" fill="#1A1206" stroke="#F5C518" stroke-opacity="0.4"/>
+    <text x="66" y="546" font-size="10.5" font-weight="700" fill="#F5C518">攻克后是「驯化」，不是消灭</text>
+    <text x="66" y="568" font-size="9.5" fill="#E8EDF5">弱点不会消失，但会变成跟着你的能力</text>
+    <text x="66" y="588" font-size="9.5" fill="#D8DCE2">你克服的每一个弱点，都会变成一种能力</text>
+
+    <text x="48" y="640" font-size="9" fill="#5A6472">主线遇到同类事件会自动喂养副本进度</text>
+    <text x="48" y="662" font-family="monospace" font-size="8.5" fill="#3A4451">副本是长期目标，给日常的事累积感</text>
+  </g>
+
+  <!-- ════════ 屏 2 · 图鉴 ════════ -->
+  <g>
+    <text x="404" y="88" font-size="12" font-weight="600" fill="#5A5142">⑪ 图鉴（看得到自己扛过多少）</text>
+    <rect x="404" y="98" width="336" height="700" rx="16" fill="#05070A" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1.2"/>
+    <line x1="404" y1="140" x2="740" y2="140" stroke="#00F0FF" stroke-opacity="0.2"/>
+    <text x="424" y="126" font-family="monospace" font-size="10" fill="#00FF41">图鉴</text>
+
+    <text x="424" y="172" font-size="12" fill="#5A6472">已遇到 6 只 · 已化解 2 只</text>
+
+    <!-- 图鉴网格 -->
+    <g transform="translate(424,192)">
+      <!-- 卡1 已化解 -->
+      <rect x="0" y="0" width="88" height="112" rx="6" fill="#0A1A18" stroke="#00E5A0" stroke-opacity="0.5"/>
+      <circle cx="44" cy="40" r="24" fill="none" stroke="#00E5A0" stroke-width="1.4" opacity="0.6"/>
+      <text x="44" y="47" text-anchor="middle" font-size="17" fill="#00E5A0">☵</text>
+      <text x="44" y="80" text-anchor="middle" font-size="10" font-weight="700" fill="#E8EDF5">贪狼·薪</text>
+      <text x="44" y="96" text-anchor="middle" font-size="8" fill="#00E5A0">已化解</text>
+
+      <!-- 卡2 -->
+      <rect x="98" y="0" width="88" height="112" rx="6" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.3"/>
+      <circle cx="44" cy="40" r="24" fill="none" stroke="#00F0FF" stroke-width="1.4" opacity="0.5"/>
+      <text x="44" y="47" text-anchor="middle" font-size="17" fill="#00F0FF">☷</text>
+      <text x="44" y="80" text-anchor="middle" font-size="10" font-weight="700" fill="#E8EDF5">巨门·歧</text>
+      <text x="44" y="96" text-anchor="middle" font-size="8" fill="#5A6472">进行中</text>
+
+      <!-- 卡3 -->
+      <rect x="196" y="0" width="88" height="112" rx="6" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.3"/>
+      <circle cx="44" cy="40" r="24" fill="none" stroke="#00F0FF" stroke-width="1.4" opacity="0.5"/>
+      <text x="44" y="47" text-anchor="middle" font-size="17" fill="#00F0FF">☳</text>
+      <text x="44" y="80" text-anchor="middle" font-size="10" font-weight="700" fill="#E8EDF5">武曲·践</text>
+      <text x="44" y="96" text-anchor="middle" font-size="8" fill="#5A6472">进行中</text>
+
+      <!-- 卡4 未遇到 -->
+      <rect x="0" y="122" width="88" height="112" rx="6" fill="#080B10" stroke="#2A3441" stroke-dasharray="4 3"/>
+      <text x="44" y="172" text-anchor="middle" font-size="20" fill="#2A3441">?</text>
+      <text x="44" y="200" text-anchor="middle" font-size="9" fill="#2A3441">未遇到</text>
+
+      <!-- 卡5 -->
+      <rect x="98" y="122" width="88" height="112" rx="6" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.3"/>
+      <circle cx="44" cy="162" r="24" fill="none" stroke="#00F0FF" stroke-width="1.4" opacity="0.5"/>
+      <text x="44" y="169" text-anchor="middle" font-size="17" fill="#00F0FF">☴</text>
+      <text x="44" y="202" text-anchor="middle" font-size="10" font-weight="700" fill="#E8EDF5">计都·候</text>
+      <text x="44" y="218" text-anchor="middle" font-size="8" fill="#5A6472">进行中</text>
+
+      <!-- 卡6 -->
+      <rect x="196" y="122" width="88" height="112" rx="6" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.3"/>
+      <circle cx="44" cy="162" r="24" fill="none" stroke="#00F0FF" stroke-width="1.4" opacity="0.5"/>
+      <text x="44" y="169" text-anchor="middle" font-size="17" fill="#00F0FF">☲</text>
+      <text x="44" y="202" text-anchor="middle" font-size="10" font-weight="700" fill="#E8EDF5">七杀·锋</text>
+      <text x="44" y="218" text-anchor="middle" font-size="8" fill="#5A6472">进行中</text>
+    </g>
+
+    <!-- 改名 -->
+    <rect x="424" y="444" width="296" height="68" rx="7" fill="#0C1016" stroke="#2A3441"/>
+    <text x="442" y="470" font-size="10" fill="#5A6472">劫的名字可以改</text>
+    <text x="442" y="492" font-size="11" fill="#E8EDF5">系统默认名 → 你可以叫它「和老张谈钱」</text>
+    <text x="442" y="508" font-size="8.5" fill="#3A4451">改了只有你自己看到，图鉴检索仍用官方名</text>
+
+    <text x="424" y="556" font-size="9.5" fill="#5A6472">图鉴的价值：让用户看到"原来我已经扛过这么多事"</text>
+  </g>
+
+  <!-- ════════ 屏 3 · 出牌 ════════ -->
+  <g>
+    <text x="780" y="88" font-size="12" font-weight="600" fill="#5A5142">⑫ 出牌（动感最强 · 出牌 = 立刻行动）</text>
+    <rect x="780" y="98" width="336" height="700" rx="16" fill="#05070A" stroke="#FF003C" stroke-opacity="0.4" stroke-width="1.3"/>
+    <rect x="780" y="98" width="336" height="700" rx="16" fill="url(#rainP4)" opacity="0.3"/>
+    <line x1="780" y1="140" x2="1116" y2="140" stroke="#FF003C" stroke-opacity="0.2"/>
+    <text x="800" y="126" font-family="monospace" font-size="10" fill="#FF3B30">应劫 · #WRK-01</text>
+
+    <text x="800" y="174" font-size="15" font-weight="700" fill="#E8EDF5">贪狼·薪</text>
+    <text x="800" y="194" font-family="monospace" font-size="8.5" fill="#5A6472">阻力 · 沟通　规模 · 中</text>
+
+    <!-- 剩余阻力 -->
+    <text x="800" y="228" font-size="10" fill="#5A6472">剩余阻力</text>
+    <rect x="800" y="238" width="296" height="6" rx="3" fill="#141A23"/>
+    <rect x="800" y="238" width="192" height="6" rx="3" fill="#FF003C" filter="url(#glowP4)"/>
+
+    <!-- 手牌 -->
+    <text x="800" y="286" font-size="10" fill="#5A6472">手牌（选一张）</text>
+    <g transform="translate(796,300)">
+      <!-- 牌1 -->
+      <g transform="rotate(-7 56 74)">
+        <path d="M8 8 L104 8 L104 148 L96 156 L8 156 L16 148 Z" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.3"/>
+        <g fill="#E8EDF5" opacity="0.85">
+          <rect x="24" y="26" width="64" height="4"/><rect x="24" y="36" width="64" height="4"/><rect x="24" y="46" width="64" height="4"/>
+        </g>
+        <text x="56" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#E8EDF5">知己知彼</text>
+        <text x="56" y="132" text-anchor="middle" font-family="monospace" font-size="8" fill="#5A6472">COST 12</text>
+      </g>
+      <!-- 牌2（选中） -->
+      <g transform="translate(112,-8)">
+        <path d="M8 8 L104 8 L104 148 L96 156 L8 156 L16 148 Z" fill="#0A1A18" stroke="#00E5A0" stroke-width="2" filter="url(#glowP4)"/>
+        <g fill="#00E5A0">
+          <rect x="24" y="26" width="26" height="4"/><rect x="52" y="26" width="36" height="4"/>
+          <rect x="24" y="36" width="64" height="4"/>
+          <rect x="24" y="46" width="26" height="4"/><rect x="52" y="46" width="36" height="4"/>
+        </g>
+        <text x="56" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#E8EDF5">上善若水</text>
+        <text x="56" y="132" text-anchor="middle" font-family="monospace" font-size="8" fill="#00E5A0">COST 12</text>
+        <text x="56" y="4" text-anchor="middle" font-size="8" fill="#00E5A0">▲ 推荐</text>
+      </g>
+      <!-- 牌3 -->
+      <g transform="translate(216,0) rotate(7 56 74)">
+        <path d="M8 8 L104 8 L104 148 L96 156 L8 156 L16 148 Z" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.3"/>
+        <g fill="#E8EDF5" opacity="0.85">
+          <rect x="24" y="30" width="64" height="4"/><rect x="24" y="42" width="64" height="4"/>
+        </g>
+        <text x="56" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#E8EDF5">循名责实</text>
+        <text x="56" y="132" text-anchor="middle" font-family="monospace" font-size="8" fill="#5A6472">COST 8</text>
+      </g>
+    </g>
+
+    <!-- 打出后会做什么 -->
+    <rect x="800" y="500" width="296" height="62" rx="6" fill="#020305" stroke="#00F0FF" stroke-opacity="0.25"/>
+    <text x="816" y="524" font-size="9.5" fill="#5A6472">打出后，你会立刻开始</text>
+    <text x="816" y="546" font-size="11.5" font-weight="500" fill="#00E5A0">不反驳，先复述对方诉求</text>
+
+    <!-- 算力 -->
+    <text x="800" y="592" font-size="10" fill="#5A6472">算力</text>
+    <text x="1096" y="592" text-anchor="end" font-family="monospace" font-size="10" fill="#E8EDF5">83/95</text>
+    <rect x="800" y="602" width="296" height="5" rx="2.5" fill="#141A23"/>
+    <rect x="800" y="602" width="168" height="5" rx="2.5" fill="#FF003C"/>
+
+    <!-- 出牌按钮 -->
+    <rect x="800" y="640" width="296" height="56" rx="6" fill="#00F0FF" filter="url(#glowP4)"/>
+    <text x="948" y="675" text-anchor="middle" font-size="16" font-weight="700" fill="#05070A">出牌 = 立刻行动</text>
+
+    <!-- 动效轴 -->
+    <text x="948" y="726" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#3A4451">0ms 跳出 → 120ms 飞中央 → 320ms 旋转360°</text>
+    <text x="948" y="742" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#3A4451">520ms 爆开为卦象碎片 → 670ms 聚成指令</text>
+    <text x="948" y="758" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#3A4451">1020ms 开始计时 + 锁屏提醒</text>
+    <text x="948" y="778" text-anchor="middle" font-size="9.5" fill="#FF6B60">出牌 = 立刻开始真实行动</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <rect x="28" y="828" width="1104" height="92" rx="8" fill="#2E3A4A"/>
+  <text x="50" y="854" font-size="12" font-weight="700" fill="#F0D9A0">设计要点</text>
+  <text x="50" y="878" font-size="11" fill="#D8DCE2">· 副本页明确写「不打也不影响主线」—— 可选是它成立的前提</text>
+  <text x="50" y="898" font-size="11" fill="#D8DCE2">· 图鉴未遇到的用虚线空卡，给用户"还有更多"的期待，不是焦虑</text>
+  <text x="580" y="878" font-size="11" fill="#D8DCE2">· 出牌按钮文案就是「出牌 = 立刻行动」—— 文案本身在强化产品原则</text>
+  <text x="580" y="898" font-size="11" fill="#F0D9A0">· 手牌扇形展开（±7°），选中的那张上浮并加绿色辉光</text>
+</svg>
