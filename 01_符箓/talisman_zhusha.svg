@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 660" width="240" height="660">
+  <title>符箓 · 朱砂黄纸（传统样式）— 上善若水</title>
+  <desc>三段式结构：符头三勾 / 符胆云篆 / 符脚罡气。符胆文字为产品符名，非道教咒文。</desc>
+
+  <defs>
+    <!-- 黄纸底纹 -->
+    <pattern id="paper" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#E8D9A0"/>
+      <path d="M0 8 L40 8 M0 22 L40 22 M0 34 L40 34" stroke="#DFCE93" stroke-width="0.6" opacity="0.55"/>
+      <circle cx="6" cy="14" r="0.7" fill="#C9B478" opacity="0.4"/>
+      <circle cx="28" cy="30" r="0.6" fill="#C9B478" opacity="0.35"/>
+      <circle cx="18" cy="4" r="0.5" fill="#C9B478" opacity="0.3"/>
+    </pattern>
+
+    <!-- 手绘抖动 -->
+    <filter id="rough" x="-8%" y="-8%" width="116%" height="116%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <!-- 朱砂渗染 -->
+    <filter id="bleed" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="0.8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ===== 纸 ===== -->
+  <rect x="8" y="8" width="224" height="644" fill="url(#paper)"/>
+  <rect x="8" y="8" width="224" height="644" fill="none" stroke="#8A7440" stroke-width="1.2" opacity="0.7"/>
+
+  <!-- 纸张做旧：四角暗角 -->
+  <radialGradient id="vig" cx="50%" cy="45%" r="72%">
+    <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#6B5520" stop-opacity="0.22"/>
+  </radialGradient>
+  <rect x="8" y="8" width="224" height="644" fill="url(#vig)"/>
+
+  <!-- 内框（双线） -->
+  <rect x="20" y="20" width="200" height="620" fill="none" stroke="#C1272D" stroke-width="1.6" opacity="0.55"/>
+  <rect x="25" y="25" width="190" height="610" fill="none" stroke="#C1272D" stroke-width="0.7" opacity="0.32"/>
+
+  <g filter="url(#rough)">
+
+    <!-- ============ 符头 · 三勾 ============ -->
+    <g stroke="#C1272D" stroke-width="7" fill="none" stroke-linecap="round" filter="url(#bleed)">
+      <path d="M62 66 C 88 50, 152 50, 178 66 C 150 62, 90 62, 62 66 Z"/>
+      <path d="M60 84 C 88 68, 152 68, 180 84 C 150 79, 90 79, 60 84 Z"/>
+      <path d="M58 102 C 88 86, 152 86, 182 102 C 150 96, 90 96, 58 102 Z"/>
+    </g>
+    <!-- 三勾之间的连接点 -->
+    <g fill="#C1272D" filter="url(#bleed)">
+      <circle cx="120" cy="60" r="5"/>
+      <circle cx="120" cy="108" r="4.5"/>
+    </g>
+    <!-- 符头中轴 -->
+    <path d="M120 60 L120 108" stroke="#C1272D" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- ============ 符胆 · 云篆 上善若水 ============ -->
+    <g stroke="#1F1B14" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+      <!-- 【上】— 竖为骨，横为翼，底部回旋 -->
+      <g stroke-width="6.5">
+        <path d="M118 142 C 116 160, 122 178, 118 196"/>
+        <path d="M84 168 C 96 162, 112 164, 120 166 C 132 169, 148 168, 156 162"/>
+        <path d="M84 168 C 80 176, 84 184, 92 184 C 100 184, 104 178, 100 172"/>
+        <path d="M152 172 C 148 166, 140 168, 140 176 C 140 184, 150 182, 148 174"/>
+      </g>
+      <path d="M92 200 C 100 208, 118 210, 130 202 C 138 196, 132 188, 124 192" stroke-width="3.2" opacity="0.75"/>
+
+      <!-- 【善】— 盘绕复文，羊字头 + 回旋腹 -->
+      <g stroke-width="6.5">
+        <path d="M76 232 C 88 224, 104 226, 112 230"/>
+        <path d="M128 230 C 140 226, 156 224, 164 232"/>
+        <path d="M120 228 L120 240"/>
+        <path d="M92 248 C 108 244, 132 244, 148 248"/>
+        <!-- 回旋腹 -->
+        <path d="M100 262 C 88 272, 92 290, 106 292 C 122 294, 132 282, 124 272 C 118 265, 104 270, 108 280"/>
+        <path d="M140 262 C 152 272, 148 290, 134 292 C 118 294, 108 282, 116 272 C 122 265, 136 270, 132 280"/>
+        <path d="M120 258 L120 300"/>
+      </g>
+      <path d="M96 306 C 110 312, 130 312, 144 306" stroke-width="4"/>
+
+      <!-- 【若】— 草头双竖 + 下方盘曲 -->
+      <g stroke-width="6.5">
+        <path d="M98 330 C 92 342, 92 356, 96 366"/>
+        <path d="M142 330 C 148 342, 148 356, 144 366"/>
+        <path d="M86 336 C 100 330, 140 330, 154 336"/>
+        <path d="M120 338 L120 352"/>
+        <!-- 盘曲 -->
+        <path d="M100 376 C 112 370, 128 372, 136 380 C 144 388, 136 400, 124 396 C 114 393, 116 382, 124 382"/>
+        <path d="M96 392 C 106 404, 132 408, 146 398"/>
+      </g>
+
+      <!-- 【水】— 中竖 + 两侧波浪回旋 -->
+      <g stroke-width="7">
+        <path d="M120 426 C 116 448, 124 470, 118 492"/>
+      </g>
+      <g stroke-width="5.5">
+        <path d="M120 440 C 108 446, 96 442, 92 432 C 88 422, 98 416, 104 424"/>
+        <path d="M120 452 C 132 458, 146 454, 150 444 C 154 434, 142 428, 138 436"/>
+        <path d="M120 470 C 106 476, 92 472, 88 462 C 84 452, 96 446, 102 454"/>
+        <path d="M120 484 C 134 490, 148 486, 152 476 C 156 466, 144 460, 138 468"/>
+      </g>
+      <!-- 水气小点 -->
+      <g fill="#1F1B14" stroke="none">
+        <circle cx="78" cy="430" r="3"/>
+        <circle cx="162" cy="456" r="3"/>
+        <circle cx="82" cy="478" r="2.6"/>
+      </g>
+    </g>
+
+    <!-- ============ 符脚 · 罡气盘绕 ============ -->
+    <g stroke="#C1272D" fill="none" stroke-linecap="round" filter="url(#bleed)">
+      <path d="M120 522 C 120 538, 104 544, 96 556 C 88 568, 100 582, 116 578" stroke-width="6"/>
+      <path d="M120 528 C 120 546, 136 550, 146 562 C 156 574, 142 588, 126 584" stroke-width="6"/>
+      <!-- 罡气三重圈 -->
+      <path d="M96 596 C 108 588, 132 588, 144 596 C 132 606, 108 606, 96 596 Z" stroke-width="4.5"/>
+      <path d="M104 596 C 112 592, 128 592, 136 596 C 128 600, 112 600, 104 596 Z" stroke-width="2.6"/>
+      <!-- 收笔 -->
+      <path d="M120 606 C 118 616, 124 624, 120 632" stroke-width="5"/>
+    </g>
+
+    <!-- 符脚两侧云气 -->
+    <g stroke="#C1272D" fill="none" stroke-width="2.4" opacity="0.6" stroke-linecap="round">
+      <path d="M74 540 C 84 534, 84 548, 74 552 C 64 556, 58 544, 66 538"/>
+      <path d="M166 540 C 156 534, 156 548, 166 552 C 176 556, 182 544, 174 538"/>
+    </g>
+
+    <!-- ============ 法印（朱砂方印） ============ -->
+    <g transform="translate(84,232)">
+      <rect x="0" y="0" width="72" height="72" fill="#C1272D" opacity="0.14"/>
+      <rect x="0" y="0" width="72" height="72" fill="none" stroke="#C1272D" stroke-width="3.5"/>
+      <!-- 印文：卦象 ☵ 坎（不用真实道观印文） -->
+      <g fill="#C1272D">
+        <rect x="18" y="20" width="14" height="5"/>
+        <rect x="40" y="20" width="14" height="5"/>
+        <rect x="18" y="33" width="36" height="5"/>
+        <rect x="18" y="46" width="14" height="5"/>
+        <rect x="40" y="46" width="14" height="5"/>
+      </g>
+    </g>
+
+    <!-- 符箓编号（等宽，位于印下） -->
+    <text x="120" y="326" text-anchor="middle" font-family="monospace" font-size="11" fill="#C1272D" opacity="0.8">#023</text>
+
+  </g>
+
+  <!-- 顶部标签（可删除） -->
+  <text x="120" y="16" text-anchor="middle" font-family="monospace" font-size="8" fill="#8A7440" opacity="0.6">ZHUSHA · 朱砂黄纸</text>
+</svg>

@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660" width="900" height="660">
+  <title>交互框架 · 全流程与转场契约</title>
+  <desc>启动 → 建档四步 → 命盘 → 每日循环（今日/录入/行动卡/应劫/结算）</desc>
+
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#00F0FF"/>
+    </marker>
+    <marker id="b" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#8A8478"/>
+    </marker>
+    <marker id="c" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#FF3B30"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="660" fill="#F7F5F0"/>
+  <text x="24" y="32" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" font-weight="700" fill="#1A1A1A">交互框架 · 全流程</text>
+  <text x="24" y="52" font-family="'PingFang SC',sans-serif" font-size="11" fill="#8A8478">灰线=普通跳转　青线=主循环　红线=分支　虚线=可选路径</text>
+
+  <!-- ══════ 阶段一：启动与建档 ══════ -->
+  <text x="24" y="82" font-family="'PingFang SC',sans-serif" font-size="12" font-weight="600" fill="#5A5142">① 首次启动 · 建档四步（每步给一个事实）</text>
+
+  <!-- P01 -->
+  <g>
+    <rect x="24" y="92" width="88" height="62" rx="5" fill="#05070A" stroke="#00F0FF" stroke-opacity="0.35"/>
+    <text x="68" y="116" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="11" font-weight="600" fill="#E8EDF5">P01 启动</text>
+    <text x="68" y="132" text-anchor="middle" font-family="monospace" font-size="8" fill="#00FF41">卦象代码雨</text>
+    <text x="68" y="145" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#5A6472">≤2.5s</text>
+  </g>
+  <path d="M112 123 L136 123" stroke="#8A8478" stroke-width="1.6" marker-end="url(#b)"/>
+
+  <!-- P02 -->
+  <g>
+    <rect x="140" y="92" width="104" height="62" rx="5" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.3"/>
+    <text x="192" y="110" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="10" font-weight="600" fill="#E8EDF5">P02 出生日期</text>
+    <rect x="150" y="116" width="84" height="16" rx="2" fill="#020305"/>
+    <text x="192" y="128" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#5A6472">1998-04-20</text>
+    <text x="192" y="145" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="8" fill="#00E5A0">↓ 谷雨 · 雨生百谷</text>
+  </g>
+  <path d="M244 123 L268 123" stroke="#8A8478" stroke-width="1.6" marker-end="url(#b)"/>
+
+  <!-- P03 重点 -->
+  <g>
+    <rect x="272" y="88" width="124" height="70" rx="5" fill="#1A1206" stroke="#FCEE0A" stroke-opacity="0.5" stroke-width="1.6"/>
+    <text x="334" y="106" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="10" font-weight="700" fill="#FCEE0A">P03 出生地 ★</text>
+    <text x="334" y="122" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="8.5" fill="#E8EDF5">成都 东经104.07°</text>
+    <text x="334" y="136" text-anchor="middle" font-family="monospace" font-size="8.5" fill="#FCEE0A">12:00 → 10:56</text>
+    <text x="334" y="151" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="8" fill="#FF3B30">午时 ✗ → 巳时</text>
+  </g>
+  <path d="M396 123 L420 123" stroke="#8A8478" stroke-width="1.6" marker-end="url(#b)"/>
+
+  <!-- P04 -->
+  <g>
+    <rect x="424" y="92" width="100" height="62" rx="5" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.3"/>
+    <text x="474" y="110" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="10" font-weight="600" fill="#E8EDF5">P04 时间</text>
+    <text x="474" y="128" text-anchor="middle" font-family="monospace" font-size="11" fill="#00E5A0">10:56</text>
+    <text x="474" y="145" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="8" fill="#9AA5B4">三柱 · 日主丁火</text>
+  </g>
+  <path d="M524 123 L548 123" stroke="#8A8478" stroke-width="1.6" marker-end="url(#b)"/>
+
+  <!-- P05 -->
+  <g>
+    <rect x="552" y="92" width="96" height="62" rx="5" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.3"/>
+    <text x="600" y="110" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="10" font-weight="600" fill="#E8EDF5">P05 时辰</text>
+    <text x="600" y="126" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="9" fill="#00F0FF">巳时 09–11</text>
+    <rect x="566" y="132" width="68" height="16" rx="2" fill="none" stroke="#5A6472" stroke-dasharray="3 2"/>
+    <text x="600" y="144" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#9AA5B4">不知道 →</text>
+  </g>
+  <path d="M648 123 L672 123" stroke="#8A8478" stroke-width="1.6" marker-end="url(#b)"/>
+
+  <!-- P06 命盘 -->
+  <g>
+    <rect x="676" y="88" width="108" height="70" rx="5" fill="#0A1A18" stroke="#00E5A0" stroke-opacity="0.45"/>
+    <text x="730" y="106" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="10" font-weight="700" fill="#00E5A0">P06 命盘 · 人话</text>
+    <text x="730" y="122" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#E8EDF5">· 你是想清楚才动的人</text>
+    <text x="730" y="135" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#E8EDF5">· 下半年阻力比上半年小</text>
+    <text x="730" y="150" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#00F0FF">▸ 展开术语层 P07</text>
+  </g>
+
+  <!-- P05b 定盘问卷（分支） -->
+  <path d="M600 154 L600 184 L520 184" stroke="#FF3B30" stroke-width="1.4" stroke-dasharray="4 3" fill="none" marker-end="url(#c)"/>
+  <g>
+    <rect x="396" y="168" width="124" height="42" rx="5" fill="#14060A" stroke="#FF003C" stroke-opacity="0.4"/>
+    <text x="458" y="184" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="9.5" font-weight="600" fill="#FF3B30">P05b 定盘问卷</text>
+    <text x="458" y="199" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#9AA5B4">3–6 件大事反推时辰</text>
+  </g>
+  <path d="M396 189 L340 189 L340 158" stroke="#FF3B30" stroke-width="1.4" stroke-dasharray="4 3" fill="none" marker-end="url(#c)"/>
+
+  <!-- ══════ 阶段二：每日循环 ══════ -->
+  <text x="24" y="248" font-family="'PingFang SC',sans-serif" font-size="12" font-weight="600" fill="#5A5142">② 每日循环（核心）</text>
+
+  <!-- P08 今日 -->
+  <g>
+    <rect x="24" y="262" width="150" height="126" rx="6" fill="#05070A" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1.3"/>
+    <text x="38" y="282" font-family="'PingFang SC',sans-serif" font-size="11" font-weight="700" fill="#E8EDF5">P08 今日</text>
+    <text x="38" y="298" font-family="monospace" font-size="7.5" fill="#5A6472">9月2日 · 丙午·庚申·己卯</text>
+    <text x="38" y="316" font-family="'PingFang SC',sans-serif" font-size="8" fill="#5A6472">今日状态</text>
+    <rect x="38" y="320" width="120" height="4" rx="2" fill="#141A23"/>
+    <rect x="38" y="320" width="88" height="4" rx="2" fill="#00E5A0"/>
+    <text x="38" y="338" font-family="'PingFang SC',sans-serif" font-size="9" font-weight="700" fill="#00E5A0">阻力较小</text>
+    <text x="38" y="352" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#00F0FF">▸ 查看依据</text>
+    <!-- 劫怪卡 -->
+    <path d="M38 358 L162 358 L162 380 L154 388 L38 388 L46 380 Z" fill="#0C1016" stroke="#FF003C" stroke-opacity="0.5"/>
+    <text x="50" y="372" font-family="'PingFang SC',sans-serif" font-size="9" font-weight="600" fill="#E8EDF5">贪狼·薪</text>
+    <text x="118" y="372" font-family="monospace" font-size="7" fill="#FF003C">拖12天</text>
+    <text x="50" y="384" font-family="'PingFang SC',sans-serif" font-size="7" fill="#5A6472">和老板谈涨薪</text>
+  </g>
+
+  <path d="M174 325 L208 325" stroke="#00F0FF" stroke-width="1.8" marker-end="url(#a)"/>
+  <text x="191" y="316" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7" fill="#00F0FF">点卡片</text>
+
+  <!-- P10 行动卡 -->
+  <g>
+    <rect x="212" y="258" width="150" height="134" rx="6" fill="#05070A" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1.3"/>
+    <text x="226" y="278" font-family="'PingFang SC',sans-serif" font-size="11" font-weight="700" fill="#E8EDF5">P10 行动卡</text>
+    <text x="226" y="292" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#5A6472">方剂 #016 · 上善若水</text>
+    <text x="226" y="308" font-family="'PingFang SC',sans-serif" font-size="8" fill="#00F0FF">先做这一步</text>
+    <text x="226" y="322" font-family="'PingFang SC',sans-serif" font-size="8" fill="#E8EDF5">1 整理三项产出 · 10分钟</text>
+    <text x="226" y="338" font-family="'PingFang SC',sans-serif" font-size="8" fill="#00F0FF">可以这样说</text>
+    <rect x="226" y="342" width="122" height="26" rx="2" fill="#020305" stroke="#00F0FF" stroke-opacity="0.25"/>
+    <text x="232" y="354" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#E8EDF5">「我整理了这半年做的</text>
+    <text x="232" y="364" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#E8EDF5">三件事，想约时间聊」</text>
+    <g font-family="'PingFang SC',sans-serif" font-size="6.5">
+      <rect x="226" y="372" width="36" height="12" rx="1.5" fill="#141A23"/><text x="244" y="381" text-anchor="middle" fill="#5A6472">温和</text>
+      <rect x="266" y="372" width="36" height="12" rx="1.5" fill="#00F0FF"/><text x="284" y="381" text-anchor="middle" fill="#05070A" font-weight="700">直接</text>
+      <rect x="306" y="372" width="36" height="12" rx="1.5" fill="#141A23"/><text x="324" y="381" text-anchor="middle" fill="#5A6472">坚定</text>
+    </g>
+  </g>
+
+  <path d="M362 325 L396 325" stroke="#00F0FF" stroke-width="1.8" marker-end="url(#a)"/>
+  <text x="379" y="316" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7" fill="#00F0FF">现在去做</text>
+
+  <!-- P11 应劫 -->
+  <g>
+    <rect x="400" y="258" width="150" height="134" rx="6" fill="#05070A" stroke="#FF003C" stroke-opacity="0.4" stroke-width="1.3"/>
+    <text x="414" y="278" font-family="'PingFang SC',sans-serif" font-size="11" font-weight="700" fill="#E8EDF5">P11 应劫</text>
+    <text x="414" y="292" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#5A6472">剩余阻力</text>
+    <rect x="414" y="296" width="120" height="5" rx="2.5" fill="#141A23"/>
+    <rect x="414" y="296" width="78" height="5" rx="2.5" fill="#FF003C"/>
+    <text x="414" y="318" font-family="'PingFang SC',sans-serif" font-size="8" fill="#5A6472">手牌（扇形展开）</text>
+    <!-- 三张手牌 -->
+    <g>
+      <path d="M414 322 L444 322 L444 356 L438 362 L414 362 L420 356 Z" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.3"/>
+      <text x="429" y="342" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7" fill="#9AA5B4">知己</text>
+      <text x="429" y="352" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7" fill="#9AA5B4">知彼</text>
+      <path d="M450 318 L482 318 L482 360 L474 368 L450 368 L458 360 Z" fill="#0A1A18" stroke="#00E5A0" stroke-width="1.4"/>
+      <text x="466" y="340" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7.5" font-weight="700" fill="#E8EDF5">上善</text>
+      <text x="466" y="350" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7.5" font-weight="700" fill="#E8EDF5">若水</text>
+      <text x="466" y="314" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="6.5" fill="#00E5A0">▲推荐</text>
+      <path d="M488 322 L518 322 L518 356 L512 362 L488 362 L494 356 Z" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.3"/>
+      <text x="503" y="342" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7" fill="#9AA5B4">循名</text>
+      <text x="503" y="352" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7" fill="#9AA5B4">责实</text>
+    </g>
+    <rect x="414" y="374" width="122" height="14" rx="3" fill="#00F0FF"/>
+    <text x="475" y="384" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="8" font-weight="700" fill="#05070A">出牌 = 立刻行动</text>
+  </g>
+
+  <path d="M550 325 L584 325" stroke="#00F0FF" stroke-width="1.8" marker-end="url(#a)"/>
+
+  <!-- P12 结算 -->
+  <g>
+    <rect x="588" y="258" width="140" height="134" rx="6" fill="#05070A" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1.3"/>
+    <text x="602" y="278" font-family="'PingFang SC',sans-serif" font-size="11" font-weight="700" fill="#E8EDF5">P12 结算</text>
+    <text x="602" y="294" font-family="'PingFang SC',sans-serif" font-size="8" fill="#5A6472">你推进了多少？</text>
+    <g font-family="'PingFang SC',sans-serif" font-size="7.5">
+      <circle cx="608" cy="306" r="4" fill="none" stroke="#5A6472"/><text x="618" y="309" fill="#9AA5B4">全部完成</text>
+      <circle cx="608" cy="322" r="4" fill="#00E5A0"/><circle cx="608" cy="322" r="1.8" fill="#05070A"/><text x="618" y="325" fill="#E8EDF5">做了一部分</text>
+      <circle cx="608" cy="338" r="4" fill="none" stroke="#5A6472"/><text x="618" y="341" fill="#9AA5B4">没开始</text>
+    </g>
+    <line x1="602" y1="350" x2="714" y2="350" stroke="#00F0FF" stroke-opacity="0.2"/>
+    <text x="602" y="364" font-family="'PingFang SC',sans-serif" font-size="8" fill="#00E5A0">算力 +12　韧性 +1</text>
+    <text x="602" y="382" font-family="'PingFang SC',sans-serif" font-size="7" fill="#FF3B30">⚠ 必须用户主动确认</text>
+  </g>
+
+  <!-- 回环 -->
+  <path d="M728 325 L762 325 L762 210 L99 210 L99 262" stroke="#00F0FF" stroke-width="1.6" fill="none" marker-end="url(#a)" stroke-dasharray="5 3"/>
+  <text x="440" y="204" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="8" fill="#00F0FF">结算完成 → 回到今日（日终刷新）</text>
+
+  <!-- P09 录入（分支入口） -->
+  <path d="M99 388 L99 424 L160 424" stroke="#8A8478" stroke-width="1.4" marker-end="url(#b)"/>
+  <g>
+    <rect x="164" y="404" width="130" height="40" rx="5" fill="#0C1016" stroke="#8A8478" stroke-opacity="0.4"/>
+    <text x="229" y="420" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="9.5" font-weight="600" fill="#E8EDF5">P09 录入事项</text>
+    <text x="229" y="435" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#5A6472">「现在推不动什么事？」</text>
+  </g>
+  <path d="M294 424 L362 424 L362 392" stroke="#00F0FF" stroke-width="1.4" marker-end="url(#a)"/>
+
+  <!-- ══════ 阶段三：转场契约 ══════ -->
+  <text x="24" y="474" font-family="'PingFang SC',sans-serif" font-size="12" font-weight="600" fill="#5A5142">③ 转场契约</text>
+
+  <g font-family="'PingFang SC',sans-serif" font-size="9" fill="#3A3A3A">
+    <rect x="24" y="484" width="270" height="26" rx="4" fill="#FFFFFF" stroke="#DDD8CC"/>
+    <text x="34" y="501">P08 → P10　共享元素转场 200ms decelerate</text>
+
+    <rect x="306" y="484" width="270" height="26" rx="4" fill="#FFFFFF" stroke="#DDD8CC"/>
+    <text x="316" y="501">P10 → P11　手牌扇形展开 stagger 60ms / 320ms</text>
+
+    <rect x="588" y="484" width="282" height="26" rx="4" fill="#FFFFFF" stroke="#DDD8CC"/>
+    <text x="598" y="501">P11 → P12　故障 glitch 120ms + 面板上滑</text>
+
+    <rect x="24" y="514" width="270" height="26" rx="4" fill="#FFFFFF" stroke="#DDD8CC"/>
+    <text x="34" y="531">P05 → P05b　定盘问卷（仅"不知道时辰"）</text>
+
+    <rect x="306" y="514" width="270" height="26" rx="4" fill="#FFFFFF" stroke="#DDD8CC"/>
+    <text x="316" y="531">P06 → P07　术语层折叠展开 200ms</text>
+
+    <rect x="588" y="514" width="282" height="26" rx="4" fill="#FFFFFF" stroke="#DDD8CC"/>
+    <text x="598" y="531">P12 → P08　日终刷新，列表重排</text>
+  </g>
+
+  <!-- ══════ 硬约束 ══════ -->
+  <rect x="24" y="552" width="846" height="84" rx="8" fill="#05070A" stroke="#FF003C" stroke-opacity="0.35"/>
+  <text x="42" y="574" font-family="'PingFang SC',sans-serif" font-size="11" font-weight="700" fill="#FF3B30">硬约束（违反即产品失效）</text>
+  <text x="42" y="592" font-family="'PingFang SC',sans-serif" font-size="9.5" fill="#E8EDF5">1. 出牌必须落到真实行动：出牌后立刻开始计时 + 锁屏提醒「你正在推进 · 贪狼·薪」</text>
+  <text x="42" y="608" font-family="'PingFang SC',sans-serif" font-size="9.5" fill="#E8EDF5">2. 结算必须用户主动确认，不得自动完成 —— 否则「真实完成率」这个北极星指标是假的</text>
+  <text x="42" y="624" font-family="'PingFang SC',sans-serif" font-size="9.5" fill="#E8EDF5">3. 每张符箓、每只劫怪、每个页面的首屏，必须是人话 —— 术语一律折叠</text>
+  <text x="42" y="640" font-family="'PingFang SC',sans-serif" font-size="9" fill="#00F0FF">4. 视觉：代码雨落的必须是卦象；空状态不得制造焦虑；Disabled 禁用所有动效</text>
+</svg>
