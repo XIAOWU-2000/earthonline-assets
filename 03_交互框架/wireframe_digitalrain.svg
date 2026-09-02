@@ -1,0 +1,340 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 780" width="900" height="780">
+  <title>线框与组件库 · 黑客帝国数码流版</title>
+  <desc>黑底 + 卦象代码雨 + 荧光线条 + 终端标注 · 移动端三屏 / PC三栏 / 组件九态 / 降级</desc>
+
+  <defs>
+    <!-- 卦象代码雨（低透明度，不干扰线框阅读） -->
+    <pattern id="rain" width="26" height="46" patternUnits="userSpaceOnUse">
+      <g fill="#00FF41" font-size="11" font-family="sans-serif">
+        <text x="2" y="12" opacity="0.16">☵</text>
+        <text x="2" y="26" opacity="0.10">☲</text>
+        <text x="2" y="40" opacity="0.055">☷</text>
+        <text x="15" y="18" opacity="0.13">☰</text>
+        <text x="15" y="32" opacity="0.08">☶</text>
+        <text x="15" y="46" opacity="0.04">☴</text>
+      </g>
+      <g fill="#00F0FF" font-size="8" font-family="monospace">
+        <text x="4" y="20" opacity="0.07">甲</text>
+        <text x="17" y="42" opacity="0.05">子</text>
+      </g>
+    </pattern>
+
+    <!-- 网格 -->
+    <pattern id="mesh" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 0 L20 0 L20 20" fill="none" stroke="#00F0FF" stroke-width="0.4" opacity="0.07"/>
+    </pattern>
+
+    <!-- 荧光 -->
+    <filter id="g" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ══════ 底 ══════ -->
+  <rect width="900" height="780" fill="#05070A"/>
+  <rect width="900" height="780" fill="url(#rain)"/>
+  <rect width="900" height="780" fill="url(#mesh)"/>
+
+  <!-- 扫描线 -->
+  <g stroke="#E8EDF5" stroke-width="0.5" opacity="0.035">
+    <path d="M0 6 H900 M0 14 H900 M0 22 H900 M0 30 H900 M0 38 H900 M0 46 H900 M0 54 H900 M0 62 H900 M0 70 H900 M0 78 H900 M0 86 H900 M0 94 H900 M0 102 H900 M0 110 H900 M0 118 H900 M0 126 H900 M0 134 H900 M0 142 H900 M0 150 H900 M0 158 H900 M0 166 H900 M0 174 H900 M0 182 H900 M0 190 H900 M0 198 H900 M0 206 H900 M0 214 H900 M0 222 H900 M0 230 H900 M0 238 H900 M0 246 H900 M0 254 H900 M0 262 H900 M0 270 H900 M0 278 H900 M0 286 H900 M0 294 H900 M0 302 H900 M0 310 H900 M0 318 H900 M0 326 H900 M0 334 H900 M0 342 H900 M0 350 H900 M0 358 H900 M0 366 H900 M0 374 H900 M0 382 H900 M0 390 H900 M0 398 H900 M0 406 H900 M0 414 H900 M0 422 H900 M0 430 H900 M0 438 H900 M0 446 H900 M0 454 H900 M0 462 H900 M0 470 H900 M0 478 H900 M0 486 H900 M0 494 H900 M0 502 H900 M0 510 H900 M0 518 H900 M0 526 H900 M0 534 H900 M0 542 H900 M0 550 H900 M0 558 H900 M0 566 H900 M0 574 H900 M0 582 H900 M0 590 H900 M0 598 H900 M0 606 H900 M0 614 H900 M0 622 H900 M0 630 H900 M0 638 H900 M0 646 H900 M0 654 H900 M0 662 H900 M0 670 H900 M0 678 H900 M0 686 H900 M0 694 H900 M0 702 H900 M0 710 H900 M0 718 H900 M0 726 H900 M0 734 H900 M0 742 H900 M0 750 H900 M0 758 H900 M0 766 H900 M0 774 H900"/>
+  </g>
+
+  <!-- 标题（终端风格） -->
+  <g font-family="monospace">
+    <circle cx="30" cy="28" r="4" fill="#FF5F56"/><circle cx="44" cy="28" r="4" fill="#FFBD2E"/><circle cx="58" cy="28" r="4" fill="#27C93F"/>
+    <text x="76" y="32" font-size="12" fill="#00FF41">~/earthonline/ui-spec</text>
+    <text x="76" y="50" font-size="16" fill="#00F0FF" font-weight="700" filter="url(#g)">WIREFRAME &amp; COMPONENTS</text>
+    <text x="286" y="50" font-size="10" fill="#5A6472">// 黑客帝国数码流版 · 卦象代码雨</text>
+  </g>
+  <line x1="24" y1="62" x2="876" y2="62" stroke="#00F0FF" stroke-opacity="0.3"/>
+
+  <!-- ══════════ 移动端三屏 ══════════ -->
+  <text x="24" y="84" font-family="monospace" font-size="10.5" fill="#00FF41">&gt; MOBILE · compact &lt;600dp</text>
+
+  <!-- 屏 1 今日 -->
+  <g>
+    <rect x="24" y="94" width="132" height="330" rx="6" fill="#080B10" stroke="#00F0FF" stroke-opacity="0.45" stroke-width="1.2"/>
+    <line x1="24" y1="112" x2="156" y2="112" stroke="#00F0FF" stroke-opacity="0.35"/>
+    <text x="34" y="106" font-family="monospace" font-size="8" fill="#00F0FF">P08_TODAY</text>
+    <text x="34" y="130" font-family="monospace" font-size="6.5" fill="#5A6472">09:41 · 丙午·庚申·己卯</text>
+
+    <!-- 状态条 -->
+    <rect x="34" y="140" width="108" height="5" rx="2.5" fill="none" stroke="#00F0FF" stroke-opacity="0.3"/>
+    <rect x="34" y="140" width="78" height="5" rx="2.5" fill="#00E5A0" filter="url(#g)"/>
+    <text x="34" y="158" font-family="'PingFang SC',sans-serif" font-size="9" font-weight="700" fill="#00E5A0">阻力较小</text>
+    <text x="34" y="172" font-family="monospace" font-size="6.5" fill="#00F0FF">&gt; 查看依据</text>
+
+    <!-- 劫怪卡 -->
+    <path d="M34 184 L142 184 L142 232 L134 240 L34 240 L42 232 Z" fill="none" stroke="#FF003C" stroke-opacity="0.5" stroke-width="1.2"/>
+    <g stroke="#FF003C" stroke-width="1.4" fill="none" stroke-opacity="0.6">
+      <path d="M40 194 L40 189 L46 189"/><path d="M130 189 L136 189 L136 195"/>
+    </g>
+    <text x="48" y="204" font-family="monospace" font-size="6.5" fill="#FF003C">#WRK-01</text>
+    <text x="48" y="218" font-family="'PingFang SC',sans-serif" font-size="11" font-weight="700" fill="#E8EDF5">贪狼·薪</text>
+    <text x="48" y="232" font-family="'PingFang SC',sans-serif" font-size="7" fill="#9AA5B4">已拖 12 天</text>
+
+    <!-- 结算列表 -->
+    <text x="34" y="260" font-family="monospace" font-size="6.5" fill="#5A6472">// 已结算</text>
+    <text x="34" y="274" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#5A6472">· 整理季度数据 ✓ 14:20</text>
+
+    <!-- 算力 -->
+    <text x="34" y="298" font-family="monospace" font-size="6.5" fill="#5A6472">COMPUTE</text>
+    <text x="142" y="298" text-anchor="end" font-family="monospace" font-size="8" font-weight="700" fill="#E8EDF5">95/95</text>
+    <rect x="34" y="303" width="108" height="4" rx="2" fill="#141A23"/>
+    <rect x="34" y="303" width="108" height="4" rx="2" fill="#00F0FF" filter="url(#g)"/>
+
+    <!-- 底部导航 -->
+    <line x1="34" y1="326" x2="142" y2="326" stroke="#00F0FF" stroke-opacity="0.25"/>
+    <g fill="none" stroke="#2A3441" stroke-width="1.4">
+      <rect x="36" y="334" width="18" height="18" rx="3"/>
+      <rect x="62" y="334" width="18" height="18" rx="3"/>
+      <rect x="102" y="334" width="18" height="18" rx="3"/>
+      <rect x="128" y="334" width="14" height="18" rx="3"/>
+    </g>
+    <circle cx="90" cy="342" r="12" fill="#00F0FF" filter="url(#g)"/>
+    <text x="90" y="347" text-anchor="middle" font-family="monospace" font-size="15" font-weight="700" fill="#05070A">+</text>
+
+    <text x="90" y="372" text-anchor="middle" font-family="monospace" font-size="6.5" fill="#3A4451">375×812 · padding 12</text>
+  </g>
+
+  <!-- 屏 2 行动卡 -->
+  <g>
+    <rect x="168" y="94" width="132" height="330" rx="6" fill="#080B10" stroke="#00F0FF" stroke-opacity="0.45" stroke-width="1.2"/>
+    <line x1="168" y1="112" x2="300" y2="112" stroke="#00F0FF" stroke-opacity="0.35"/>
+    <text x="178" y="106" font-family="monospace" font-size="8" fill="#00F0FF">P10_ACTION</text>
+    <text x="290" y="106" text-anchor="end" font-family="monospace" font-size="6.5" fill="#5A6472">#016</text>
+
+    <text x="178" y="128" font-family="'PingFang SC',sans-serif" font-size="10" font-weight="700" fill="#E8EDF5">和老板谈涨薪</text>
+    <text x="178" y="140" font-family="monospace" font-size="6" fill="#5A6472">src: 道德经·8 / 上善若水</text>
+
+    <text x="178" y="158" font-family="monospace" font-size="6.5" fill="#00F0FF">&gt; 先做这一步</text>
+    <rect x="178" y="163" width="104" height="24" rx="2" fill="none" stroke="#00F0FF" stroke-opacity="0.25"/>
+    <text x="183" y="178" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#E8EDF5">1 整理三项产出</text>
+
+    <text x="178" y="202" font-family="monospace" font-size="6.5" fill="#00F0FF">&gt; 可以这样说</text>
+    <rect x="178" y="207" width="104" height="36" rx="2" fill="#020305" stroke="#00F0FF" stroke-opacity="0.3"/>
+    <text x="183" y="220" font-family="'PingFang SC',sans-serif" font-size="7" fill="#E8EDF5">「我整理了这半年做</text>
+    <text x="183" y="231" font-family="'PingFang SC',sans-serif" font-size="7" fill="#E8EDF5">的三件事，想约时间」</text>
+    <text x="183" y="240" font-family="'PingFang SC',sans-serif" font-size="7" fill="#E8EDF5">聊聊。」</text>
+
+    <g>
+      <rect x="178" y="249" width="32" height="13" rx="2" fill="none" stroke="#2A3441"/>
+      <rect x="214" y="249" width="32" height="13" rx="2" fill="#00F0FF" filter="url(#g)"/>
+      <rect x="250" y="249" width="32" height="13" rx="2" fill="none" stroke="#2A3441"/>
+    </g>
+    <text x="194" y="258" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="6.5" fill="#5A6472">温和</text>
+    <text x="230" y="258" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="6.5" font-weight="700" fill="#05070A">直接</text>
+    <text x="266" y="258" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="6.5" fill="#5A6472">坚定</text>
+
+    <text x="178" y="278" font-family="monospace" font-size="6" fill="#5A6472">// 治不了</text>
+    <rect x="178" y="283" width="104" height="20" rx="2" fill="none" stroke="#F5C518" stroke-opacity="0.4" stroke-dasharray="3 2"/>
+    <text x="183" y="296" font-family="'PingFang SC',sans-serif" font-size="6.5" fill="#F5C518">犹豫该不该谈 → #031</text>
+
+    <rect x="178" y="314" width="50" height="24" rx="3" fill="#00F0FF" filter="url(#g)"/>
+    <text x="203" y="329" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7.5" font-weight="700" fill="#05070A">现在去做</text>
+    <rect x="232" y="314" width="50" height="24" rx="3" fill="none" stroke="#2A3441" stroke-dasharray="3 2"/>
+    <text x="257" y="329" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#9AA5B4">明天再说</text>
+
+    <text x="234" y="356" text-anchor="middle" font-family="monospace" font-size="6" fill="#3A4451">card pad 12 · gap 16</text>
+    <text x="234" y="370" text-anchor="middle" font-family="monospace" font-size="6" fill="#00FF41">出牌 = 立刻行动</text>
+  </g>
+
+  <!-- 屏 3 应劫 -->
+  <g>
+    <rect x="312" y="94" width="132" height="330" rx="6" fill="#080B10" stroke="#FF003C" stroke-opacity="0.4" stroke-width="1.2"/>
+    <line x1="312" y1="112" x2="444" y2="112" stroke="#FF003C" stroke-opacity="0.3"/>
+    <text x="322" y="106" font-family="monospace" font-size="8" fill="#FF3B30">P11_BATTLE</text>
+
+    <text x="322" y="128" font-family="'PingFang SC',sans-serif" font-size="10" font-weight="700" fill="#E8EDF5">贪狼·薪</text>
+    <text x="322" y="140" font-family="monospace" font-size="6" fill="#5A6472">resistance · 沟通</text>
+
+    <text x="322" y="156" font-family="monospace" font-size="6.5" fill="#5A6472">剩余阻力</text>
+    <rect x="322" y="161" width="104" height="5" rx="2.5" fill="#141A23"/>
+    <rect x="322" y="161" width="66" height="5" rx="2.5" fill="#FF003C" filter="url(#g)"/>
+
+    <text x="322" y="184" font-family="monospace" font-size="6.5" fill="#00F0FF">&gt; 手牌</text>
+    <g>
+      <path d="M322 192 L352 192 L352 246 L346 252 L322 252 L328 246 Z" fill="none" stroke="#00F0FF" stroke-opacity="0.3" transform="rotate(-6 337 222)"/>
+      <path d="M358 188 L390 188 L390 250 L382 258 L358 258 L366 250 Z" fill="#0A1A18" stroke="#00E5A0" stroke-width="1.4" filter="url(#g)"/>
+      <path d="M396 192 L426 192 L426 246 L420 252 L396 252 L402 246 Z" fill="none" stroke="#00F0FF" stroke-opacity="0.3" transform="rotate(6 411 222)"/>
+      <text x="374" y="208" text-anchor="middle" font-family="monospace" font-size="5.5" fill="#5A6472">#016</text>
+      <text x="374" y="224" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="9" font-weight="700" fill="#E8EDF5">上善</text>
+      <text x="374" y="238" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="9" font-weight="700" fill="#E8EDF5">若水</text>
+      <text x="374" y="184" text-anchor="middle" font-family="monospace" font-size="6" fill="#00E5A0">▲ 推荐</text>
+    </g>
+
+    <text x="322" y="278" font-family="monospace" font-size="6" fill="#5A6472">// 打出后立刻开始</text>
+    <text x="322" y="291" font-family="'PingFang SC',sans-serif" font-size="7.5" font-weight="500" fill="#00E5A0">不反驳，先复述对方诉求</text>
+
+    <text x="322" y="308" font-family="monospace" font-size="6.5" fill="#5A6472">COMPUTE 83/95</text>
+    <rect x="322" y="313" width="104" height="4" rx="2" fill="#141A23"/>
+    <rect x="322" y="313" width="60" height="4" rx="2" fill="#FF003C"/>
+
+    <rect x="322" y="330" width="104" height="24" rx="3" fill="#00F0FF" filter="url(#g)"/>
+    <text x="374" y="346" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="8" font-weight="700" fill="#05070A">出牌 = 立刻行动</text>
+
+    <text x="378" y="372" text-anchor="middle" font-family="monospace" font-size="6" fill="#3A4451">stagger 60ms · +12pt</text>
+  </g>
+
+  <!-- ══════════ PC 三栏 ══════════ -->
+  <text x="468" y="84" font-family="monospace" font-size="10.5" fill="#00FF41">&gt; DESKTOP · expanded ≥840dp</text>
+
+  <rect x="468" y="94" width="408" height="330" rx="6" fill="#080B10" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1.2"/>
+
+  <!-- 终端标题栏 -->
+  <line x1="468" y1="112" x2="876" y2="112" stroke="#00F0FF" stroke-opacity="0.3"/>
+  <g>
+    <circle cx="480" cy="104" r="3" fill="#FF5F56"/><circle cx="491" cy="104" r="3" fill="#FFBD2E"/><circle cx="502" cy="104" r="3" fill="#27C93F"/>
+    <text x="514" y="107" font-family="monospace" font-size="7" fill="#00FF41">earthonline — dashboard</text>
+  </g>
+
+  <!-- Rail -->
+  <rect x="468" y="112" width="60" height="312" fill="#06090D"/>
+  <line x1="528" y1="112" x2="528" y2="424" stroke="#00F0FF" stroke-opacity="0.2"/>
+  <g fill="none" stroke="#2A3441" stroke-width="1.3">
+    <rect x="480" y="126" width="36" height="36" rx="4"/>
+    <rect x="480" y="170" width="36" height="36" rx="4"/>
+    <rect x="480" y="214" width="36" height="36" rx="4"/>
+    <rect x="480" y="258" width="36" height="36" rx="4"/>
+  </g>
+  <rect x="480" y="126" width="36" height="36" rx="4" fill="#00F0FF" opacity="0.22" stroke="#00F0FF" stroke-width="1.3"/>
+  <text x="480" y="330" font-family="monospace" font-size="6" fill="#5A6472">72pt</text>
+
+  <!-- 列表栏 -->
+  <text x="540" y="128" font-family="monospace" font-size="7.5" fill="#E8EDF5">今日之劫</text>
+  <rect x="812" y="120" width="44" height="14" rx="2" fill="#00F0FF" filter="url(#g)"/>
+  <text x="834" y="130" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7" font-weight="700" fill="#05070A">+ 新建</text>
+
+  <g>
+    <path d="M540 144 L816 144 L816 190 L808 198 L540 198 L548 190 Z" fill="none" stroke="#FF003C" stroke-opacity="0.45"/>
+    <g stroke="#FF003C" stroke-width="1.4" fill="none" stroke-opacity="0.6"><path d="M546 154 L546 149 L552 149"/></g>
+    <text x="554" y="158" font-family="monospace" font-size="6" fill="#FF003C">#WRK-01</text>
+    <text x="554" y="174" font-family="'PingFang SC',sans-serif" font-size="10" font-weight="700" fill="#E8EDF5">贪狼·薪</text>
+    <text x="554" y="189" font-family="'PingFang SC',sans-serif" font-size="7" fill="#9AA5B4">和老板谈涨薪 · 已拖 12 天</text>
+    <rect x="770" y="164" width="36" height="14" rx="2" fill="none" stroke="#00F0FF" stroke-opacity="0.6"/>
+    <text x="788" y="174" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="6.5" fill="#00F0FF">去推进</text>
+
+    <path d="M540 208 L816 208 L816 254 L808 262 L540 262 L548 254 Z" fill="none" stroke="#00F0FF" stroke-opacity="0.18"/>
+    <text x="554" y="222" font-family="monospace" font-size="6" fill="#5A6472">#WRK-03</text>
+    <text x="554" y="238" font-family="'PingFang SC',sans-serif" font-size="10" font-weight="700" fill="#E8EDF5">武曲·践</text>
+    <text x="554" y="253" font-family="'PingFang SC',sans-serif" font-size="7" fill="#9AA5B4">季度方案 · 明天截止</text>
+
+    <path d="M540 272 L816 272 L816 318 L808 326 L540 326 L548 318 Z" fill="none" stroke="#00F0FF" stroke-opacity="0.18"/>
+    <text x="554" y="286" font-family="monospace" font-size="6" fill="#5A6472">#SEF-11</text>
+    <text x="554" y="302" font-family="'PingFang SC',sans-serif" font-size="10" font-weight="700" fill="#E8EDF5">浑沌·怠</text>
+    <text x="554" y="317" font-family="'PingFang SC',sans-serif" font-size="7" fill="#9AA5B4">不知道自己想要什么</text>
+  </g>
+
+  <text x="678" y="352" text-anchor="middle" font-family="monospace" font-size="6.5" fill="#5A6472">列表栏 320pt · hover 6% 白 · 右键菜单</text>
+  <text x="678" y="366" text-anchor="middle" font-family="monospace" font-size="6.5" fill="#00FF41">核心增益：劫怪 + 行动卡 + 依据 同屏</text>
+
+  <!-- 详情栏 -->
+  <line x1="844" y1="112" x2="844" y2="424" stroke="#00F0FF" stroke-opacity="0.2"/>
+  <text x="852" y="240" font-family="monospace" font-size="7" fill="#5A6472">详情</text>
+  <text x="852" y="254" font-family="monospace" font-size="7" fill="#5A6472">自适应</text>
+
+  <!-- ══════════ 组件九态 ══════════ -->
+  <text x="24" y="446" font-family="monospace" font-size="10.5" fill="#00FF41">&gt; COMPONENT_STATES · 九态必备</text>
+
+  <g font-family="'PingFang SC',sans-serif" font-size="7.5">
+    <!-- Default -->
+    <rect x="24" y="456" width="112" height="44" rx="4" fill="#00F0FF" filter="url(#g)"/>
+    <text x="80" y="474" text-anchor="middle" font-size="8.5" font-weight="700" fill="#05070A">Default</text>
+    <text x="80" y="488" text-anchor="middle" font-family="monospace" font-size="6" fill="#05070A" opacity="0.65">#00F0FF</text>
+
+    <!-- Hover -->
+    <rect x="144" y="456" width="112" height="44" rx="4" fill="#00F0FF" opacity="0.9"/>
+    <rect x="144" y="456" width="112" height="44" rx="4" fill="#FFFFFF" opacity="0.06"/>
+    <text x="200" y="474" text-anchor="middle" font-size="8.5" fill="#05070A">Hover · PC</text>
+    <text x="200" y="488" text-anchor="middle" font-family="monospace" font-size="6" fill="#05070A" opacity="0.65">+6% 白</text>
+
+    <!-- Pressed -->
+    <rect x="264" y="458" width="108" height="40" rx="4" fill="#00D8E6"/>
+    <text x="318" y="474" text-anchor="middle" font-size="8.5" fill="#05070A">Pressed</text>
+    <text x="318" y="488" text-anchor="middle" font-family="monospace" font-size="6" fill="#05070A" opacity="0.65">0.97 / 120ms</text>
+
+    <!-- Focused -->
+    <rect x="380" y="456" width="112" height="44" rx="4" fill="#00F0FF"/>
+    <rect x="375" y="451" width="122" height="54" rx="6" fill="none" stroke="#00F0FF" stroke-width="2" stroke-opacity="0.85"/>
+    <text x="436" y="474" text-anchor="middle" font-size="8.5" fill="#05070A">Focused · PC</text>
+    <text x="436" y="488" text-anchor="middle" font-family="monospace" font-size="6" fill="#05070A" opacity="0.65">2pt cyan 外环</text>
+
+    <!-- Disabled -->
+    <rect x="500" y="456" width="112" height="44" rx="4" fill="#00F0FF" opacity="0.4"/>
+    <text x="556" y="474" text-anchor="middle" font-size="8.5" fill="#1A2029">Disabled</text>
+    <text x="556" y="488" text-anchor="middle" font-family="monospace" font-size="6" fill="#2A3441">40% · 禁动效</text>
+
+    <!-- Loading -->
+    <rect x="620" y="456" width="112" height="44" rx="4" fill="#0C1016" stroke="#00F0FF" stroke-opacity="0.2"/>
+    <rect x="628" y="466" width="96" height="7" rx="3.5" fill="#1A212B"/>
+    <rect x="628" y="466" width="30" height="7" rx="3.5" fill="#2A3441"/>
+    <rect x="628" y="479" width="72" height="7" rx="3.5" fill="#1A212B"/>
+    <text x="676" y="494" text-anchor="middle" font-family="monospace" font-size="6" fill="#5A6472">骨架屏 · 不用转圈</text>
+
+    <!-- Empty -->
+    <rect x="740" y="456" width="112" height="44" rx="4" fill="#080B10" stroke="#2A3441" stroke-dasharray="3 2"/>
+    <text x="796" y="476" text-anchor="middle" font-family="monospace" font-size="13" fill="#2A3441">☵</text>
+    <text x="796" y="492" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="7" fill="#5A6472">Empty · 不制造焦虑</text>
+
+    <!-- Error -->
+    <rect x="24" y="508" width="112" height="44" rx="4" fill="#14060A" stroke="#FF3B30" stroke-opacity="0.55"/>
+    <text x="80" y="528" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#FF3B30">! Error</text>
+    <text x="80" y="543" text-anchor="middle" font-size="6.5" fill="#C0605A">说清怎么办</text>
+
+    <!-- Success -->
+    <rect x="144" y="508" width="112" height="44" rx="4" fill="#0A1A18" stroke="#00E5A0" stroke-opacity="0.5"/>
+    <path d="M176 526 L184 534 L196 518" fill="none" stroke="#00E5A0" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="212" y="532" font-size="8" fill="#00E5A0">Success</text>
+    <text x="212" y="545" font-family="monospace" font-size="6" fill="#3D5230">结算完成</text>
+  </g>
+
+  <!-- 间距令牌 -->
+  <rect x="264" y="508" width="588" height="44" rx="4" fill="#080B10" stroke="#00F0FF" stroke-opacity="0.2"/>
+  <text x="276" y="524" font-family="monospace" font-size="7" fill="#00F0FF">SPACING_TOKENS // 4pt 基准</text>
+  <g>
+    <rect x="276" y="532" width="4" height="12" fill="#00F0FF" opacity="0.9"/><text x="284" y="541" font-family="monospace" font-size="6" fill="#5A6472">4</text>
+    <rect x="300" y="532" width="8" height="12" fill="#00F0FF" opacity="0.9"/><text x="312" y="541" font-family="monospace" font-size="6" fill="#5A6472">8</text>
+    <rect x="328" y="532" width="12" height="12" fill="#00F0FF" opacity="0.9"/><text x="344" y="541" font-family="monospace" font-size="6" fill="#5A6472">12</text>
+    <rect x="360" y="532" width="16" height="12" fill="#00F0FF" opacity="0.9"/><text x="380" y="541" font-family="monospace" font-size="6" fill="#5A6472">16</text>
+    <rect x="396" y="532" width="24" height="12" fill="#00F0FF" opacity="0.9"/><text x="424" y="541" font-family="monospace" font-size="6" fill="#5A6472">24</text>
+    <rect x="440" y="532" width="32" height="12" fill="#00F0FF" opacity="0.9"/><text x="476" y="541" font-family="monospace" font-size="6" fill="#5A6472">32</text>
+    <rect x="492" y="532" width="48" height="12" fill="#00F0FF" opacity="0.9"/><text x="544" y="541" font-family="monospace" font-size="6" fill="#5A6472">48</text>
+    <text x="600" y="541" font-family="'PingFang SC',sans-serif" font-size="7" fill="#FF3B30">组件内禁止硬编码数值</text>
+  </g>
+
+  <!-- ══════════ 动效与降级 ══════════ -->
+  <text x="24" y="576" font-family="monospace" font-size="10.5" fill="#00FF41">&gt; MOTION_TOKENS</text>
+
+  <g font-family="monospace" font-size="7">
+    <rect x="24" y="586" width="236" height="30" rx="3" fill="#080B10" stroke="#00F0FF" stroke-opacity="0.25"/>
+    <text x="34" y="605" fill="#E8EDF5">fast  120ms  // 按压 · 切换</text>
+
+    <rect x="268" y="586" width="236" height="30" rx="3" fill="#080B10" stroke="#00F0FF" stroke-opacity="0.25"/>
+    <text x="278" y="605" fill="#E8EDF5">base  200ms  // 展开 · 共享元素</text>
+
+    <rect x="512" y="586" width="238" height="30" rx="3" fill="#080B10" stroke="#00F0FF" stroke-opacity="0.25"/>
+    <text x="522" y="605" fill="#E8EDF5">slow  320ms  // 转场 · 扇形展开</text>
+
+    <rect x="24" y="624" width="236" height="30" rx="3" fill="#080B10" stroke="#F5C518" stroke-opacity="0.3"/>
+    <text x="34" y="643" fill="#F5C518">glitch 80–150ms · 2s 内 1 次</text>
+
+    <rect x="268" y="624" width="236" height="30" rx="3" fill="#080B10" stroke="#00F0FF" stroke-opacity="0.25"/>
+    <text x="278" y="643" fill="#E8EDF5">扫描线 3–5% · 可关闭</text>
+
+    <rect x="512" y="624" width="238" height="30" rx="3" fill="#080B10" stroke="#FF3B30" stroke-opacity="0.3"/>
+    <text x="522" y="643" fill="#FF6B60">禁 BackdropFilter / ImageFilter</text>
+  </g>
+
+  <!-- 降级 -->
+  <rect x="24" y="664" width="726" height="96" rx="6" fill="#06090D" stroke="#00F0FF" stroke-opacity="0.35"/>
+  <text x="40" y="686" font-family="monospace" font-size="9" font-weight="700" fill="#00F0FF" filter="url(#g)">VisualQuality // 帧率 &lt;50fps 自动降一级</text>
+  <g font-family="monospace" font-size="7.5" fill="#E8EDF5">
+    <text x="40" y="706">high    代码雨 + 扫描线 + 辉光 + 故障</text>
+    <text x="40" y="724">medium  代码雨(列数减半) + 辉光 · 无扫描线无故障</text>
+    <text x="40" y="742">low     全静态 · 无动画无辉光 · 纯色板</text>
+  </g>
+  <rect x="40" y="748" width="690" height="0.8" fill="#00F0FF" opacity="0.2"/>
+  <text x="40" y="762" font-family="'PingFang SC',sans-serif" font-size="7.5" fill="#F0D9A0">低端机必须能跑 low 模式 —— 功能完整，不得因视觉效果牺牲可用性</text>
+</svg>

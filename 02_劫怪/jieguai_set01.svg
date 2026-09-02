@@ -1,0 +1,299 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 780" width="900" height="780">
+  <title>劫怪图鉴 · 第一辑（重制版）— 工作域 + 亲密域</title>
+  <desc>剪影优先 · 一怪一记忆点 · 表情有戏 · 抖动克制(1.2-1.8) · 带体积与高光</desc>
+
+  <defs>
+    <!-- 克制的手绘抖动：只让线条"活"，不让它"烂" -->
+    <filter id="ink" x="-8%" y="-8%" width="116%" height="116%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="5" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="1.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="ink2" x="-8%" y="-8%" width="116%" height="116%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="13" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="1.3" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <!-- 体积渐变 -->
+    <radialGradient id="vol1" cx="38%" cy="32%" r="72%">
+      <stop offset="0%" stop-color="#D9B45C"/><stop offset="55%" stop-color="#B8933F"/><stop offset="100%" stop-color="#7A5F22"/>
+    </radialGradient>
+    <radialGradient id="vol2" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#A8B98C"/><stop offset="55%" stop-color="#7E9166"/><stop offset="100%" stop-color="#4E5C3C"/>
+    </radialGradient>
+    <radialGradient id="vol3" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#9AA0A8"/><stop offset="55%" stop-color="#6E747C"/><stop offset="100%" stop-color="#40444A"/>
+    </radialGradient>
+    <radialGradient id="vol4" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#B8A0C0"/><stop offset="55%" stop-color="#8474A0"/><stop offset="100%" stop-color="#4E4262"/>
+    </radialGradient>
+    <radialGradient id="vol5" cx="38%" cy="28%" r="72%">
+      <stop offset="0%" stop-color="#D98A7A"/><stop offset="55%" stop-color="#B85A48"/><stop offset="100%" stop-color="#7A3428"/>
+    </radialGradient>
+    <radialGradient id="vol6" cx="42%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#A8C8D8"/><stop offset="55%" stop-color="#6E9AB0"/><stop offset="100%" stop-color="#3E5C70"/>
+    </radialGradient>
+
+    <!-- 地面阴影 -->
+    <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0A0A0A" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="780" fill="#F7F5F0"/>
+  <text x="26" y="38" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="22" font-weight="700" fill="#1A1A1A">劫怪图鉴 · 第一辑</text>
+  <text x="26" y="60" font-family="'PingFang SC',sans-serif" font-size="12" fill="#8A8478">剪影优先 · 一怪一记忆点 · 表情有戏 · 线条抖动克制 · 带体积与高光</text>
+
+  <!-- ══════════ 1. 贪狼·薪 ══════════ -->
+  <g>
+    <rect x="20" y="80" width="280" height="316" rx="8" fill="#FFFFFF" stroke="#DDD8CC"/>
+    <text x="38" y="106" font-family="'PingFang SC',sans-serif" font-size="15" font-weight="700" fill="#1A1A1A">贪狼 · 薪</text>
+    <text x="38" y="123" font-family="monospace" font-size="9.5" fill="#8A8478">#WRK-01 · 工作 × 沟通</text>
+
+    <g transform="translate(160,250)" filter="url(#ink)">
+      <ellipse cx="0" cy="88" rx="66" ry="12" fill="url(#shadow)"/>
+      <!-- 剪影：圆钱袋 + 双角 -->
+      <path d="M0 -78 C 44 -78, 72 -48, 72 -12 C 72 34, 44 70, 0 70 C -44 70, -72 34, -72 -12 C -72 -48, -44 -78, 0 -78 Z"
+            fill="url(#vol1)" stroke="#0A0A0A" stroke-width="7" stroke-linejoin="round"/>
+      <!-- 高光 -->
+      <path d="M-34 -46 C -22 -60, -4 -64, 8 -60 C -6 -52, -22 -42, -30 -28 Z" fill="#F2E4B8" opacity="0.55"/>
+      <!-- 记忆点：铜钱眼，方孔 + ¥ 瞳 -->
+      <g>
+        <circle cx="-27" cy="-22" r="21" fill="#F5F0DC" stroke="#0A0A0A" stroke-width="6"/>
+        <circle cx="29" cy="-22" r="21" fill="#F5F0DC" stroke="#0A0A0A" stroke-width="6"/>
+        <rect x="-34" y="-29" width="14" height="14" fill="#0A0A0A"/>
+        <rect x="22" y="-29" width="14" height="14" fill="#0A0A0A"/>
+        <!-- ¥ 形瞳孔（贪） -->
+        <path d="M-32 -30 L-27 -20 L-22 -30 M-36 -25 H-18 M-27 -20 V-12" fill="none" stroke="#0A0A0A" stroke-width="2.6" stroke-linecap="round"/>
+        <path d="M24 -30 L29 -20 L34 -30 M20 -25 H38 M29 -20 V-12" fill="none" stroke="#0A0A0A" stroke-width="2.6" stroke-linecap="round"/>
+      </g>
+      <!-- 表情：贪婪又心虚的嘴 -->
+      <path d="M-26 22 C -12 34, 14 34, 28 22 C 22 42, -20 42, -26 22 Z" fill="#3A1410" stroke="#0A0A0A" stroke-width="5.5" stroke-linejoin="round"/>
+      <path d="M-18 28 L-11 36 L-4 28 M4 28 L11 36 L18 28" fill="#F5F0DC" stroke="#0A0A0A" stroke-width="2.4" stroke-linejoin="round"/>
+      <!-- 小角 -->
+      <path d="M-40 -70 C -50 -88, -38 -98, -26 -88" fill="none" stroke="#0A0A0A" stroke-width="7" stroke-linecap="round"/>
+      <path d="M40 -70 C 50 -88, 38 -98, 26 -88" fill="none" stroke="#0A0A0A" stroke-width="7" stroke-linecap="round"/>
+      <!-- 爪 -->
+      <path d="M-72 8 C -90 10, -96 26, -86 38" fill="none" stroke="#0A0A0A" stroke-width="6.5" stroke-linecap="round"/>
+      <path d="M72 8 C 90 10, 96 26, 86 38" fill="none" stroke="#0A0A0A" stroke-width="6.5" stroke-linecap="round"/>
+      <circle cx="-88" cy="44" r="12" fill="url(#vol1)" stroke="#0A0A0A" stroke-width="5"/>
+      <rect x="-93" y="39" width="10" height="10" fill="#0A0A0A"/>
+    </g>
+    <text x="160" y="378" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="10.5" fill="#5A5A5A">谈薪 · 要资源 · 拒绝加班</text>
+  </g>
+
+  <!-- ══════════ 2. 巨门·歧 ══════════ -->
+  <g>
+    <rect x="310" y="80" width="280" height="316" rx="8" fill="#FFFFFF" stroke="#DDD8CC"/>
+    <text x="328" y="106" font-family="'PingFang SC',sans-serif" font-size="15" font-weight="700" fill="#1A1A1A">巨门 · 歧</text>
+    <text x="328" y="123" font-family="monospace" font-size="9.5" fill="#8A8478">#WRK-02 · 工作 × 决策</text>
+
+    <g transform="translate(450,250)" filter="url(#ink2)">
+      <ellipse cx="0" cy="88" rx="76" ry="12" fill="url(#shadow)"/>
+      <!-- 记忆点：身体裂成两半，各朝一边 -->
+      <!-- 左半 -->
+      <path d="M0 -74 C -34 -76, -62 -50, -64 -14 C -66 26, -40 62, -6 66
+               C -14 30, -12 -20, 0 -74 Z" fill="url(#vol2)" stroke="#0A0A0A" stroke-width="7" stroke-linejoin="round"/>
+      <!-- 右半 -->
+      <path d="M0 -74 C 34 -76, 62 -50, 64 -14 C 66 26, 40 62, 6 66
+               C 14 30, 12 -20, 0 -74 Z" fill="url(#vol3)" stroke="#0A0A0A" stroke-width="7" stroke-linejoin="round"/>
+      <!-- 裂缝（高光边） -->
+      <path d="M0 -74 C -8 -30, -8 20, 0 66" fill="none" stroke="#D93025" stroke-width="3" opacity="0.75"/>
+      <!-- 高光 -->
+      <path d="M-40 -44 C -30 -54, -18 -56, -12 -52 C -24 -46, -34 -36, -38 -26 Z" fill="#DCE8C4" opacity="0.5"/>
+      <path d="M40 -44 C 30 -54, 18 -56, 12 -52 C 24 -46, 34 -36, 38 -26 Z" fill="#DCE4EC" opacity="0.45"/>
+      <!-- 表情：两半各一只眼，看向不同方向（纠结） -->
+      <g>
+        <circle cx="-30" cy="-24" r="17" fill="#F5F0DC" stroke="#0A0A0A" stroke-width="5.5"/>
+        <circle cx="30" cy="-24" r="17" fill="#F5F0DC" stroke="#0A0A0A" stroke-width="5.5"/>
+        <circle cx="-37" cy="-24" r="6" fill="#0A0A0A"/>
+        <circle cx="37" cy="-24" r="6" fill="#0A0A0A"/>
+        <!-- 眉毛一高一低 -->
+        <path d="M-46 -44 C -38 -50, -26 -50, -18 -46" fill="none" stroke="#0A0A0A" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M18 -48 C 26 -54, 38 -52, 46 -44" fill="none" stroke="#0A0A0A" stroke-width="4.5" stroke-linecap="round"/>
+      </g>
+      <!-- 嘴：一边上一边下（犹豫） -->
+      <path d="M-22 24 C -10 18, 4 30, 20 20" fill="none" stroke="#0A0A0A" stroke-width="6" stroke-linecap="round"/>
+      <!-- 两手指不同方向 -->
+      <path d="M-64 -6 C -86 -14, -100 -4, -104 12" fill="none" stroke="#0A0A0A" stroke-width="6.5" stroke-linecap="round"/>
+      <path d="M64 -6 C 86 -14, 100 -4, 104 12" fill="none" stroke="#0A0A0A" stroke-width="6.5" stroke-linecap="round"/>
+      <path d="M-104 12 l-10 -6 M-104 12 l2 -11 M-104 12 l10 -4" fill="none" stroke="#0A0A0A" stroke-width="4" stroke-linecap="round"/>
+      <path d="M104 12 l10 -6 M104 12 l-2 -11 M104 12 l-10 -4" fill="none" stroke="#0A0A0A" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="450" y="378" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="10.5" fill="#5A5A5A">选 offer · 要不要离职 · 两个都想要</text>
+  </g>
+
+  <!-- ══════════ 3. 武曲·践 ══════════ -->
+  <g>
+    <rect x="600" y="80" width="280" height="316" rx="8" fill="#FFFFFF" stroke="#DDD8CC"/>
+    <text x="618" y="106" font-family="'PingFang SC',sans-serif" font-size="15" font-weight="700" fill="#1A1A1A">武曲 · 践</text>
+    <text x="618" y="123" font-family="monospace" font-size="9.5" fill="#8A8478">#WRK-03 · 工作 × 执行</text>
+
+    <g transform="translate(740,248)" filter="url(#ink)">
+      <ellipse cx="0" cy="88" rx="70" ry="12" fill="url(#shadow)"/>
+      <!-- 剪影：笨重石人 -->
+      <path d="M0 -76 C 38 -76, 62 -50, 64 -14 L 68 44 C 68 62, 50 70, 30 70
+               L -30 70 C -50 70, -68 62, -68 44 L -64 -14 C -62 -50, -38 -76, 0 -76 Z"
+            fill="url(#vol3)" stroke="#0A0A0A" stroke-width="7" stroke-linejoin="round"/>
+      <!-- 高光 -->
+      <path d="M-38 -48 C -26 -60, -8 -64, 4 -60 C -10 -52, -26 -42, -34 -26 Z" fill="#E8ECF0" opacity="0.4"/>
+      <!-- 记忆点：胸口时钟，指针断掉 -->
+      <circle cx="0" cy="12" r="30" fill="#F0EDE0" stroke="#0A0A0A" stroke-width="6"/>
+      <path d="M0 12 L0 -14" stroke="#0A0A0A" stroke-width="5" stroke-linecap="round"/>
+      <path d="M0 12 L18 18" stroke="#0A0A0A" stroke-width="5" stroke-linecap="round"/>
+      <path d="M0 -14 L-12 -26" stroke="#0A0A0A" stroke-width="4" stroke-linecap="round"/>
+      <path d="M18 18 L30 24" stroke="#0A0A0A" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="0" cy="12" r="5" fill="#D93025" stroke="#0A0A0A" stroke-width="3.5"/>
+      <!-- 刻度 -->
+      <g stroke="#0A0A0A" stroke-width="3" stroke-linecap="round" opacity="0.75">
+        <path d="M0 -12 L0 -18"/><path d="M24 12 L30 12"/><path d="M-24 12 L-30 12"/>
+      </g>
+      <!-- 表情：咬牙用力 -->
+      <g>
+        <path d="M-34 -30 L-14 -24" stroke="#0A0A0A" stroke-width="6" stroke-linecap="round"/>
+        <path d="M34 -30 L14 -24" stroke="#0A0A0A" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="-22" cy="-14" r="11" fill="#F5F0DC" stroke="#0A0A0A" stroke-width="5"/>
+        <circle cx="22" cy="-14" r="11" fill="#F5F0DC" stroke="#0A0A0A" stroke-width="5"/>
+        <circle cx="-22" cy="-12" r="4.5" fill="#0A0A0A"/>
+        <circle cx="22" cy="-12" r="4.5" fill="#0A0A0A"/>
+      </g>
+      <!-- 锁链（被拖住） -->
+      <g stroke="#0A0A0A" stroke-width="6" fill="none" stroke-linecap="round">
+        <path d="M-68 30 C -92 40, -96 60, -84 74"/>
+        <path d="M68 30 C 92 40, 96 60, 84 74"/>
+      </g>
+      <g fill="none" stroke="#0A0A0A" stroke-width="4.5">
+        <ellipse cx="-90" cy="46" rx="8" ry="5"/><ellipse cx="-88" cy="62" rx="8" ry="5"/>
+        <ellipse cx="90" cy="46" rx="8" ry="5"/><ellipse cx="88" cy="62" rx="8" ry="5"/>
+      </g>
+    </g>
+    <text x="740" y="378" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="10.5" fill="#5A5A5A">知道该做什么，就是推不动</text>
+  </g>
+
+  <!-- ══════════ 4. 计都·候 ══════════ -->
+  <g>
+    <rect x="20" y="412" width="280" height="316" rx="8" fill="#FFFFFF" stroke="#DDD8CC"/>
+    <text x="38" y="438" font-family="'PingFang SC',sans-serif" font-size="15" font-weight="700" fill="#1A1A1A">计都 · 候</text>
+    <text x="38" y="455" font-family="monospace" font-size="9.5" fill="#8A8478">#WRK-04 · 工作 × 等待</text>
+
+    <g transform="translate(160,582)" filter="url(#ink2)">
+      <ellipse cx="0" cy="80" rx="72" ry="12" fill="url(#shadow)"/>
+      <!-- 剪影：抱膝枯坐 -->
+      <path d="M0 -70 C 30 -70, 48 -52, 46 -26 C 44 -4, 60 6, 66 30
+               C 72 52, 50 72, 0 72 C -50 72, -72 52, -66 30
+               C -60 6, -44 -4, -46 -26 C -48 -52, -30 -70, 0 -70 Z"
+            fill="url(#vol4)" stroke="#0A0A0A" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M-30 -52 C -18 -62, 0 -64, 10 -58 C -4 -50, -18 -40, -26 -28 Z" fill="#DED0E8" opacity="0.45"/>
+      <!-- 记忆点：头顶与肩上长蘑菇（等太久） -->
+      <g stroke="#0A0A0A" stroke-width="5.5" fill="#D8C8B0" stroke-linejoin="round">
+        <path d="M-26 -66 C -34 -80, -24 -92, -10 -88 C -2 -86, -4 -74, -12 -70 Z"/>
+        <path d="M22 -70 C 16 -86, 30 -94, 40 -86 C 46 -80, 38 -70, 30 -70 Z"/>
+        <path d="M-52 8 C -62 -2, -54 -16, -42 -12 C -34 -10, -38 0, -46 4 Z" fill="#C8B8A0"/>
+      </g>
+      <g fill="#0A0A0A" opacity="0.5">
+        <circle cx="-18" cy="-80" r="2.6"/><circle cx="31" cy="-80" r="2.4"/><circle cx="-47" cy="-6" r="2.2"/>
+      </g>
+      <!-- 表情：呆滞望眼欲穿 -->
+      <g>
+        <circle cx="-20" cy="-28" r="15" fill="#F5F0DC" stroke="#0A0A0A" stroke-width="5.5"/>
+        <circle cx="20" cy="-28" r="15" fill="#F5F0DC" stroke="#0A0A0A" stroke-width="5.5"/>
+        <circle cx="-20" cy="-24" r="5" fill="#0A0A0A"/>
+        <circle cx="20" cy="-24" r="5" fill="#0A0A0A"/>
+        <path d="M-32 -44 C -26 -48, -14 -48, -8 -45" fill="none" stroke="#0A0A0A" stroke-width="4" stroke-linecap="round"/>
+        <path d="M8 -45 C 14 -48, 26 -48, 32 -44" fill="none" stroke="#0A0A0A" stroke-width="4" stroke-linecap="round"/>
+      </g>
+      <path d="M-14 -2 C -6 -8, 6 -8, 14 -2" fill="none" stroke="#0A0A0A" stroke-width="5" stroke-linecap="round"/>
+      <!-- 蜘蛛网（荒废感） -->
+      <g stroke="#0A0A0A" stroke-width="2" fill="none" opacity="0.4">
+        <path d="M46 -26 L74 -50 M46 -26 L76 -30 M46 -26 L74 -14"/>
+        <path d="M56 -38 C 62 -34, 66 -32, 70 -34"/>
+        <path d="M58 -22 C 64 -22, 68 -20, 72 -24"/>
+      </g>
+    </g>
+    <text x="160" y="710" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="10.5" fill="#5A5A5A">等 offer · 等审批 · 等一个回信</text>
+  </g>
+
+  <!-- ══════════ 5. 七杀·锋 ══════════ -->
+  <g>
+    <rect x="310" y="412" width="280" height="316" rx="8" fill="#FFFFFF" stroke="#DDD8CC"/>
+    <text x="328" y="438" font-family="'PingFang SC',sans-serif" font-size="15" font-weight="700" fill="#1A1A1A">七杀 · 锋</text>
+    <text x="328" y="455" font-family="monospace" font-size="9.5" fill="#8A8478">#WRK-06 · 工作 × 对抗</text>
+
+    <g transform="translate(450,582)" filter="url(#ink)">
+      <ellipse cx="0" cy="80" rx="72" ry="12" fill="url(#shadow)"/>
+      <!-- 记忆点：全身是尖刺的菱形 -->
+      <path d="M0 -84 L26 -50 L58 -44 L34 -16 L46 22 L14 12 L0 48
+               L-14 12 L-46 22 L-34 -16 L-58 -44 L-26 -50 Z"
+            fill="url(#vol5)" stroke="#0A0A0A" stroke-width="7" stroke-linejoin="round"/>
+      <!-- 高光 -->
+      <path d="M-18 -46 L-4 -30 L-24 -30 Z" fill="#F0C0B0" opacity="0.5"/>
+      <!-- 表情：凶狠的三角眼 -->
+      <g>
+        <path d="M-34 -26 L-6 -18 L-28 -6 Z" fill="#F5F0DC" stroke="#0A0A0A" stroke-width="5" stroke-linejoin="round"/>
+        <path d="M34 -26 L6 -18 L28 -6 Z" fill="#F5F0DC" stroke="#0A0A0A" stroke-width="5" stroke-linejoin="round"/>
+        <circle cx="-22" cy="-17" r="4.5" fill="#D93025"/>
+        <circle cx="22" cy="-17" r="4.5" fill="#D93025"/>
+        <path d="M-38 -38 L-8 -24" stroke="#0A0A0A" stroke-width="5.5" stroke-linecap="round"/>
+        <path d="M38 -38 L8 -24" stroke="#0A0A0A" stroke-width="5.5" stroke-linecap="round"/>
+      </g>
+      <!-- 尖牙嘴 -->
+      <path d="M-20 6 C -8 18, 8 18, 20 6 C 14 24, -14 24, -20 6 Z" fill="#3A1410" stroke="#0A0A0A" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M-12 9 L-6 20 L0 9 M4 9 L10 20 L16 9" fill="#F5F0DC" stroke="#0A0A0A" stroke-width="2.2" stroke-linejoin="round"/>
+      <!-- 尖爪 -->
+      <path d="M-58 -44 C -80 -50, -92 -38, -88 -22" fill="none" stroke="#0A0A0A" stroke-width="6" stroke-linecap="round"/>
+      <path d="M58 -44 C 80 -50, 92 -38, 88 -22" fill="none" stroke="#0A0A0A" stroke-width="6" stroke-linecap="round"/>
+      <path d="M-88 -22 l-12 -4 M-88 -22 l-4 -12" fill="none" stroke="#0A0A0A" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M88 -22 l12 -4 M88 -22 l4 -12" fill="none" stroke="#0A0A0A" stroke-width="4.5" stroke-linecap="round"/>
+    </g>
+    <text x="450" y="710" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="10.5" fill="#5A5A5A">抢功 · 客户冲突 · 被当众批评</text>
+  </g>
+
+  <!-- ══════════ 6. 玄冥·缘 ══════════ -->
+  <g>
+    <rect x="600" y="412" width="280" height="316" rx="8" fill="#FFFFFF" stroke="#DDD8CC"/>
+    <text x="618" y="438" font-family="'PingFang SC',sans-serif" font-size="15" font-weight="700" fill="#1A1A1A">玄冥 · 缘</text>
+    <text x="618" y="455" font-family="monospace" font-size="9.5" fill="#8A8478">#INT-08 · 亲密 × 告别</text>
+
+    <g transform="translate(740,582)" filter="url(#ink2)">
+      <ellipse cx="0" cy="80" rx="66" ry="11" fill="url(#shadow)" opacity="0.6"/>
+      <!-- 记忆点：身体正在消散（上半实、下半化成碎片飘走） -->
+      <path d="M0 -72 C 34 -72, 56 -48, 54 -16 C 52 10, 34 26, 0 26
+               C -34 26, -52 10, -54 -16 C -56 -48, -34 -72, 0 -72 Z"
+            fill="url(#vol6)" stroke="#0A0A0A" stroke-width="7" stroke-linejoin="round" opacity="0.92"/>
+      <path d="M-30 -50 C -18 -62, -2 -64, 8 -58 C -6 -50, -20 -40, -28 -26 Z" fill="#DCEBF2" opacity="0.5"/>
+      <!-- 下半身消散成碎片 -->
+      <g fill="url(#vol6)" stroke="#0A0A0A" stroke-width="4" opacity="0.8">
+        <path d="M-40 36 L-16 32 L-24 50 L-42 48 Z"/>
+        <path d="M6 36 L34 34 L28 52 L4 50 Z"/>
+        <path d="M-14 56 L6 54 L2 70 L-16 68 Z" opacity="0.65"/>
+        <path d="M-56 56 L-40 54 L-44 68 L-58 66 Z" opacity="0.5"/>
+        <path d="M28 58 L44 56 L40 68 L26 66 Z" opacity="0.5"/>
+      </g>
+      <!-- 更小的碎点 -->
+      <g fill="#6E9AB0" stroke="#0A0A0A" stroke-width="2" opacity="0.45">
+        <circle cx="-30" cy="76" r="4"/><circle cx="14" cy="78" r="3.5"/><circle cx="-2" cy="84" r="3"/>
+        <circle cx="-56" cy="80" r="3"/><circle cx="40" cy="76" r="3.5"/>
+      </g>
+      <!-- 表情：平静哀伤（闭眼） -->
+      <g>
+        <path d="M-32 -26 C -24 -34, -12 -34, -6 -26" fill="none" stroke="#0A0A0A" stroke-width="5.5" stroke-linecap="round"/>
+        <path d="M6 -26 C 12 -34, 24 -34, 32 -26" fill="none" stroke="#0A0A0A" stroke-width="5.5" stroke-linecap="round"/>
+        <path d="M-30 -20 C -22 -14, -12 -14, -6 -20" fill="none" stroke="#0A0A0A" stroke-width="2.6" opacity="0.6"/>
+        <path d="M6 -20 C 12 -14, 22 -14, 30 -20" fill="none" stroke="#0A0A0A" stroke-width="2.6" opacity="0.6"/>
+      </g>
+      <!-- 嘴：轻轻的、放下的 -->
+      <path d="M-12 -4 C -4 2, 6 2, 12 -4" fill="none" stroke="#0A0A0A" stroke-width="4.5" stroke-linecap="round"/>
+      <!-- 半透明的双臂（挽留又松开） -->
+      <path d="M-54 -8 C -74 -2, -78 16, -70 30" fill="none" stroke="#0A0A0A" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+      <path d="M54 -8 C 74 -2, 78 16, 70 30" fill="none" stroke="#0A0A0A" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+    </g>
+    <text x="740" y="710" text-anchor="middle" font-family="'PingFang SC',sans-serif" font-size="10.5" fill="#5A5A5A">分手 · 告别一段关系</text>
+  </g>
+
+  <!-- 风格说明 -->
+  <rect x="20" y="744" width="860" height="26" rx="5" fill="#2E3A4A"/>
+  <text x="36" y="762" font-family="'PingFang SC',sans-serif" font-size="10.5" fill="#F0D9A0" font-weight="600">修正要点</text>
+  <text x="118" y="762" font-family="'PingFang SC',sans-serif" font-size="10" fill="#D8DCE2">
+    抖动 scale 由 3–4.5 降至 1.2–1.8（线条活而不烂）· 加径向渐变体积与高光 · 加地面阴影 · 每只先定剪影与一个记忆点 · 表情有情绪
+  </text>
+</svg>
