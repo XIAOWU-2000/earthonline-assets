@@ -445,9 +445,9 @@
   "resist": "沟通",
   "resist_mean": "不知道怎么开口",
   "typical": "辅导作业、选学校、叛逆期沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天同·呐",
+  "file": "concept_tiantong_na.png",
+  "done": true
  },
  {
   "id": "PAR-02",
@@ -465,9 +465,9 @@
   "resist": "执行",
   "resist_mean": "知道怎么做但推不动",
   "typical": "辅导作业、选学校、叛逆期沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "武曲·推",
+  "file": "concept_wuqu_tui.png",
+  "done": true
  },
  {
   "id": "PAR-04",
@@ -495,9 +495,9 @@
   "resist": "对抗",
   "resist_mean": "有人跟你对着干",
   "typical": "辅导作业、选学校、叛逆期沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "火星·叛",
+  "file": "concept_huoxing_pan.png",
+  "done": true
  },
  {
   "id": "PAR-07",
@@ -525,9 +525,9 @@
   "resist": "忍耐",
   "resist_mean": "短期无解只能扛",
   "typical": "辅导作业、选学校、叛逆期沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天梁·扛",
+  "file": "concept_tianliang_kang.png",
+  "done": true
  },
  {
   "id": "PAR-10",
@@ -1545,9 +1545,9 @@
   "resist": "沟通",
   "resist_mean": "不知道怎么开口",
   "typical": "表达困惑、选择信什么、寻找意义",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天机·问",
+  "file": "concept_tianji_wen.png",
+  "done": true
  },
  {
   "id": "BLF-02",
@@ -1555,9 +1555,9 @@
   "resist": "决策",
   "resist_mean": "不知道选哪个",
   "typical": "表达困惑、选择信什么、寻找意义",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "太阴·择",
+  "file": "concept_taiyin_ze.png",
+  "done": true
  },
  {
   "id": "BLF-03",
@@ -1615,9 +1615,9 @@
   "resist": "告别",
   "resist_mean": "该放下了",
   "typical": "表达困惑、选择信什么、寻找意义",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "地劫·舍",
+  "file": "concept_dijie_she.png",
+  "done": true
  },
  {
   "id": "BLF-09",
@@ -1645,8 +1645,8 @@
   "resist": "模糊",
   "resist_mean": "说不清哪里不对",
   "typical": "表达困惑、选择信什么、寻找意义",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天空·茫",
+  "file": "concept_tiankong_mang.png",
+  "done": true
  }
 ]

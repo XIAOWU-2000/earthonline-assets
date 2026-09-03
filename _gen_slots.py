@@ -91,6 +91,14 @@ MAPPED = {
     "FAM-02": ("天机·扯", "concept_tianji_che.png"),
     "FAM-06": ("擎羊·峙", "concept_qingyang_zhi.png"),
     "FAM-09": ("陀罗·承", "concept_tuoluo_cheng.png"),
+    "PAR-01": ("天同·呐", "concept_tiantong_na.png"),
+    "PAR-03": ("武曲·推", "concept_wuqu_tui.png"),
+    "PAR-06": ("火星·叛", "concept_huoxing_pan.png"),
+    "PAR-09": ("天梁·扛", "concept_tianliang_kang.png"),
+    "BLF-01": ("天机·问", "concept_tianji_wen.png"),
+    "BLF-02": ("太阴·择", "concept_taiyin_ze.png"),
+    "BLF-08": ("地劫·舍", "concept_dijie_she.png"),
+    "BLF-11": ("天空·茫", "concept_tiankong_mang.png"),
 }
 
 rows = []
