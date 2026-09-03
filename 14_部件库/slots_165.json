@@ -785,9 +785,9 @@
   "resist": "决策",
   "resist_mean": "不知道选哪个",
   "typical": "寒暄、拒绝邀约、化解尴尬",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天机·赴",
+  "file": "concept_tianji_fu.png",
+  "done": true
  },
  {
   "id": "SOC-03",
@@ -795,9 +795,9 @@
   "resist": "执行",
   "resist_mean": "知道怎么做但推不动",
   "typical": "寒暄、拒绝邀约、化解尴尬",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "武曲·寒",
+  "file": "concept_wuqu_han.png",
+  "done": true
  },
  {
   "id": "SOC-04",
@@ -815,9 +815,9 @@
   "resist": "学习",
   "resist_mean": "得先搞懂新东西",
   "typical": "寒暄、拒绝邀约、化解尴尬",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文曲·礼",
+  "file": "concept_wenqu_li.png",
+  "done": true
  },
  {
   "id": "SOC-06",
@@ -835,9 +835,9 @@
   "resist": "修复",
   "resist_mean": "搞砸了要补救",
   "typical": "寒暄、拒绝邀约、化解尴尬",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "太乙·圆",
+  "file": "concept_taiyi_yuan.png",
+  "done": true
  },
  {
   "id": "SOC-08",
