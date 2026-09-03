@@ -845,9 +845,9 @@
   "resist": "告别",
   "resist_mean": "该放下了",
   "typical": "寒暄、拒绝邀约、化解尴尬",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "地劫·散",
+  "file": "concept_dijie_san.png",
+  "done": true
  },
  {
   "id": "SOC-09",
@@ -855,9 +855,9 @@
   "resist": "忍耐",
   "resist_mean": "短期无解只能扛",
   "typical": "寒暄、拒绝邀约、化解尴尬",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "陀罗·沉",
+  "file": "concept_tuoluo_chen.png",
+  "done": true
  },
  {
   "id": "SOC-10",
@@ -865,9 +865,9 @@
   "resist": "求助",
   "resist_mean": "得开口找人",
   "typical": "寒暄、拒绝邀约、化解尴尬",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天乙·赠",
+  "file": "concept_tianyi_zeng.png",
+  "done": true
  },
  {
   "id": "SOC-11",
@@ -875,9 +875,9 @@
   "resist": "模糊",
   "resist_mean": "说不清哪里不对",
   "typical": "寒暄、拒绝邀约、化解尴尬",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天空·涣",
+  "file": "concept_tiankong_huan.png",
+  "done": true
  },
  {
   "id": "LIV-01",
