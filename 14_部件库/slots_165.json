@@ -885,9 +885,9 @@
   "resist": "沟通",
   "resist_mean": "不知道怎么开口",
   "typical": "与房东谈、与物业谈、邻里纠纷",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "巨门·叩",
+  "file": "concept_jumen_kou.png",
+  "done": true
  },
  {
   "id": "LIV-02",
@@ -915,9 +915,9 @@
   "resist": "等待",
   "resist_mean": "结果不在你手上",
   "typical": "与房东谈、与物业谈、邻里纠纷",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文昌·候",
+  "file": "concept_wenchang_hou.png",
+  "done": true
  },
  {
   "id": "LIV-05",
@@ -925,9 +925,9 @@
   "resist": "学习",
   "resist_mean": "得先搞懂新东西",
   "typical": "与房东谈、与物业谈、邻里纠纷",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文曲·契",
+  "file": "concept_wenqu_qi.png",
+  "done": true
  },
  {
   "id": "LIV-06",
@@ -935,9 +935,9 @@
   "resist": "对抗",
   "resist_mean": "有人跟你对着干",
   "typical": "与房东谈、与物业谈、邻里纠纷",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "擎羊·邻",
+  "file": "concept_qingyang_lin.png",
+  "done": true
  },
  {
   "id": "LIV-07",
