@@ -555,9 +555,9 @@
   "resist": "沟通",
   "resist_mean": "不知道怎么开口",
   "typical": "向医生描述症状、选治疗方案、坚持康复",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "巨门·述",
+  "file": "concept_jumen_shu.png",
+  "done": true
  },
  {
   "id": "HEA-02",
@@ -565,9 +565,9 @@
   "resist": "决策",
   "resist_mean": "不知道选哪个",
   "typical": "向医生描述症状、选治疗方案、坚持康复",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天机·决",
+  "file": "concept_tianji_jue.png",
+  "done": true
  },
  {
   "id": "HEA-03",
@@ -585,9 +585,9 @@
   "resist": "等待",
   "resist_mean": "结果不在你手上",
   "typical": "向医生描述症状、选治疗方案、坚持康复",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天同·候",
+  "file": "concept_tiantong_hou.png",
+  "done": true
  },
  {
   "id": "HEA-05",
@@ -595,9 +595,9 @@
   "resist": "学习",
   "resist_mean": "得先搞懂新东西",
   "typical": "向医生描述症状、选治疗方案、坚持康复",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文曲·索",
+  "file": "concept_wenqu_suo.png",
+  "done": true
  },
  {
   "id": "HEA-06",
@@ -605,9 +605,9 @@
   "resist": "对抗",
   "resist_mean": "有人跟你对着干",
   "typical": "向医生描述症状、选治疗方案、坚持康复",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "七杀·执",
+  "file": "concept_qisha_zhi.png",
+  "done": true
  },
  {
   "id": "HEA-07",
@@ -615,9 +615,9 @@
   "resist": "修复",
   "resist_mean": "搞砸了要补救",
   "typical": "向医生描述症状、选治疗方案、坚持康复",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "太乙·复",
+  "file": "concept_taiyi_fu.png",
+  "done": true
  },
  {
   "id": "HEA-08",
@@ -625,9 +625,9 @@
   "resist": "告别",
   "resist_mean": "该放下了",
   "typical": "向医生描述症状、选治疗方案、坚持康复",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "地劫·别",
+  "file": "concept_dijie_bie.png",
+  "done": true
  },
  {
   "id": "HEA-09",
@@ -635,9 +635,9 @@
   "resist": "忍耐",
   "resist_mean": "短期无解只能扛",
   "typical": "向医生描述症状、选治疗方案、坚持康复",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "陀罗·磨",
+  "file": "concept_tuoluo_mo.png",
+  "done": true
  },
  {
   "id": "HEA-10",
