@@ -99,6 +99,20 @@ MAPPED = {
     "BLF-02": ("太阴·择", "concept_taiyin_ze.png"),
     "BLF-08": ("地劫·舍", "concept_dijie_she.png"),
     "BLF-11": ("天空·茫", "concept_tiankong_mang.png"),
+    "FAM-03": ("武曲·滞", "concept_wuqu_zhi.png"),
+    "FAM-04": ("计都·守", "concept_jidu_shou.png"),
+    "FAM-05": ("文曲·习", "concept_wenqu_xi.png"),
+    "FAM-07": ("太乙·缝", "concept_taiyi_feng.png"),
+    "FAM-08": ("地劫·辞", "concept_dijie_ci.png"),
+    "FAM-10": ("天乙·托", "concept_tianyi_tuo.png"),
+    "FAM-11": ("天空·惑", "concept_tiankong_huo.png"),
+    "PAR-02": ("天机·择", "concept_tianji_ze.png"),
+    "PAR-04": ("计都·盼", "concept_jidu_pan.png"),
+    "PAR-05": ("文曲·迷", "concept_wenqu_mi.png"),
+    "PAR-07": ("太乙·歉", "concept_taiyi_qian.png"),
+    "PAR-08": ("地劫·放", "concept_dijie_fang.png"),
+    "PAR-10": ("天乙·叩", "concept_tianyi_kou.png"),
+    "PAR-11": ("天空·忧", "concept_tiankong_you.png"),
 }
 
 rows = []

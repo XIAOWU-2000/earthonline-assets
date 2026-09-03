@@ -1,6 +1,6 @@
 # 165 劫怪槽位表（15 域 × 11 阻力）
 
-已完成 62 / 165　待画 103
+已完成 76 / 165　待画 89
 
 ## 已完成
 
@@ -28,12 +28,26 @@
 | INT-11 | 亲密 | 模糊 | 绣衣·蔽 | `concept_xiuyi_bi.png` |
 | FAM-01 | 家庭 | 沟通 | 巨门·噎 | `concept_jumen_ye.png` |
 | FAM-02 | 家庭 | 决策 | 天机·扯 | `concept_tianji_che.png` |
+| FAM-03 | 家庭 | 执行 | 武曲·滞 | `concept_wuqu_zhi.png` |
+| FAM-04 | 家庭 | 等待 | 计都·守 | `concept_jidu_shou.png` |
+| FAM-05 | 家庭 | 学习 | 文曲·习 | `concept_wenqu_xi.png` |
 | FAM-06 | 家庭 | 对抗 | 擎羊·峙 | `concept_qingyang_zhi.png` |
+| FAM-07 | 家庭 | 修复 | 太乙·缝 | `concept_taiyi_feng.png` |
+| FAM-08 | 家庭 | 告别 | 地劫·辞 | `concept_dijie_ci.png` |
 | FAM-09 | 家庭 | 忍耐 | 陀罗·承 | `concept_tuoluo_cheng.png` |
+| FAM-10 | 家庭 | 求助 | 天乙·托 | `concept_tianyi_tuo.png` |
+| FAM-11 | 家庭 | 模糊 | 天空·惑 | `concept_tiankong_huo.png` |
 | PAR-01 | 育儿 | 沟通 | 天同·呐 | `concept_tiantong_na.png` |
+| PAR-02 | 育儿 | 决策 | 天机·择 | `concept_tianji_ze.png` |
 | PAR-03 | 育儿 | 执行 | 武曲·推 | `concept_wuqu_tui.png` |
+| PAR-04 | 育儿 | 等待 | 计都·盼 | `concept_jidu_pan.png` |
+| PAR-05 | 育儿 | 学习 | 文曲·迷 | `concept_wenqu_mi.png` |
 | PAR-06 | 育儿 | 对抗 | 火星·叛 | `concept_huoxing_pan.png` |
+| PAR-07 | 育儿 | 修复 | 太乙·歉 | `concept_taiyi_qian.png` |
+| PAR-08 | 育儿 | 告别 | 地劫·放 | `concept_dijie_fang.png` |
 | PAR-09 | 育儿 | 忍耐 | 天梁·扛 | `concept_tianliang_kang.png` |
+| PAR-10 | 育儿 | 求助 | 天乙·叩 | `concept_tianyi_kou.png` |
+| PAR-11 | 育儿 | 模糊 | 天空·忧 | `concept_tiankong_you.png` |
 | HEA-03 | 健康 | 执行 | 青囊·动 | `concept_qingnang_dong.png` |
 | FIN-02 | 财务 | 决策 | 贪财·算 | `concept_tancai_suan.png` |
 | FIN-03 | 财务 | 执行 | 天府·守 | `concept_tianfu_shou.png` |
@@ -86,20 +100,6 @@
 | INT-03 | 亲密 | 执行 | 知道怎么做但推不动 | 表白、吵架后沟通、要不要继续 |
 | INT-05 | 亲密 | 学习 | 得先搞懂新东西 | 表白、吵架后沟通、要不要继续 |
 | INT-09 | 亲密 | 忍耐 | 短期无解只能扛 | 表白、吵架后沟通、要不要继续 |
-| FAM-03 | 家庭 | 执行 | 知道怎么做但推不动 | 与父母沟通、夫妻沟通、家事安排 |
-| FAM-04 | 家庭 | 等待 | 结果不在你手上 | 与父母沟通、夫妻沟通、家事安排 |
-| FAM-05 | 家庭 | 学习 | 得先搞懂新东西 | 与父母沟通、夫妻沟通、家事安排 |
-| FAM-07 | 家庭 | 修复 | 搞砸了要补救 | 与父母沟通、夫妻沟通、家事安排 |
-| FAM-08 | 家庭 | 告别 | 该放下了 | 与父母沟通、夫妻沟通、家事安排 |
-| FAM-10 | 家庭 | 求助 | 得开口找人 | 与父母沟通、夫妻沟通、家事安排 |
-| FAM-11 | 家庭 | 模糊 | 说不清哪里不对 | 与父母沟通、夫妻沟通、家事安排 |
-| PAR-02 | 育儿 | 决策 | 不知道选哪个 | 辅导作业、选学校、叛逆期沟通 |
-| PAR-04 | 育儿 | 等待 | 结果不在你手上 | 辅导作业、选学校、叛逆期沟通 |
-| PAR-05 | 育儿 | 学习 | 得先搞懂新东西 | 辅导作业、选学校、叛逆期沟通 |
-| PAR-07 | 育儿 | 修复 | 搞砸了要补救 | 辅导作业、选学校、叛逆期沟通 |
-| PAR-08 | 育儿 | 告别 | 该放下了 | 辅导作业、选学校、叛逆期沟通 |
-| PAR-10 | 育儿 | 求助 | 得开口找人 | 辅导作业、选学校、叛逆期沟通 |
-| PAR-11 | 育儿 | 模糊 | 说不清哪里不对 | 辅导作业、选学校、叛逆期沟通 |
 | HEA-01 | 健康 | 沟通 | 不知道怎么开口 | 向医生描述症状、选治疗方案、坚持康复 |
 | HEA-02 | 健康 | 决策 | 不知道选哪个 | 向医生描述症状、选治疗方案、坚持康复 |
 | HEA-04 | 健康 | 等待 | 结果不在你手上 | 向医生描述症状、选治疗方案、坚持康复 |

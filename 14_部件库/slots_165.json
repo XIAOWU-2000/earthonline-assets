@@ -355,9 +355,9 @@
   "resist": "执行",
   "resist_mean": "知道怎么做但推不动",
   "typical": "与父母沟通、夫妻沟通、家事安排",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "武曲·滞",
+  "file": "concept_wuqu_zhi.png",
+  "done": true
  },
  {
   "id": "FAM-04",
@@ -365,9 +365,9 @@
   "resist": "等待",
   "resist_mean": "结果不在你手上",
   "typical": "与父母沟通、夫妻沟通、家事安排",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "计都·守",
+  "file": "concept_jidu_shou.png",
+  "done": true
  },
  {
   "id": "FAM-05",
@@ -375,9 +375,9 @@
   "resist": "学习",
   "resist_mean": "得先搞懂新东西",
   "typical": "与父母沟通、夫妻沟通、家事安排",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文曲·习",
+  "file": "concept_wenqu_xi.png",
+  "done": true
  },
  {
   "id": "FAM-06",
@@ -395,9 +395,9 @@
   "resist": "修复",
   "resist_mean": "搞砸了要补救",
   "typical": "与父母沟通、夫妻沟通、家事安排",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "太乙·缝",
+  "file": "concept_taiyi_feng.png",
+  "done": true
  },
  {
   "id": "FAM-08",
@@ -405,9 +405,9 @@
   "resist": "告别",
   "resist_mean": "该放下了",
   "typical": "与父母沟通、夫妻沟通、家事安排",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "地劫·辞",
+  "file": "concept_dijie_ci.png",
+  "done": true
  },
  {
   "id": "FAM-09",
@@ -425,9 +425,9 @@
   "resist": "求助",
   "resist_mean": "得开口找人",
   "typical": "与父母沟通、夫妻沟通、家事安排",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天乙·托",
+  "file": "concept_tianyi_tuo.png",
+  "done": true
  },
  {
   "id": "FAM-11",
@@ -435,9 +435,9 @@
   "resist": "模糊",
   "resist_mean": "说不清哪里不对",
   "typical": "与父母沟通、夫妻沟通、家事安排",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天空·惑",
+  "file": "concept_tiankong_huo.png",
+  "done": true
  },
  {
   "id": "PAR-01",
@@ -455,9 +455,9 @@
   "resist": "决策",
   "resist_mean": "不知道选哪个",
   "typical": "辅导作业、选学校、叛逆期沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天机·择",
+  "file": "concept_tianji_ze.png",
+  "done": true
  },
  {
   "id": "PAR-03",
@@ -475,9 +475,9 @@
   "resist": "等待",
   "resist_mean": "结果不在你手上",
   "typical": "辅导作业、选学校、叛逆期沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "计都·盼",
+  "file": "concept_jidu_pan.png",
+  "done": true
  },
  {
   "id": "PAR-05",
@@ -485,9 +485,9 @@
   "resist": "学习",
   "resist_mean": "得先搞懂新东西",
   "typical": "辅导作业、选学校、叛逆期沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文曲·迷",
+  "file": "concept_wenqu_mi.png",
+  "done": true
  },
  {
   "id": "PAR-06",
@@ -505,9 +505,9 @@
   "resist": "修复",
   "resist_mean": "搞砸了要补救",
   "typical": "辅导作业、选学校、叛逆期沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "太乙·歉",
+  "file": "concept_taiyi_qian.png",
+  "done": true
  },
  {
   "id": "PAR-08",
@@ -515,9 +515,9 @@
   "resist": "告别",
   "resist_mean": "该放下了",
   "typical": "辅导作业、选学校、叛逆期沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "地劫·放",
+  "file": "concept_dijie_fang.png",
+  "done": true
  },
  {
   "id": "PAR-09",
@@ -535,9 +535,9 @@
   "resist": "求助",
   "resist_mean": "得开口找人",
   "typical": "辅导作业、选学校、叛逆期沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天乙·叩",
+  "file": "concept_tianyi_kou.png",
+  "done": true
  },
  {
   "id": "PAR-11",
@@ -545,9 +545,9 @@
   "resist": "模糊",
   "resist_mean": "说不清哪里不对",
   "typical": "辅导作业、选学校、叛逆期沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天空·忧",
+  "file": "concept_tiankong_you.png",
+  "done": true
  },
  {
   "id": "HEA-01",
