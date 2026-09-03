@@ -1325,9 +1325,9 @@
   "resist": "沟通",
   "resist_mean": "不知道怎么开口",
   "typical": "代老人表达、选养老方式、长期陪护",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "巨门·代",
+  "file": "concept_jumen_dai.png",
+  "done": true
  },
  {
   "id": "CAR-02",
@@ -1335,9 +1335,9 @@
   "resist": "决策",
   "resist_mean": "不知道选哪个",
   "typical": "代老人表达、选养老方式、长期陪护",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天机·安",
+  "file": "concept_tianji_an.png",
+  "done": true
  },
  {
   "id": "CAR-03",
@@ -1355,9 +1355,9 @@
   "resist": "等待",
   "resist_mean": "结果不在你手上",
   "typical": "代老人表达、选养老方式、长期陪护",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "廉贞·候",
+  "file": "concept_lianzhen_hou.png",
+  "done": true
  },
  {
   "id": "CAR-05",
@@ -1365,9 +1365,9 @@
   "resist": "学习",
   "resist_mean": "得先搞懂新东西",
   "typical": "代老人表达、选养老方式、长期陪护",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文曲·护",
+  "file": "concept_wenqu_hu.png",
+  "done": true
  },
  {
   "id": "CAR-06",
@@ -1375,9 +1375,9 @@
   "resist": "对抗",
   "resist_mean": "有人跟你对着干",
   "typical": "代老人表达、选养老方式、长期陪护",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "火星·争",
+  "file": "concept_huoxing_zheng.png",
+  "done": true
  },
  {
   "id": "CAR-07",
@@ -1385,9 +1385,9 @@
   "resist": "修复",
   "resist_mean": "搞砸了要补救",
   "typical": "代老人表达、选养老方式、长期陪护",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "太乙·弥",
+  "file": "concept_taiyi_mi.png",
+  "done": true
  },
  {
   "id": "CAR-08",
@@ -1395,9 +1395,9 @@
   "resist": "告别",
   "resist_mean": "该放下了",
   "typical": "代老人表达、选养老方式、长期陪护",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "地劫·送",
+  "file": "concept_dijie_song.png",
+  "done": true
  },
  {
   "id": "CAR-09",
@@ -1415,9 +1415,9 @@
   "resist": "求助",
   "resist_mean": "得开口找人",
   "typical": "代老人表达、选养老方式、长期陪护",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天乙·借",
+  "file": "concept_tianyi_jie.png",
+  "done": true
  },
  {
   "id": "CAR-11",

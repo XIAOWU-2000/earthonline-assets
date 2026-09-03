@@ -1,6 +1,6 @@
 # 165 劫怪槽位表（15 域 × 11 阻力）
 
-已完成 91 / 165　待画 74
+已完成 99 / 165　待画 66
 
 ## 已完成
 
@@ -80,8 +80,16 @@
 | CRE-02 | 创作 | 决策 | 文昌·创 | `concept_wenchang_chuang.png` |
 | CRE-03 | 创作 | 执行 | 灵光·竭 | `concept_lingguang_jie.png` |
 | CRE-11 | 创作 | 模糊 | 模仿·仿 | `concept_mofang_fang.png` |
+| CAR-01 | 照护 | 沟通 | 巨门·代 | `concept_jumen_dai.png` |
+| CAR-02 | 照护 | 决策 | 天机·安 | `concept_tianji_an.png` |
 | CAR-03 | 照护 | 执行 | 天梁·担 | `concept_tianliang_dan.png` |
+| CAR-04 | 照护 | 等待 | 廉贞·候 | `concept_lianzhen_hou.png` |
+| CAR-05 | 照护 | 学习 | 文曲·护 | `concept_wenqu_hu.png` |
+| CAR-06 | 照护 | 对抗 | 火星·争 | `concept_huoxing_zheng.png` |
+| CAR-07 | 照护 | 修复 | 太乙·弥 | `concept_taiyi_mi.png` |
+| CAR-08 | 照护 | 告别 | 地劫·送 | `concept_dijie_song.png` |
 | CAR-09 | 照护 | 忍耐 | 太一·养 | `concept_taiyi_yang.png` |
+| CAR-10 | 照护 | 求助 | 天乙·借 | `concept_tianyi_jie.png` |
 | RIG-06 | 权益 | 对抗 | 公门·争 | `concept_gongmen_zheng.png` |
 | RIG-08 | 权益 | 告别 | 玄冥·留 | `concept_xuanming_liu.png` |
 | RIG-09 | 权益 | 忍耐 | 忍让·吞 | `concept_renrang_tun.png` |
@@ -160,14 +168,6 @@
 | CRE-08 | 创作 | 告别 | 该放下了 | 阐释作品、选方向、突破瓶颈 |
 | CRE-09 | 创作 | 忍耐 | 短期无解只能扛 | 阐释作品、选方向、突破瓶颈 |
 | CRE-10 | 创作 | 求助 | 得开口找人 | 阐释作品、选方向、突破瓶颈 |
-| CAR-01 | 照护 | 沟通 | 不知道怎么开口 | 代老人表达、选养老方式、长期陪护 |
-| CAR-02 | 照护 | 决策 | 不知道选哪个 | 代老人表达、选养老方式、长期陪护 |
-| CAR-04 | 照护 | 等待 | 结果不在你手上 | 代老人表达、选养老方式、长期陪护 |
-| CAR-05 | 照护 | 学习 | 得先搞懂新东西 | 代老人表达、选养老方式、长期陪护 |
-| CAR-06 | 照护 | 对抗 | 有人跟你对着干 | 代老人表达、选养老方式、长期陪护 |
-| CAR-07 | 照护 | 修复 | 搞砸了要补救 | 代老人表达、选养老方式、长期陪护 |
-| CAR-08 | 照护 | 告别 | 该放下了 | 代老人表达、选养老方式、长期陪护 |
-| CAR-10 | 照护 | 求助 | 得开口找人 | 代老人表达、选养老方式、长期陪护 |
 | CAR-11 | 照护 | 模糊 | 说不清哪里不对 | 代老人表达、选养老方式、长期陪护 |
 | RIG-01 | 权益 | 沟通 | 不知道怎么开口 | 维权沟通、是否起诉、索赔 |
 | RIG-02 | 权益 | 决策 | 不知道选哪个 | 维权沟通、是否起诉、索赔 |
