@@ -1,6 +1,6 @@
 # 165 劫怪槽位表（15 域 × 11 阻力）
 
-已完成 99 / 165　待画 66
+已完成 103 / 165　待画 62
 
 ## 已完成
 
@@ -70,8 +70,12 @@
 | LIV-03 | 居住 | 执行 | 居诸·家 | `concept_juzhu_jia.png` |
 | LIV-09 | 居住 | 忍耐 | 借居·挤 | `concept_jieju_ji.png` |
 | LIV-11 | 居住 | 模糊 | 漂泊·萍 | `concept_piaobo_ping.png` |
+| ADM-01 | 行政 | 沟通 | 巨门·陈 | `concept_jumen_chen.png` |
+| ADM-02 | 行政 | 决策 | 天机·径 | `concept_tianji_jing.png` |
 | ADM-03 | 行政 | 执行 | 印绶·章 | `concept_yinshou_zhang.png` |
 | ADM-04 | 行政 | 等待 | 排队·长 | `concept_paichang_zhang.png` |
+| ADM-05 | 行政 | 学习 | 文曲·政 | `concept_wenqu_zheng.png` |
+| ADM-06 | 行政 | 对抗 | 擎羊·推 | `concept_qingyang_tui.png` |
 | SEF-01 | 自我 | 沟通 | 廉贞·掩 | `concept_lianzhen_yan.png` |
 | SEF-02 | 自我 | 决策 | 内在·裂 | `concept_neizai_lie.png` |
 | SEF-09 | 自我 | 忍耐 | 蜗角·藏 | `concept_wojiao_cang.png` |
@@ -145,10 +149,6 @@
 | LIV-07 | 居住 | 修复 | 搞砸了要补救 | 与房东谈、与物业谈、邻里纠纷 |
 | LIV-08 | 居住 | 告别 | 该放下了 | 与房东谈、与物业谈、邻里纠纷 |
 | LIV-10 | 居住 | 求助 | 得开口找人 | 与房东谈、与物业谈、邻里纠纷 |
-| ADM-01 | 行政 | 沟通 | 不知道怎么开口 | 办手续、提交材料、申诉 |
-| ADM-02 | 行政 | 决策 | 不知道选哪个 | 办手续、提交材料、申诉 |
-| ADM-05 | 行政 | 学习 | 得先搞懂新东西 | 办手续、提交材料、申诉 |
-| ADM-06 | 行政 | 对抗 | 有人跟你对着干 | 办手续、提交材料、申诉 |
 | ADM-07 | 行政 | 修复 | 搞砸了要补救 | 办手续、提交材料、申诉 |
 | ADM-08 | 行政 | 告别 | 该放下了 | 办手续、提交材料、申诉 |
 | ADM-09 | 行政 | 忍耐 | 短期无解只能扛 | 办手续、提交材料、申诉 |

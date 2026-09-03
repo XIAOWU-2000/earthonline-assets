@@ -995,9 +995,9 @@
   "resist": "沟通",
   "resist_mean": "不知道怎么开口",
   "typical": "办手续、提交材料、申诉",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "巨门·陈",
+  "file": "concept_jumen_chen.png",
+  "done": true
  },
  {
   "id": "ADM-02",
@@ -1005,9 +1005,9 @@
   "resist": "决策",
   "resist_mean": "不知道选哪个",
   "typical": "办手续、提交材料、申诉",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天机·径",
+  "file": "concept_tianji_jing.png",
+  "done": true
  },
  {
   "id": "ADM-03",
@@ -1035,9 +1035,9 @@
   "resist": "学习",
   "resist_mean": "得先搞懂新东西",
   "typical": "办手续、提交材料、申诉",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文曲·政",
+  "file": "concept_wenqu_zheng.png",
+  "done": true
  },
  {
   "id": "ADM-06",
@@ -1045,9 +1045,9 @@
   "resist": "对抗",
   "resist_mean": "有人跟你对着干",
   "typical": "办手续、提交材料、申诉",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "擎羊·推",
+  "file": "concept_qingyang_tui.png",
+  "done": true
  },
  {
   "id": "ADM-07",
