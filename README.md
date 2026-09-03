@@ -311,3 +311,9 @@ SVG 可直接用于：
 - 劫怪：丑萌怪诞，**禁止血腥、恐怖、可爱风、日系萌系**
 - 界面：禁「吉/凶/宜/忌」等判定词；医疗相关一律转专业机构
 - 空状态：**反内卷**，不用红色和感叹号制造焦虑
+
+
+---
+
+## v6 2026-09-03
+23 new files: 14 modules, 4 iconsets, 3 logos, 8 empty states, 24 monsters (rebuild). 52 monsters total. Spirited Away anchor added to monster template. Anti-AI-glow rules: minimalist, no halo, no bloom.
