@@ -665,9 +665,9 @@
   "resist": "沟通",
   "resist_mean": "不知道怎么开口",
   "typical": "谈钱、催款、催报销、预算沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "巨门·账",
+  "file": "concept_jumen_zhang.png",
+  "done": true
  },
  {
   "id": "FIN-02",
@@ -705,9 +705,9 @@
   "resist": "学习",
   "resist_mean": "得先搞懂新东西",
   "typical": "谈钱、催款、催报销、预算沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文曲·算",
+  "file": "concept_wenqu_suan.png",
+  "done": true
  },
  {
   "id": "FIN-06",
@@ -745,9 +745,9 @@
   "resist": "忍耐",
   "resist_mean": "短期无解只能扛",
   "typical": "谈钱、催款、催报销、预算沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "陀罗·扛",
+  "file": "concept_tuoluo_kang.png",
+  "done": true
  },
  {
   "id": "FIN-10",
@@ -755,9 +755,9 @@
   "resist": "求助",
   "resist_mean": "得开口找人",
   "typical": "谈钱、催款、催报销、预算沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天乙·催",
+  "file": "concept_tianyi_cui.png",
+  "done": true
  },
  {
   "id": "FIN-11",
@@ -765,9 +765,9 @@
   "resist": "模糊",
   "resist_mean": "说不清哪里不对",
   "typical": "谈钱、催款、催报销、预算沟通",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天空·削",
+  "file": "concept_tiankong_xiao.png",
+  "done": true
  },
  {
   "id": "SOC-01",
@@ -945,9 +945,9 @@
   "resist": "修复",
   "resist_mean": "搞砸了要补救",
   "typical": "与房东谈、与物业谈、邻里纠纷",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "太乙·缮",
+  "file": "concept_taiyi_shan.png",
+  "done": true
  },
  {
   "id": "LIV-08",
@@ -955,9 +955,9 @@
   "resist": "告别",
   "resist_mean": "该放下了",
   "typical": "与房东谈、与物业谈、邻里纠纷",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "地劫·迁",
+  "file": "concept_dijie_qian.png",
+  "done": true
  },
  {
   "id": "LIV-09",
@@ -975,9 +975,9 @@
   "resist": "求助",
   "resist_mean": "得开口找人",
   "typical": "与房东谈、与物业谈、邻里纠纷",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天乙·告",
+  "file": "concept_tianyi_gao.png",
+  "done": true
  },
  {
   "id": "LIV-11",
@@ -1055,9 +1055,9 @@
   "resist": "修复",
   "resist_mean": "搞砸了要补救",
   "typical": "办手续、提交材料、申诉",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "太乙·整",
+  "file": "concept_taiyi_zheng.png",
+  "done": true
  },
  {
   "id": "ADM-08",
@@ -1065,9 +1065,9 @@
   "resist": "告别",
   "resist_mean": "该放下了",
   "typical": "办手续、提交材料、申诉",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "地劫·消",
+  "file": "concept_dijie_xiao.png",
+  "done": true
  },
  {
   "id": "ADM-09",
@@ -1075,9 +1075,9 @@
   "resist": "忍耐",
   "resist_mean": "短期无解只能扛",
   "typical": "办手续、提交材料、申诉",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "陀罗·耗",
+  "file": "concept_tuoluo_hou.png",
+  "done": true
  },
  {
   "id": "ADM-10",
@@ -1085,9 +1085,9 @@
   "resist": "求助",
   "resist_mean": "得开口找人",
   "typical": "办手续、提交材料、申诉",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天乙·询",
+  "file": "concept_tianyi_xun_adm.png",
+  "done": true
  },
  {
   "id": "ADM-11",
@@ -1095,9 +1095,9 @@
   "resist": "模糊",
   "resist_mean": "说不清哪里不对",
   "typical": "办手续、提交材料、申诉",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天空·弃",
+  "file": "concept_tiankong_qi.png",
+  "done": true
  },
  {
   "id": "SEF-01",
@@ -1245,9 +1245,9 @@
   "resist": "等待",
   "resist_mean": "结果不在你手上",
   "typical": "阐释作品、选方向、突破瓶颈",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文昌·等",
+  "file": "concept_wenchang_deng.png",
+  "done": true
  },
  {
   "id": "CRE-05",
@@ -1255,9 +1255,9 @@
   "resist": "学习",
   "resist_mean": "得先搞懂新东西",
   "typical": "阐释作品、选方向、突破瓶颈",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文曲·摹",
+  "file": "concept_wenqu_mo.png",
+  "done": true
  },
  {
   "id": "CRE-06",
@@ -1265,9 +1265,9 @@
   "resist": "对抗",
   "resist_mean": "有人跟你对着干",
   "typical": "阐释作品、选方向、突破瓶颈",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "七杀·逆",
+  "file": "concept_qisha_ni.png",
+  "done": true
  },
  {
   "id": "CRE-07",
@@ -1275,9 +1275,9 @@
   "resist": "修复",
   "resist_mean": "搞砸了要补救",
   "typical": "阐释作品、选方向、突破瓶颈",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "太乙·追",
+  "file": "concept_taiyi_zhui.png",
+  "done": true
  },
  {
   "id": "CRE-08",
@@ -1285,9 +1285,9 @@
   "resist": "告别",
   "resist_mean": "该放下了",
   "typical": "阐释作品、选方向、突破瓶颈",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "地劫·封",
+  "file": "concept_dijie_feng.png",
+  "done": true
  },
  {
   "id": "CRE-09",
@@ -1295,9 +1295,9 @@
   "resist": "忍耐",
   "resist_mean": "短期无解只能扛",
   "typical": "阐释作品、选方向、突破瓶颈",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "陀罗·虔",
+  "file": "concept_tuoluo_qian.png",
+  "done": true
  },
  {
   "id": "CRE-10",
@@ -1305,9 +1305,9 @@
   "resist": "求助",
   "resist_mean": "得开口找人",
   "typical": "阐释作品、选方向、突破瓶颈",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天乙·祈",
+  "file": "concept_tianyi_qi.png",
+  "done": true
  },
  {
   "id": "CRE-11",
@@ -1425,9 +1425,9 @@
   "resist": "模糊",
   "resist_mean": "说不清哪里不对",
   "typical": "代老人表达、选养老方式、长期陪护",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "破军·惑",
+  "file": "concept_pojun_huo.png",
+  "done": true
  },
  {
   "id": "RIG-01",
@@ -1435,9 +1435,9 @@
   "resist": "沟通",
   "resist_mean": "不知道怎么开口",
   "typical": "维权沟通、是否起诉、索赔",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "巨门·诉",
+  "file": "concept_jumen_su.png",
+  "done": true
  },
  {
   "id": "RIG-02",
@@ -1445,9 +1445,9 @@
   "resist": "决策",
   "resist_mean": "不知道选哪个",
   "typical": "维权沟通、是否起诉、索赔",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天机·裁",
+  "file": "concept_tianji_cai.png",
+  "done": true
  },
  {
   "id": "RIG-03",
@@ -1455,9 +1455,9 @@
   "resist": "执行",
   "resist_mean": "知道怎么做但推不动",
   "typical": "维权沟通、是否起诉、索赔",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "武曲·行",
+  "file": "concept_wuqu_xing.png",
+  "done": true
  },
  {
   "id": "RIG-04",
@@ -1465,9 +1465,9 @@
   "resist": "等待",
   "resist_mean": "结果不在你手上",
   "typical": "维权沟通、是否起诉、索赔",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文昌·待",
+  "file": "concept_wenchang_dai.png",
+  "done": true
  },
  {
   "id": "RIG-05",
@@ -1475,9 +1475,9 @@
   "resist": "学习",
   "resist_mean": "得先搞懂新东西",
   "typical": "维权沟通、是否起诉、索赔",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文曲·纠",
+  "file": "concept_wenqu_jiu.png",
+  "done": true
  },
  {
   "id": "RIG-06",
@@ -1495,9 +1495,9 @@
   "resist": "修复",
   "resist_mean": "搞砸了要补救",
   "typical": "维权沟通、是否起诉、索赔",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "太乙·执",
+  "file": "concept_taiyi_zhi.png",
+  "done": true
  },
  {
   "id": "RIG-08",
@@ -1525,9 +1525,9 @@
   "resist": "求助",
   "resist_mean": "得开口找人",
   "typical": "维权沟通、是否起诉、索赔",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天乙·救",
+  "file": "concept_tianyi_jiu.png",
+  "done": true
  },
  {
   "id": "RIG-11",

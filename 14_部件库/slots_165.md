@@ -1,6 +1,6 @@
 # 165 劫怪槽位表（15 域 × 11 阻力）
 
-已完成 137 / 165　待画 28
+已完成 165 / 165　待画 0
 
 ## 已完成
 
@@ -72,12 +72,17 @@
 | HEA-09 | 健康 | 忍耐 | 陀罗·磨 | `concept_tuoluo_mo.png` |
 | HEA-10 | 健康 | 求助 | 天乙·唤 | `concept_tianyi_huan.png` |
 | HEA-11 | 健康 | 模糊 | 天空·紊 | `concept_tiankong_wen.png` |
+| FIN-01 | 财务 | 沟通 | 巨门·账 | `concept_jumen_zhang.png` |
 | FIN-02 | 财务 | 决策 | 贪财·算 | `concept_tancai_suan.png` |
 | FIN-03 | 财务 | 执行 | 天府·守 | `concept_tianfu_shou.png` |
 | FIN-04 | 财务 | 等待 | 通胀·蚀 | `concept_tongpeng_shi.png` |
+| FIN-05 | 财务 | 学习 | 文曲·算 | `concept_wenqu_suan.png` |
 | FIN-06 | 财务 | 对抗 | 债主·逼 | `concept_zhai_zhu_bi.png` |
 | FIN-07 | 财务 | 修复 | 漏卮·亏 | `concept_louzhi_kui.png` |
 | FIN-08 | 财务 | 告别 | 失金·丧 | `concept_shijin_sang.png` |
+| FIN-09 | 财务 | 忍耐 | 陀罗·扛 | `concept_tuoluo_kang.png` |
+| FIN-10 | 财务 | 求助 | 天乙·催 | `concept_tianyi_cui.png` |
+| FIN-11 | 财务 | 模糊 | 天空·削 | `concept_tiankong_xiao.png` |
 | SOC-01 | 社交 | 沟通 | 误听·曲 | `concept_wuting_qu.png` |
 | SOC-02 | 社交 | 决策 | 天机·赴 | `concept_tianji_fu.png` |
 | SOC-03 | 社交 | 执行 | 武曲·寒 | `concept_wuqu_han.png` |
@@ -95,7 +100,10 @@
 | LIV-04 | 居住 | 等待 | 文昌·候 | `concept_wenchang_hou.png` |
 | LIV-05 | 居住 | 学习 | 文曲·契 | `concept_wenqu_qi.png` |
 | LIV-06 | 居住 | 对抗 | 擎羊·邻 | `concept_qingyang_lin.png` |
+| LIV-07 | 居住 | 修复 | 太乙·缮 | `concept_taiyi_shan.png` |
+| LIV-08 | 居住 | 告别 | 地劫·迁 | `concept_dijie_qian.png` |
 | LIV-09 | 居住 | 忍耐 | 借居·挤 | `concept_jieju_ji.png` |
+| LIV-10 | 居住 | 求助 | 天乙·告 | `concept_tianyi_gao.png` |
 | LIV-11 | 居住 | 模糊 | 漂泊·萍 | `concept_piaobo_ping.png` |
 | ADM-01 | 行政 | 沟通 | 巨门·陈 | `concept_jumen_chen.png` |
 | ADM-02 | 行政 | 决策 | 天机·径 | `concept_tianji_jing.png` |
@@ -103,6 +111,11 @@
 | ADM-04 | 行政 | 等待 | 排队·长 | `concept_paichang_zhang.png` |
 | ADM-05 | 行政 | 学习 | 文曲·政 | `concept_wenqu_zheng.png` |
 | ADM-06 | 行政 | 对抗 | 擎羊·推 | `concept_qingyang_tui.png` |
+| ADM-07 | 行政 | 修复 | 太乙·整 | `concept_taiyi_zheng.png` |
+| ADM-08 | 行政 | 告别 | 地劫·消 | `concept_dijie_xiao.png` |
+| ADM-09 | 行政 | 忍耐 | 陀罗·耗 | `concept_tuoluo_hou.png` |
+| ADM-10 | 行政 | 求助 | 天乙·询 | `concept_tianyi_xun_adm.png` |
+| ADM-11 | 行政 | 模糊 | 天空·弃 | `concept_tiankong_qi.png` |
 | SEF-01 | 自我 | 沟通 | 廉贞·掩 | `concept_lianzhen_yan.png` |
 | SEF-02 | 自我 | 决策 | 内在·裂 | `concept_neizai_lie.png` |
 | SEF-03 | 自我 | 执行 | 武曲·怠 | `concept_wuqu_dai.png` |
@@ -117,6 +130,13 @@
 | CRE-01 | 创作 | 沟通 | 烛阴·显 | `concept_zhuyin_xian.png` |
 | CRE-02 | 创作 | 决策 | 文昌·创 | `concept_wenchang_chuang.png` |
 | CRE-03 | 创作 | 执行 | 灵光·竭 | `concept_lingguang_jie.png` |
+| CRE-04 | 创作 | 等待 | 文昌·等 | `concept_wenchang_deng.png` |
+| CRE-05 | 创作 | 学习 | 文曲·摹 | `concept_wenqu_mo.png` |
+| CRE-06 | 创作 | 对抗 | 七杀·逆 | `concept_qisha_ni.png` |
+| CRE-07 | 创作 | 修复 | 太乙·追 | `concept_taiyi_zhui.png` |
+| CRE-08 | 创作 | 告别 | 地劫·封 | `concept_dijie_feng.png` |
+| CRE-09 | 创作 | 忍耐 | 陀罗·虔 | `concept_tuoluo_qian.png` |
+| CRE-10 | 创作 | 求助 | 天乙·祈 | `concept_tianyi_qi.png` |
 | CRE-11 | 创作 | 模糊 | 模仿·仿 | `concept_mofang_fang.png` |
 | CAR-01 | 照护 | 沟通 | 巨门·代 | `concept_jumen_dai.png` |
 | CAR-02 | 照护 | 决策 | 天机·安 | `concept_tianji_an.png` |
@@ -128,9 +148,17 @@
 | CAR-08 | 照护 | 告别 | 地劫·送 | `concept_dijie_song.png` |
 | CAR-09 | 照护 | 忍耐 | 太一·养 | `concept_taiyi_yang.png` |
 | CAR-10 | 照护 | 求助 | 天乙·借 | `concept_tianyi_jie.png` |
+| CAR-11 | 照护 | 模糊 | 破军·惑 | `concept_pojun_huo.png` |
+| RIG-01 | 权益 | 沟通 | 巨门·诉 | `concept_jumen_su.png` |
+| RIG-02 | 权益 | 决策 | 天机·裁 | `concept_tianji_cai.png` |
+| RIG-03 | 权益 | 执行 | 武曲·行 | `concept_wuqu_xing.png` |
+| RIG-04 | 权益 | 等待 | 文昌·待 | `concept_wenchang_dai.png` |
+| RIG-05 | 权益 | 学习 | 文曲·纠 | `concept_wenqu_jiu.png` |
 | RIG-06 | 权益 | 对抗 | 公门·争 | `concept_gongmen_zheng.png` |
+| RIG-07 | 权益 | 修复 | 太乙·执 | `concept_taiyi_zhi.png` |
 | RIG-08 | 权益 | 告别 | 玄冥·留 | `concept_xuanming_liu.png` |
 | RIG-09 | 权益 | 忍耐 | 忍让·吞 | `concept_renrang_tun.png` |
+| RIG-10 | 权益 | 求助 | 天乙·救 | `concept_tianyi_jiu.png` |
 | RIG-11 | 权益 | 模糊 | 公正·疑 | `concept_gongzheng_yi.png` |
 | BLF-01 | 信仰 | 沟通 | 天机·问 | `concept_tianji_wen.png` |
 | BLF-02 | 信仰 | 决策 | 太阴·择 | `concept_taiyin_ze.png` |
@@ -148,31 +176,3 @@
 
 | 槽位 | 域 | 阻力 | 阻力含义 | 典型事件 |
 |---|---|---|---|---|
-| FIN-01 | 财务 | 沟通 | 不知道怎么开口 | 谈钱、催款、催报销、预算沟通 |
-| FIN-05 | 财务 | 学习 | 得先搞懂新东西 | 谈钱、催款、催报销、预算沟通 |
-| FIN-09 | 财务 | 忍耐 | 短期无解只能扛 | 谈钱、催款、催报销、预算沟通 |
-| FIN-10 | 财务 | 求助 | 得开口找人 | 谈钱、催款、催报销、预算沟通 |
-| FIN-11 | 财务 | 模糊 | 说不清哪里不对 | 谈钱、催款、催报销、预算沟通 |
-| LIV-07 | 居住 | 修复 | 搞砸了要补救 | 与房东谈、与物业谈、邻里纠纷 |
-| LIV-08 | 居住 | 告别 | 该放下了 | 与房东谈、与物业谈、邻里纠纷 |
-| LIV-10 | 居住 | 求助 | 得开口找人 | 与房东谈、与物业谈、邻里纠纷 |
-| ADM-07 | 行政 | 修复 | 搞砸了要补救 | 办手续、提交材料、申诉 |
-| ADM-08 | 行政 | 告别 | 该放下了 | 办手续、提交材料、申诉 |
-| ADM-09 | 行政 | 忍耐 | 短期无解只能扛 | 办手续、提交材料、申诉 |
-| ADM-10 | 行政 | 求助 | 得开口找人 | 办手续、提交材料、申诉 |
-| ADM-11 | 行政 | 模糊 | 说不清哪里不对 | 办手续、提交材料、申诉 |
-| CRE-04 | 创作 | 等待 | 结果不在你手上 | 阐释作品、选方向、突破瓶颈 |
-| CRE-05 | 创作 | 学习 | 得先搞懂新东西 | 阐释作品、选方向、突破瓶颈 |
-| CRE-06 | 创作 | 对抗 | 有人跟你对着干 | 阐释作品、选方向、突破瓶颈 |
-| CRE-07 | 创作 | 修复 | 搞砸了要补救 | 阐释作品、选方向、突破瓶颈 |
-| CRE-08 | 创作 | 告别 | 该放下了 | 阐释作品、选方向、突破瓶颈 |
-| CRE-09 | 创作 | 忍耐 | 短期无解只能扛 | 阐释作品、选方向、突破瓶颈 |
-| CRE-10 | 创作 | 求助 | 得开口找人 | 阐释作品、选方向、突破瓶颈 |
-| CAR-11 | 照护 | 模糊 | 说不清哪里不对 | 代老人表达、选养老方式、长期陪护 |
-| RIG-01 | 权益 | 沟通 | 不知道怎么开口 | 维权沟通、是否起诉、索赔 |
-| RIG-02 | 权益 | 决策 | 不知道选哪个 | 维权沟通、是否起诉、索赔 |
-| RIG-03 | 权益 | 执行 | 知道怎么做但推不动 | 维权沟通、是否起诉、索赔 |
-| RIG-04 | 权益 | 等待 | 结果不在你手上 | 维权沟通、是否起诉、索赔 |
-| RIG-05 | 权益 | 学习 | 得先搞懂新东西 | 维权沟通、是否起诉、索赔 |
-| RIG-07 | 权益 | 修复 | 搞砸了要补救 | 维权沟通、是否起诉、索赔 |
-| RIG-10 | 权益 | 求助 | 得开口找人 | 维权沟通、是否起诉、索赔 |
