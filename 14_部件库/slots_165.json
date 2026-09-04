@@ -1125,9 +1125,9 @@
   "resist": "执行",
   "resist_mean": "知道怎么做但推不动",
   "typical": "表达自己、内耗、迷茫、自律",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "武曲·怠",
+  "file": "concept_wuqu_dai.png",
+  "done": true
  },
  {
   "id": "SEF-04",
@@ -1135,9 +1135,9 @@
   "resist": "等待",
   "resist_mean": "结果不在你手上",
   "typical": "表达自己、内耗、迷茫、自律",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天同·守",
+  "file": "concept_tiantong_shou.png",
+  "done": true
  },
  {
   "id": "SEF-05",
@@ -1145,9 +1145,9 @@
   "resist": "学习",
   "resist_mean": "得先搞懂新东西",
   "typical": "表达自己、内耗、迷茫、自律",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "文曲·省",
+  "file": "concept_wenqu_xing.png",
+  "done": true
  },
  {
   "id": "SEF-06",
@@ -1155,9 +1155,9 @@
   "resist": "对抗",
   "resist_mean": "有人跟你对着干",
   "typical": "表达自己、内耗、迷茫、自律",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "七杀·讼",
+  "file": "concept_qisha_song.png",
+  "done": true
  },
  {
   "id": "SEF-07",
