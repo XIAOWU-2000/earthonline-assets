@@ -1165,9 +1165,9 @@
   "resist": "修复",
   "resist_mean": "搞砸了要补救",
   "typical": "表达自己、内耗、迷茫、自律",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "太乙·愈",
+  "file": "concept_taiyi_yu.png",
+  "done": true
  },
  {
   "id": "SEF-08",
@@ -1175,9 +1175,9 @@
   "resist": "告别",
   "resist_mean": "该放下了",
   "typical": "表达自己、内耗、迷茫、自律",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "地劫·蜕",
+  "file": "concept_dijie_tui.png",
+  "done": true
  },
  {
   "id": "SEF-09",
@@ -1195,9 +1195,9 @@
   "resist": "求助",
   "resist_mean": "得开口找人",
   "typical": "表达自己、内耗、迷茫、自律",
-  "name": "",
-  "file": "",
-  "done": false
+  "name": "天乙·呼",
+  "file": "concept_tianyi_hu.png",
+  "done": true
  },
  {
   "id": "SEF-11",
