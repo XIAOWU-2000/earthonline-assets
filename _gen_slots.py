@@ -159,6 +159,21 @@ MAPPED = {
     "PAR-08": ("地劫·放", "concept_dijie_fang.png"),
     "PAR-10": ("天乙·叩", "concept_tianyi_kou.png"),
     "PAR-11": ("天空·忧", "concept_tiankong_you.png"),
+    "WRK-05": ("文曲·研", "concept_wenqu_yan.png"),
+    "WRK-08": ("地劫·卸", "concept_dijie_xie.png"),
+    "WRK-10": ("天乙·请", "concept_tianyi_qing.png"),
+    "EDU-01": ("巨门·讷", "concept_jumen_ne.png"),
+    "EDU-06": ("七杀·驳", "concept_qisha_bo.png"),
+    "EDU-07": ("太乙·救", "concept_taiyi_jiu.png"),
+    "EDU-08": ("地劫·断", "concept_dijie_duan.png"),
+    "EDU-10": ("天乙·问", "concept_tianyi_wen.png"),
+    "EDU-11": ("天空·沌", "concept_tiankong_dun.png"),
+    "INT-02": ("天机·岔", "concept_tianji_cha.png"),
+    "INT-03": ("武曲·凝", "concept_wuqu_ning.png"),
+    "INT-05": ("文曲·探", "concept_wenqu_tan.png"),
+    "INT-09": ("陀罗·熬", "concept_tuoluo_ao.png"),
+    "HEA-10": ("天乙·唤", "concept_tianyi_huan.png"),
+    "HEA-11": ("天空·紊", "concept_tiankong_wen.png"),
 }
 
 rows = []

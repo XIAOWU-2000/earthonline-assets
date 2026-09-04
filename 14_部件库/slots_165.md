@@ -1,6 +1,6 @@
 # 165 劫怪槽位表（15 域 × 11 阻力）
 
-已完成 122 / 165　待画 43
+已完成 137 / 165　待画 28
 
 ## 已完成
 
@@ -10,20 +10,33 @@
 | WRK-02 | 工作 | 决策 | 巨门·歧 | `concept_jumeng_qi.png` |
 | WRK-03 | 工作 | 执行 | 武曲·践 | `concept_wuqu_jian.png` |
 | WRK-04 | 工作 | 等待 | 计都·候 | `concept_jdu_hou.png` |
+| WRK-05 | 工作 | 学习 | 文曲·研 | `concept_wenqu_yan.png` |
 | WRK-06 | 工作 | 对抗 | 七杀·锋 | `concept_qisha_feng.png` |
 | WRK-07 | 工作 | 修复 | 太乙·补 | `concept_taiyi_bu.png` |
+| WRK-08 | 工作 | 告别 | 地劫·卸 | `concept_dijie_xie.png` |
 | WRK-09 | 工作 | 忍耐 | 玄武·忍 | `concept_xuanwu_ren.png` |
+| WRK-10 | 工作 | 求助 | 天乙·请 | `concept_tianyi_qing.png` |
 | WRK-11 | 工作 | 模糊 | 破军·破 | `concept_pojun_po.png` |
+| EDU-01 | 学业 | 沟通 | 巨门·讷 | `concept_jumen_ne.png` |
 | EDU-02 | 学业 | 决策 | 算筹·乱 | `concept_suanchou_luan.png` |
 | EDU-03 | 学业 | 执行 | 焚膏·竭 | `concept_fengao_jie.png` |
 | EDU-04 | 学业 | 等待 | 磨蹭·慢 | `concept_moceng_man.png` |
 | EDU-05 | 学业 | 学习 | 文曲·学 | `concept_wenqu_xue.png` |
+| EDU-06 | 学业 | 对抗 | 七杀·驳 | `concept_qisha_bo.png` |
+| EDU-07 | 学业 | 修复 | 太乙·救 | `concept_taiyi_jiu.png` |
+| EDU-08 | 学业 | 告别 | 地劫·断 | `concept_dijie_duan.png` |
 | EDU-09 | 学业 | 忍耐 | 砚台·沉 | `concept_yantai_chen.png` |
+| EDU-10 | 学业 | 求助 | 天乙·问 | `concept_tianyi_wen.png` |
+| EDU-11 | 学业 | 模糊 | 天空·沌 | `concept_tiankong_dun.png` |
 | INT-01 | 亲密 | 沟通 | 缠绕·缠 | `concept_chanrao_chan.png` |
+| INT-02 | 亲密 | 决策 | 天机·岔 | `concept_tianji_cha.png` |
+| INT-03 | 亲密 | 执行 | 武曲·凝 | `concept_wuqu_ning.png` |
 | INT-04 | 亲密 | 等待 | 折枝·离 | `concept_zhezhi_li.png` |
+| INT-05 | 亲密 | 学习 | 文曲·探 | `concept_wenqu_tan.png` |
 | INT-06 | 亲密 | 对抗 | 天同·和 | `concept_tiantong_he.png` |
 | INT-07 | 亲密 | 修复 | 化骨·蚀 | `concept_huagu_shi.png` |
 | INT-08 | 亲密 | 告别 | 玄冥·缘 | `concept_xuanming_yuan.png` |
+| INT-09 | 亲密 | 忍耐 | 陀罗·熬 | `concept_tuoluo_ao.png` |
 | INT-10 | 亲密 | 求助 | 天乙·援 | `concept_tianyi_yuan.png` |
 | INT-11 | 亲密 | 模糊 | 绣衣·蔽 | `concept_xiuyi_bi.png` |
 | FAM-01 | 家庭 | 沟通 | 巨门·噎 | `concept_jumen_ye.png` |
@@ -57,6 +70,8 @@
 | HEA-07 | 健康 | 修复 | 太乙·复 | `concept_taiyi_fu.png` |
 | HEA-08 | 健康 | 告别 | 地劫·别 | `concept_dijie_bie.png` |
 | HEA-09 | 健康 | 忍耐 | 陀罗·磨 | `concept_tuoluo_mo.png` |
+| HEA-10 | 健康 | 求助 | 天乙·唤 | `concept_tianyi_huan.png` |
+| HEA-11 | 健康 | 模糊 | 天空·紊 | `concept_tiankong_wen.png` |
 | FIN-02 | 财务 | 决策 | 贪财·算 | `concept_tancai_suan.png` |
 | FIN-03 | 财务 | 执行 | 天府·守 | `concept_tianfu_shou.png` |
 | FIN-04 | 财务 | 等待 | 通胀·蚀 | `concept_tongpeng_shi.png` |
@@ -133,21 +148,6 @@
 
 | 槽位 | 域 | 阻力 | 阻力含义 | 典型事件 |
 |---|---|---|---|---|
-| WRK-05 | 工作 | 学习 | 得先搞懂新东西 | 谈薪、要资源、拒绝加班、汇报 |
-| WRK-08 | 工作 | 告别 | 该放下了 | 谈薪、要资源、拒绝加班、汇报 |
-| WRK-10 | 工作 | 求助 | 得开口找人 | 谈薪、要资源、拒绝加班、汇报 |
-| EDU-01 | 学业 | 沟通 | 不知道怎么开口 | 答辩、请教老师、选课题、备考 |
-| EDU-06 | 学业 | 对抗 | 有人跟你对着干 | 答辩、请教老师、选课题、备考 |
-| EDU-07 | 学业 | 修复 | 搞砸了要补救 | 答辩、请教老师、选课题、备考 |
-| EDU-08 | 学业 | 告别 | 该放下了 | 答辩、请教老师、选课题、备考 |
-| EDU-10 | 学业 | 求助 | 得开口找人 | 答辩、请教老师、选课题、备考 |
-| EDU-11 | 学业 | 模糊 | 说不清哪里不对 | 答辩、请教老师、选课题、备考 |
-| INT-02 | 亲密 | 决策 | 不知道选哪个 | 表白、吵架后沟通、要不要继续 |
-| INT-03 | 亲密 | 执行 | 知道怎么做但推不动 | 表白、吵架后沟通、要不要继续 |
-| INT-05 | 亲密 | 学习 | 得先搞懂新东西 | 表白、吵架后沟通、要不要继续 |
-| INT-09 | 亲密 | 忍耐 | 短期无解只能扛 | 表白、吵架后沟通、要不要继续 |
-| HEA-10 | 健康 | 求助 | 得开口找人 | 向医生描述症状、选治疗方案、坚持康复 |
-| HEA-11 | 健康 | 模糊 | 说不清哪里不对 | 向医生描述症状、选治疗方案、坚持康复 |
 | FIN-01 | 财务 | 沟通 | 不知道怎么开口 | 谈钱、催款、催报销、预算沟通 |
 | FIN-05 | 财务 | 学习 | 得先搞懂新东西 | 谈钱、催款、催报销、预算沟通 |
 | FIN-09 | 财务 | 忍耐 | 短期无解只能扛 | 谈钱、催款、催报销、预算沟通 |
