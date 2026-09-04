@@ -1,0 +1,2477 @@
+[
+ {
+  "file": "concept_chanrao_chan.png",
+  "size": "1024x1024",
+  "bytes": 701385,
+  "bg_dist": 2.8,
+  "bg_avg": 253.9,
+  "fill": 0.196,
+  "avg_rgb": [
+   227,
+   222,
+   223
+  ],
+  "sat": 4.6,
+  "phash": "961402c4b8f931b8"
+ },
+ {
+  "file": "concept_dijie_bie.png",
+  "size": "1024x1024",
+  "bytes": 1188726,
+  "bg_dist": 4.8,
+  "bg_avg": 251.2,
+  "fill": 0.481,
+  "avg_rgb": [
+   195,
+   183,
+   182
+  ],
+  "sat": 13.0,
+  "phash": "040e96b60b6c5104"
+ },
+ {
+  "file": "concept_dijie_ci.png",
+  "size": "1024x1024",
+  "bytes": 738985,
+  "bg_dist": 0.4,
+  "bg_avg": 254.9,
+  "fill": 0.39,
+  "avg_rgb": [
+   196,
+   194,
+   196
+  ],
+  "sat": 2.7,
+  "phash": "fc95f7dc584e92aa"
+ },
+ {
+  "file": "concept_dijie_duan.png",
+  "size": "1024x1024",
+  "bytes": 322137,
+  "bg_dist": 0.1,
+  "bg_avg": 255.0,
+  "fill": 0.181,
+  "avg_rgb": [
+   229,
+   228,
+   230
+  ],
+  "sat": 1.7,
+  "phash": "2d0444a5df34d6c0"
+ },
+ {
+  "file": "concept_dijie_fang.png",
+  "size": "1024x1024",
+  "bytes": 689321,
+  "bg_dist": 16.1,
+  "bg_avg": 241.0,
+  "fill": 0.471,
+  "avg_rgb": [
+   213,
+   206,
+   209
+  ],
+  "sat": 7.5,
+  "phash": "33d6f4d1888ff157"
+ },
+ {
+  "file": "concept_dijie_feng.png",
+  "size": "1024x1024",
+  "bytes": 711308,
+  "bg_dist": 0.8,
+  "bg_avg": 254.8,
+  "fill": 0.272,
+  "avg_rgb": [
+   204,
+   205,
+   213
+  ],
+  "sat": 8.8,
+  "phash": "6f5eb8ce58a890ee"
+ },
+ {
+  "file": "concept_dijie_qian.png",
+  "size": "1024x1024",
+  "bytes": 776818,
+  "bg_dist": 0.9,
+  "bg_avg": 254.8,
+  "fill": 0.314,
+  "avg_rgb": [
+   206,
+   212,
+   203
+  ],
+  "sat": 9.0,
+  "phash": "50695cd8f6af8c68"
+ },
+ {
+  "file": "concept_dijie_san.png",
+  "size": "1024x1024",
+  "bytes": 706834,
+  "bg_dist": 1.1,
+  "bg_avg": 254.5,
+  "fill": 0.26,
+  "avg_rgb": [
+   214,
+   219,
+   217
+  ],
+  "sat": 5.0,
+  "phash": "7ed8b8dd742315dd"
+ },
+ {
+  "file": "concept_dijie_she.png",
+  "size": "1024x1024",
+  "bytes": 1355559,
+  "bg_dist": 8.9,
+  "bg_avg": 247.9,
+  "fill": 0.406,
+  "avg_rgb": [
+   194,
+   191,
+   192
+  ],
+  "sat": 3.1,
+  "phash": "6f6325eaee173604"
+ },
+ {
+  "file": "concept_dijie_song.png",
+  "size": "1024x1024",
+  "bytes": 1190248,
+  "bg_dist": 1.8,
+  "bg_avg": 253.8,
+  "fill": 0.309,
+  "avg_rgb": [
+   211,
+   208,
+   208
+  ],
+  "sat": 3.2,
+  "phash": "b346d7534c1e437a"
+ },
+ {
+  "file": "concept_dijie_tui.png",
+  "size": "1024x1024",
+  "bytes": 1025827,
+  "bg_dist": 2.0,
+  "bg_avg": 253.4,
+  "fill": 0.47,
+  "avg_rgb": [
+   217,
+   204,
+   196
+  ],
+  "sat": 21.0,
+  "phash": "572ba8c72bc3e000"
+ },
+ {
+  "file": "concept_dijie_xiao.png",
+  "size": "1024x1024",
+  "bytes": 626212,
+  "bg_dist": 0.1,
+  "bg_avg": 255.0,
+  "fill": 0.249,
+  "avg_rgb": [
+   224,
+   225,
+   220
+  ],
+  "sat": 4.6,
+  "phash": "91fe4854ec114f2a"
+ },
+ {
+  "file": "concept_dijie_xie.png",
+  "size": "1024x1024",
+  "bytes": 506736,
+  "bg_dist": 0.9,
+  "bg_avg": 254.7,
+  "fill": 0.24,
+  "avg_rgb": [
+   217,
+   220,
+   220
+  ],
+  "sat": 3.9,
+  "phash": "c95c31da976da9fe"
+ },
+ {
+  "file": "concept_fengao_jie.png",
+  "size": "1024x1024",
+  "bytes": 1027666,
+  "bg_dist": 2.0,
+  "bg_avg": 253.8,
+  "fill": 0.365,
+  "avg_rgb": [
+   205,
+   203,
+   197
+  ],
+  "sat": 7.6,
+  "phash": "fea74c452d69b1dc"
+ },
+ {
+  "file": "concept_fengshui_luan.png",
+  "size": "1024x1024",
+  "bytes": 973245,
+  "bg_dist": 1.0,
+  "bg_avg": 254.6,
+  "fill": 0.278,
+  "avg_rgb": [
+   212,
+   215,
+   210
+  ],
+  "sat": 5.3,
+  "phash": "d67b60f4e79e8ee3"
+ },
+ {
+  "file": "concept_gongmen_zheng.png",
+  "size": "1024x1024",
+  "bytes": 993348,
+  "bg_dist": 0.4,
+  "bg_avg": 254.9,
+  "fill": 0.339,
+  "avg_rgb": [
+   208,
+   206,
+   202
+  ],
+  "sat": 6.1,
+  "phash": "8906595d1e2d9dff"
+ },
+ {
+  "file": "concept_gongzheng_yi.png",
+  "size": "1024x1024",
+  "bytes": 921739,
+  "bg_dist": 0.2,
+  "bg_avg": 254.9,
+  "fill": 0.285,
+  "avg_rgb": [
+   220,
+   220,
+   217
+  ],
+  "sat": 3.2,
+  "phash": "b1017835e6999bca"
+ },
+ {
+  "file": "concept_huagu_shi.png",
+  "size": "1024x1024",
+  "bytes": 617943,
+  "bg_dist": 0.2,
+  "bg_avg": 255.0,
+  "fill": 0.224,
+  "avg_rgb": [
+   226,
+   225,
+   223
+  ],
+  "sat": 3.5,
+  "phash": "62ab484602e4649f"
+ },
+ {
+  "file": "concept_huoxing_pan.png",
+  "size": "1024x1024",
+  "bytes": 760433,
+  "bg_dist": 0.5,
+  "bg_avg": 254.9,
+  "fill": 0.298,
+  "avg_rgb": [
+   210,
+   201,
+   195
+  ],
+  "sat": 15.2,
+  "phash": "85d5a11e810fdf7f"
+ },
+ {
+  "file": "concept_huoxing_zheng.png",
+  "size": "1024x1024",
+  "bytes": 638214,
+  "bg_dist": 0.4,
+  "bg_avg": 254.9,
+  "fill": 0.422,
+  "avg_rgb": [
+   192,
+   183,
+   183
+  ],
+  "sat": 9.2,
+  "phash": "4ddbd225f5dd67ac"
+ },
+ {
+  "file": "concept_jdu_hou.png",
+  "size": "1024x1024",
+  "bytes": 1115754,
+  "bg_dist": 3.6,
+  "bg_avg": 252.5,
+  "fill": 0.185,
+  "avg_rgb": [
+   225,
+   226,
+   226
+  ],
+  "sat": 1.2,
+  "phash": "f5d6cb616c61f6d1"
+ },
+ {
+  "file": "concept_jiaodeng_zao.png",
+  "size": "1024x1024",
+  "bytes": 665687,
+  "bg_dist": 0.2,
+  "bg_avg": 254.9,
+  "fill": 0.289,
+  "avg_rgb": [
+   209,
+   209,
+   202
+  ],
+  "sat": 6.9,
+  "phash": "72df2a0767c5460c"
+ },
+ {
+  "file": "concept_jidu_dai.png",
+  "size": "1024x1024",
+  "bytes": 859705,
+  "bg_dist": 0.4,
+  "bg_avg": 254.9,
+  "fill": 0.38,
+  "avg_rgb": [
+   232,
+   230,
+   217
+  ],
+  "sat": 14.3,
+  "phash": "cb63280c6142bddf"
+ },
+ {
+  "file": "concept_jidu_pan.png",
+  "size": "1024x1024",
+  "bytes": 442827,
+  "bg_dist": 0.1,
+  "bg_avg": 255.0,
+  "fill": 0.249,
+  "avg_rgb": [
+   213,
+   220,
+   217
+  ],
+  "sat": 7.5,
+  "phash": "6deb372711eaa631"
+ },
+ {
+  "file": "concept_jidu_shou.png",
+  "size": "1024x1024",
+  "bytes": 1230913,
+  "bg_dist": 3.3,
+  "bg_avg": 252.7,
+  "fill": 0.389,
+  "avg_rgb": [
+   207,
+   205,
+   203
+  ],
+  "sat": 4.4,
+  "phash": "f845951d8c5fa92d"
+ },
+ {
+  "file": "concept_jieju_ji.png",
+  "size": "1024x1024",
+  "bytes": 1042862,
+  "bg_dist": 0.4,
+  "bg_avg": 254.8,
+  "fill": 0.365,
+  "avg_rgb": [
+   205,
+   201,
+   194
+  ],
+  "sat": 11.5,
+  "phash": "02a2a7af9b05d854"
+ },
+ {
+  "file": "concept_jizao_qiang.png",
+  "size": "1024x1024",
+  "bytes": 1060935,
+  "bg_dist": 1.7,
+  "bg_avg": 253.9,
+  "fill": 0.348,
+  "avg_rgb": [
+   230,
+   220,
+   209
+  ],
+  "sat": 20.4,
+  "phash": "e0829900faf9d3af"
+ },
+ {
+  "file": "concept_jumen_chen.png",
+  "size": "1024x1024",
+  "bytes": 969479,
+  "bg_dist": 0.4,
+  "bg_avg": 254.9,
+  "fill": 0.452,
+  "avg_rgb": [
+   191,
+   189,
+   174
+  ],
+  "sat": 16.9,
+  "phash": "836110a44230cd1c"
+ },
+ {
+  "file": "concept_jumen_dai.png",
+  "size": "1024x1024",
+  "bytes": 1109329,
+  "bg_dist": 2.8,
+  "bg_avg": 253.5,
+  "fill": 0.38,
+  "avg_rgb": [
+   208,
+   197,
+   186
+  ],
+  "sat": 22.2,
+  "phash": "c928056d9e79a144"
+ },
+ {
+  "file": "concept_jumen_kou.png",
+  "size": "1024x1024",
+  "bytes": 538688,
+  "bg_dist": 0.1,
+  "bg_avg": 255.0,
+  "fill": 0.377,
+  "avg_rgb": [
+   220,
+   219,
+   211
+  ],
+  "sat": 8.7,
+  "phash": "52c45bae1ffd7495"
+ },
+ {
+  "file": "concept_jumen_ne.png",
+  "size": "1024x1024",
+  "bytes": 848201,
+  "bg_dist": 0.2,
+  "bg_avg": 254.9,
+  "fill": 0.448,
+  "avg_rgb": [
+   207,
+   204,
+   211
+  ],
+  "sat": 6.4,
+  "phash": "460c67c5940c45c9"
+ },
+ {
+  "file": "concept_jumen_shu.png",
+  "size": "1024x1024",
+  "bytes": 848501,
+  "bg_dist": 0.4,
+  "bg_avg": 254.9,
+  "fill": 0.452,
+  "avg_rgb": [
+   213,
+   222,
+   213
+  ],
+  "sat": 9.6,
+  "phash": "2d14fb9d098d0367"
+ },
+ {
+  "file": "concept_jumen_su.png",
+  "size": "1024x1024",
+  "bytes": 970558,
+  "bg_dist": 2.2,
+  "bg_avg": 253.4,
+  "fill": 0.377,
+  "avg_rgb": [
+   202,
+   180,
+   177
+  ],
+  "sat": 24.9,
+  "phash": "f6a88e63e370ee57"
+ },
+ {
+  "file": "concept_jumen_ye.png",
+  "size": "1024x1024",
+  "bytes": 967774,
+  "bg_dist": 1.0,
+  "bg_avg": 254.7,
+  "fill": 0.428,
+  "avg_rgb": [
+   196,
+   183,
+   178
+  ],
+  "sat": 17.5,
+  "phash": "536de2571d326030"
+ },
+ {
+  "file": "concept_jumen_zhang.png",
+  "size": "1024x1024",
+  "bytes": 1194859,
+  "bg_dist": 1.5,
+  "bg_avg": 254.1,
+  "fill": 0.452,
+  "avg_rgb": [
+   225,
+   214,
+   190
+  ],
+  "sat": 35.0,
+  "phash": "31f2d53ea8a8648d"
+ },
+ {
+  "file": "concept_jumeng_qi.png",
+  "size": "1024x1024",
+  "bytes": 909438,
+  "bg_dist": 0.7,
+  "bg_avg": 254.8,
+  "fill": 0.227,
+  "avg_rgb": [
+   221,
+   220,
+   217
+  ],
+  "sat": 3.6,
+  "phash": "d57a93a2296d280a"
+ },
+ {
+  "file": "concept_juzhu_jia.png",
+  "size": "1024x1024",
+  "bytes": 1118523,
+  "bg_dist": 1.1,
+  "bg_avg": 254.3,
+  "fill": 0.253,
+  "avg_rgb": [
+   228,
+   228,
+   222
+  ],
+  "sat": 6.8,
+  "phash": "272c637663facbd8"
+ },
+ {
+  "file": "concept_lianzhen_hou.png",
+  "size": "1024x1024",
+  "bytes": 1307673,
+  "bg_dist": 3.5,
+  "bg_avg": 252.7,
+  "fill": 0.425,
+  "avg_rgb": [
+   186,
+   186,
+   183
+  ],
+  "sat": 3.3,
+  "phash": "1f22836f53af7f1c"
+ },
+ {
+  "file": "concept_lianzhen_yan.png",
+  "size": "1024x1024",
+  "bytes": 666404,
+  "bg_dist": 1.9,
+  "bg_avg": 253.7,
+  "fill": 0.221,
+  "avg_rgb": [
+   214,
+   213,
+   213
+  ],
+  "sat": 0.7,
+  "phash": "695013e912815c9e"
+ },
+ {
+  "file": "concept_lingguang_jie.png",
+  "size": "1024x1024",
+  "bytes": 756658,
+  "bg_dist": 3.3,
+  "bg_avg": 252.2,
+  "fill": 0.268,
+  "avg_rgb": [
+   232,
+   228,
+   222
+  ],
+  "sat": 9.5,
+  "phash": "3ab60bd321f1ffec"
+ },
+ {
+  "file": "concept_louzhi_kui.png",
+  "size": "1024x1024",
+  "bytes": 315917,
+  "bg_dist": 0.2,
+  "bg_avg": 255.0,
+  "fill": 0.17,
+  "avg_rgb": [
+   229,
+   226,
+   224
+  ],
+  "sat": 5.0,
+  "phash": "539f4377a579044e"
+ },
+ {
+  "file": "concept_luohou_mei.png",
+  "size": "1024x1024",
+  "bytes": 676368,
+  "bg_dist": 0.2,
+  "bg_avg": 255.0,
+  "fill": 0.263,
+  "avg_rgb": [
+   225,
+   223,
+   223
+  ],
+  "sat": 2.4,
+  "phash": "206f0452e83130ba"
+ },
+ {
+  "file": "concept_moceng_man.png",
+  "size": "1024x1024",
+  "bytes": 874020,
+  "bg_dist": 0.3,
+  "bg_avg": 254.9,
+  "fill": 0.408,
+  "avg_rgb": [
+   179,
+   176,
+   168
+  ],
+  "sat": 11.1,
+  "phash": "4ca95ff616fd7fcb"
+ },
+ {
+  "file": "concept_mofang_fang.png",
+  "size": "1024x1024",
+  "bytes": 876734,
+  "bg_dist": 0.3,
+  "bg_avg": 254.9,
+  "fill": 0.429,
+  "avg_rgb": [
+   202,
+   191,
+   186
+  ],
+  "sat": 15.8,
+  "phash": "530e28164346c681"
+ },
+ {
+  "file": "concept_neizai_lie.png",
+  "size": "1024x1024",
+  "bytes": 765734,
+  "bg_dist": 0.9,
+  "bg_avg": 254.8,
+  "fill": 0.39,
+  "avg_rgb": [
+   221,
+   207,
+   195
+  ],
+  "sat": 26.0,
+  "phash": "61f34cd5d5293090"
+ },
+ {
+  "file": "concept_paichang_zhang.png",
+  "size": "1024x1024",
+  "bytes": 700561,
+  "bg_dist": 0.2,
+  "bg_avg": 254.9,
+  "fill": 0.247,
+  "avg_rgb": [
+   222,
+   221,
+   218
+  ],
+  "sat": 3.8,
+  "phash": "d2bfda07846bc9a5"
+ },
+ {
+  "file": "concept_piaobo_ping.png",
+  "size": "1024x1024",
+  "bytes": 840608,
+  "bg_dist": 0.3,
+  "bg_avg": 254.9,
+  "fill": 0.345,
+  "avg_rgb": [
+   223,
+   223,
+   225
+  ],
+  "sat": 1.8,
+  "phash": "a5176a46dc7504cf"
+ },
+ {
+  "file": "concept_pojun_huo.png",
+  "size": "1024x1024",
+  "bytes": 1122354,
+  "bg_dist": 2.6,
+  "bg_avg": 253.6,
+  "fill": 0.387,
+  "avg_rgb": [
+   216,
+   217,
+   216
+  ],
+  "sat": 1.0,
+  "phash": "1fca02a8bf6949a6"
+ },
+ {
+  "file": "concept_pojun_po.png",
+  "size": "1024x1024",
+  "bytes": 1328088,
+  "bg_dist": 4.1,
+  "bg_avg": 252.0,
+  "fill": 0.435,
+  "avg_rgb": [
+   180,
+   168,
+   163
+  ],
+  "sat": 17.3,
+  "phash": "7d00012d28287a1d"
+ },
+ {
+  "file": "concept_qingnang_dong.png",
+  "size": "1024x1024",
+  "bytes": 952687,
+  "bg_dist": 0.4,
+  "bg_avg": 254.9,
+  "fill": 0.321,
+  "avg_rgb": [
+   207,
+   209,
+   211
+  ],
+  "sat": 3.6,
+  "phash": "cdc0ab66cbb4cb56"
+ },
+ {
+  "file": "concept_qingyang_lin.png",
+  "size": "1024x1024",
+  "bytes": 490082,
+  "bg_dist": 0.2,
+  "bg_avg": 255.0,
+  "fill": 0.287,
+  "avg_rgb": [
+   214,
+   209,
+   205
+  ],
+  "sat": 8.9,
+  "phash": "5eb6a0e3bfc6daa8"
+ },
+ {
+  "file": "concept_qingyang_tui.png",
+  "size": "1024x1024",
+  "bytes": 667515,
+  "bg_dist": 2.0,
+  "bg_avg": 253.8,
+  "fill": 0.308,
+  "avg_rgb": [
+   204,
+   199,
+   198
+  ],
+  "sat": 5.8,
+  "phash": "483ef5fe903457da"
+ },
+ {
+  "file": "concept_qingyang_zhi.png",
+  "size": "1024x1024",
+  "bytes": 660474,
+  "bg_dist": 0.1,
+  "bg_avg": 255.0,
+  "fill": 0.226,
+  "avg_rgb": [
+   219,
+   217,
+   217
+  ],
+  "sat": 2.1,
+  "phash": "0b524a1b32e573da"
+ },
+ {
+  "file": "concept_qisha_bo.png",
+  "size": "1024x1024",
+  "bytes": 774305,
+  "bg_dist": 0.5,
+  "bg_avg": 254.9,
+  "fill": 0.352,
+  "avg_rgb": [
+   195,
+   185,
+   185
+  ],
+  "sat": 9.4,
+  "phash": "d11789cbb9ae9eae"
+ },
+ {
+  "file": "concept_qisha_feng.png",
+  "size": "1024x1024",
+  "bytes": 1436933,
+  "bg_dist": 3.4,
+  "bg_avg": 252.6,
+  "fill": 0.391,
+  "avg_rgb": [
+   183,
+   171,
+   169
+  ],
+  "sat": 14.7,
+  "phash": "67d1c01e1a668bb3"
+ },
+ {
+  "file": "concept_qisha_ni.png",
+  "size": "1024x1024",
+  "bytes": 555317,
+  "bg_dist": 0.3,
+  "bg_avg": 254.9,
+  "fill": 0.281,
+  "avg_rgb": [
+   197,
+   192,
+   197
+  ],
+  "sat": 4.7,
+  "phash": "7bf0ee83e1bb85f3"
+ },
+ {
+  "file": "concept_qisha_song.png",
+  "size": "1024x1024",
+  "bytes": 1088823,
+  "bg_dist": 0.9,
+  "bg_avg": 254.7,
+  "fill": 0.495,
+  "avg_rgb": [
+   215,
+   200,
+   198
+  ],
+  "sat": 17.4,
+  "phash": "2d320edcdd279b62"
+ },
+ {
+  "file": "concept_qisha_zheng.png",
+  "size": "1024x1024",
+  "bytes": 1026179,
+  "bg_dist": 1.0,
+  "bg_avg": 254.6,
+  "fill": 0.469,
+  "avg_rgb": [
+   175,
+   171,
+   159
+  ],
+  "sat": 15.9,
+  "phash": "c356d08328a95d60"
+ },
+ {
+  "file": "concept_qisha_zhi.png",
+  "size": "1024x1024",
+  "bytes": 574262,
+  "bg_dist": 0.2,
+  "bg_avg": 255.0,
+  "fill": 0.372,
+  "avg_rgb": [
+   193,
+   190,
+   189
+  ],
+  "sat": 4.5,
+  "phash": "894bb45b58d872de"
+ },
+ {
+  "file": "concept_renrang_tun.png",
+  "size": "1024x1024",
+  "bytes": 743132,
+  "bg_dist": 0.2,
+  "bg_avg": 255.0,
+  "fill": 0.346,
+  "avg_rgb": [
+   210,
+   205,
+   205
+  ],
+  "sat": 5.0,
+  "phash": "010ac8e7bfa2fa07"
+ },
+ {
+  "file": "concept_shijin_sang.png",
+  "size": "1024x1024",
+  "bytes": 1005152,
+  "bg_dist": 0.6,
+  "bg_avg": 254.9,
+  "fill": 0.358,
+  "avg_rgb": [
+   201,
+   199,
+   190
+  ],
+  "sat": 10.8,
+  "phash": "828dd381c92299f8"
+ },
+ {
+  "file": "concept_suanchou_luan.png",
+  "size": "1024x1024",
+  "bytes": 863651,
+  "bg_dist": 1.1,
+  "bg_avg": 254.7,
+  "fill": 0.309,
+  "avg_rgb": [
+   199,
+   197,
+   194
+  ],
+  "sat": 4.8,
+  "phash": "c7345838d2dbf017"
+ },
+ {
+  "file": "concept_taiyi_bu.png",
+  "size": "1024x1024",
+  "bytes": 1470039,
+  "bg_dist": 3.5,
+  "bg_avg": 252.5,
+  "fill": 0.394,
+  "avg_rgb": [
+   206,
+   195,
+   184
+  ],
+  "sat": 21.6,
+  "phash": "5dc024ad6340eb00"
+ },
+ {
+  "file": "concept_taiyi_feng.png",
+  "size": "1024x1024",
+  "bytes": 783489,
+  "bg_dist": 0.7,
+  "bg_avg": 254.9,
+  "fill": 0.379,
+  "avg_rgb": [
+   215,
+   202,
+   184
+  ],
+  "sat": 30.5,
+  "phash": "d310e95fc79679e3"
+ },
+ {
+  "file": "concept_taiyi_fu.png",
+  "size": "1024x1024",
+  "bytes": 1406155,
+  "bg_dist": 3.8,
+  "bg_avg": 252.7,
+  "fill": 0.479,
+  "avg_rgb": [
+   180,
+   163,
+   153
+  ],
+  "sat": 26.9,
+  "phash": "e740876fd609950a"
+ },
+ {
+  "file": "concept_taiyi_jiu.png",
+  "size": "1024x1024",
+  "bytes": 1237006,
+  "bg_dist": 2.8,
+  "bg_avg": 253.4,
+  "fill": 0.447,
+  "avg_rgb": [
+   207,
+   196,
+   175
+  ],
+  "sat": 32.1,
+  "phash": "477fc37126af9235"
+ },
+ {
+  "file": "concept_taiyi_mi.png",
+  "size": "1024x1024",
+  "bytes": 937683,
+  "bg_dist": 0.4,
+  "bg_avg": 254.9,
+  "fill": 0.422,
+  "avg_rgb": [
+   194,
+   188,
+   174
+  ],
+  "sat": 20.5,
+  "phash": "71a301bf8a282125"
+ },
+ {
+  "file": "concept_taiyi_qian.png",
+  "size": "1024x1024",
+  "bytes": 928794,
+  "bg_dist": 0.4,
+  "bg_avg": 254.9,
+  "fill": 0.397,
+  "avg_rgb": [
+   236,
+   197,
+   195
+  ],
+  "sat": 41.3,
+  "phash": "c49d216b397db932"
+ },
+ {
+  "file": "concept_taiyi_shan.png",
+  "size": "1024x1024",
+  "bytes": 1096180,
+  "bg_dist": 1.0,
+  "bg_avg": 254.6,
+  "fill": 0.417,
+  "avg_rgb": [
+   198,
+   189,
+   181
+  ],
+  "sat": 16.6,
+  "phash": "6e4fb5430a564731"
+ },
+ {
+  "file": "concept_taiyi_su.png",
+  "size": "1024x1024",
+  "bytes": 675718,
+  "bg_dist": 0.5,
+  "bg_avg": 254.9,
+  "fill": 0.344,
+  "avg_rgb": [
+   214,
+   204,
+   201
+  ],
+  "sat": 13.3,
+  "phash": "0343a457cba89cea"
+ },
+ {
+  "file": "concept_taiyi_yang.png",
+  "size": "1024x1024",
+  "bytes": 737112,
+  "bg_dist": 2.3,
+  "bg_avg": 253.7,
+  "fill": 0.269,
+  "avg_rgb": [
+   216,
+   211,
+   205
+  ],
+  "sat": 11.1,
+  "phash": "71ddda0cbf1a9846"
+ },
+ {
+  "file": "concept_taiyi_yu.png",
+  "size": "1024x1024",
+  "bytes": 916879,
+  "bg_dist": 0.6,
+  "bg_avg": 254.9,
+  "fill": 0.446,
+  "avg_rgb": [
+   198,
+   187,
+   176
+  ],
+  "sat": 21.9,
+  "phash": "2479ec47218fb64b"
+ },
+ {
+  "file": "concept_taiyi_yuan.png",
+  "size": "1024x1024",
+  "bytes": 822604,
+  "bg_dist": 0.4,
+  "bg_avg": 254.8,
+  "fill": 0.371,
+  "avg_rgb": [
+   234,
+   216,
+   208
+  ],
+  "sat": 25.9,
+  "phash": "d6a9ef9a95f7979a"
+ },
+ {
+  "file": "concept_taiyi_zheng.png",
+  "size": "1024x1024",
+  "bytes": 744140,
+  "bg_dist": 0.2,
+  "bg_avg": 254.9,
+  "fill": 0.34,
+  "avg_rgb": [
+   213,
+   208,
+   205
+  ],
+  "sat": 8.5,
+  "phash": "4ed7f9e21e7a04b2"
+ },
+ {
+  "file": "concept_taiyi_zhi.png",
+  "size": "1024x1024",
+  "bytes": 554479,
+  "bg_dist": 0.2,
+  "bg_avg": 255.0,
+  "fill": 0.299,
+  "avg_rgb": [
+   203,
+   196,
+   192
+  ],
+  "sat": 10.9,
+  "phash": "0b0503dc09471fc3"
+ },
+ {
+  "file": "concept_taiyi_zhui.png",
+  "size": "1024x1024",
+  "bytes": 806858,
+  "bg_dist": 0.2,
+  "bg_avg": 254.9,
+  "fill": 0.385,
+  "avg_rgb": [
+   191,
+   206,
+   203
+  ],
+  "sat": 15.4,
+  "phash": "e267fc0d21ed7f2a"
+ },
+ {
+  "file": "concept_taiyin_ze.png",
+  "size": "1024x1024",
+  "bytes": 698732,
+  "bg_dist": 1.1,
+  "bg_avg": 254.4,
+  "fill": 0.269,
+  "avg_rgb": [
+   222,
+   223,
+   222
+  ],
+  "sat": 1.6,
+  "phash": "d75cc88db96ef1c9"
+ },
+ {
+  "file": "concept_tancai_suan.png",
+  "size": "1024x1024",
+  "bytes": 1271362,
+  "bg_dist": 2.0,
+  "bg_avg": 253.2,
+  "fill": 0.495,
+  "avg_rgb": [
+   175,
+   170,
+   166
+  ],
+  "sat": 9.3,
+  "phash": "88cf52f3419cdd19"
+ },
+ {
+  "file": "concept_tanlang_xin.png",
+  "size": "1024x1024",
+  "bytes": 857262,
+  "bg_dist": 1.4,
+  "bg_avg": 254.5,
+  "fill": 0.296,
+  "avg_rgb": [
+   206,
+   204,
+   195
+  ],
+  "sat": 10.8,
+  "phash": "89b3e4b62c88fee7"
+ },
+ {
+  "file": "concept_tianfu_shou.png",
+  "size": "1024x1024",
+  "bytes": 1363692,
+  "bg_dist": 2.0,
+  "bg_avg": 253.8,
+  "fill": 0.405,
+  "avg_rgb": [
+   193,
+   192,
+   180
+  ],
+  "sat": 13.7,
+  "phash": "704267681cfba6db"
+ },
+ {
+  "file": "concept_tianji_an.png",
+  "size": "1024x1024",
+  "bytes": 1192236,
+  "bg_dist": 2.2,
+  "bg_avg": 253.7,
+  "fill": 0.396,
+  "avg_rgb": [
+   208,
+   209,
+   193
+  ],
+  "sat": 15.5,
+  "phash": "0da6ad94db2b62e4"
+ },
+ {
+  "file": "concept_tianji_cai.png",
+  "size": "1024x1024",
+  "bytes": 726129,
+  "bg_dist": 1.0,
+  "bg_avg": 254.7,
+  "fill": 0.366,
+  "avg_rgb": [
+   182,
+   192,
+   197
+  ],
+  "sat": 14.5,
+  "phash": "109d736f87a2ddbe"
+ },
+ {
+  "file": "concept_tianji_cha.png",
+  "size": "1024x1024",
+  "bytes": 586015,
+  "bg_dist": 0.1,
+  "bg_avg": 255.0,
+  "fill": 0.292,
+  "avg_rgb": [
+   225,
+   221,
+   220
+  ],
+  "sat": 5.6,
+  "phash": "b2c8c5692f77bd25"
+ },
+ {
+  "file": "concept_tianji_che.png",
+  "size": "1024x1024",
+  "bytes": 1195982,
+  "bg_dist": 1.1,
+  "bg_avg": 254.3,
+  "fill": 0.454,
+  "avg_rgb": [
+   200,
+   198,
+   189
+  ],
+  "sat": 11.1,
+  "phash": "9874a5b1191d3cc8"
+ },
+ {
+  "file": "concept_tianji_fu.png",
+  "size": "1024x1024",
+  "bytes": 441707,
+  "bg_dist": 0.2,
+  "bg_avg": 255.0,
+  "fill": 0.176,
+  "avg_rgb": [
+   244,
+   231,
+   230
+  ],
+  "sat": 14.1,
+  "phash": "8286e7b7d0872512"
+ },
+ {
+  "file": "concept_tianji_jing.png",
+  "size": "1024x1024",
+  "bytes": 813295,
+  "bg_dist": 1.0,
+  "bg_avg": 254.6,
+  "fill": 0.33,
+  "avg_rgb": [
+   209,
+   215,
+   214
+  ],
+  "sat": 5.8,
+  "phash": "ea0f9e74e9a6042b"
+ },
+ {
+  "file": "concept_tianji_jue.png",
+  "size": "1024x1024",
+  "bytes": 549075,
+  "bg_dist": 0.2,
+  "bg_avg": 255.0,
+  "fill": 0.355,
+  "avg_rgb": [
+   223,
+   221,
+   214
+  ],
+  "sat": 8.4,
+  "phash": "0bb101f9f9750e33"
+ },
+ {
+  "file": "concept_tianji_wen.png",
+  "size": "1024x1024",
+  "bytes": 748179,
+  "bg_dist": 0.3,
+  "bg_avg": 254.9,
+  "fill": 0.248,
+  "avg_rgb": [
+   223,
+   222,
+   229
+  ],
+  "sat": 6.4,
+  "phash": "87d0254a3c5385f0"
+ },
+ {
+  "file": "concept_tianji_ze.png",
+  "size": "1024x1024",
+  "bytes": 939922,
+  "bg_dist": 0.3,
+  "bg_avg": 254.9,
+  "fill": 0.346,
+  "avg_rgb": [
+   209,
+   206,
+   202
+  ],
+  "sat": 6.8,
+  "phash": "87846c51bc598a99"
+ },
+ {
+  "file": "concept_tiankong_dun.png",
+  "size": "1024x1024",
+  "bytes": 902283,
+  "bg_dist": 1.1,
+  "bg_avg": 254.5,
+  "fill": 0.443,
+  "avg_rgb": [
+   200,
+   202,
+   200
+  ],
+  "sat": 2.2,
+  "phash": "3b5865ed795c51a4"
+ },
+ {
+  "file": "concept_tiankong_huan.png",
+  "size": "1024x1024",
+  "bytes": 815926,
+  "bg_dist": 0.5,
+  "bg_avg": 254.9,
+  "fill": 0.362,
+  "avg_rgb": [
+   218,
+   221,
+   219
+  ],
+  "sat": 2.3,
+  "phash": "a5afaa4527faf058"
+ },
+ {
+  "file": "concept_tiankong_huo.png",
+  "size": "1024x1024",
+  "bytes": 463688,
+  "bg_dist": 0.1,
+  "bg_avg": 255.0,
+  "fill": 0.301,
+  "avg_rgb": [
+   232,
+   235,
+   234
+  ],
+  "sat": 2.5,
+  "phash": "cb63280c6142bddf"
+ },
+ {
+  "file": "concept_tiankong_mang.png",
+  "size": "1024x1024",
+  "bytes": 918384,
+  "bg_dist": 1.4,
+  "bg_avg": 254.2,
+  "fill": 0.307,
+  "avg_rgb": [
+   218,
+   219,
+   218
+  ],
+  "sat": 1.3,
+  "phash": "70cd4e7542b5607c"
+ },
+ {
+  "file": "concept_tiankong_qi.png",
+  "size": "1024x1024",
+  "bytes": 628519,
+  "bg_dist": 0.2,
+  "bg_avg": 255.0,
+  "fill": 0.337,
+  "avg_rgb": [
+   224,
+   227,
+   227
+  ],
+  "sat": 2.8,
+  "phash": "e52eecf690f59b02"
+ },
+ {
+  "file": "concept_tiankong_wen.png",
+  "size": "1024x1024",
+  "bytes": 1280229,
+  "bg_dist": 3.3,
+  "bg_avg": 252.9,
+  "fill": 0.419,
+  "avg_rgb": [
+   215,
+   215,
+   214
+  ],
+  "sat": 0.8,
+  "phash": "7df89c90fccb409b"
+ },
+ {
+  "file": "concept_tiankong_xiao.png",
+  "size": "1024x1024",
+  "bytes": 437696,
+  "bg_dist": 0.1,
+  "bg_avg": 255.0,
+  "fill": 0.222,
+  "avg_rgb": [
+   229,
+   229,
+   227
+  ],
+  "sat": 1.5,
+  "phash": "506c3fbe34d6dbeb"
+ },
+ {
+  "file": "concept_tiankong_you.png",
+  "size": "1024x1024",
+  "bytes": 1032427,
+  "bg_dist": 0.4,
+  "bg_avg": 254.9,
+  "fill": 0.524,
+  "avg_rgb": [
+   202,
+   200,
+   196
+  ],
+  "sat": 6.1,
+  "phash": "82fa67dd1ef4c8a4"
+ },
+ {
+  "file": "concept_tianliang_dan.png",
+  "size": "1024x1024",
+  "bytes": 1505021,
+  "bg_dist": 2.3,
+  "bg_avg": 253.6,
+  "fill": 0.404,
+  "avg_rgb": [
+   194,
+   184,
+   177
+  ],
+  "sat": 17.0,
+  "phash": "dd337dcabd4b0cbe"
+ },
+ {
+  "file": "concept_tianliang_kang.png",
+  "size": "1024x1024",
+  "bytes": 859883,
+  "bg_dist": 1.0,
+  "bg_avg": 254.6,
+  "fill": 0.29,
+  "avg_rgb": [
+   206,
+   207,
+   203
+  ],
+  "sat": 4.9,
+  "phash": "830a2ec0a70c4491"
+ },
+ {
+  "file": "concept_tiantong_he.png",
+  "size": "1024x1024",
+  "bytes": 884821,
+  "bg_dist": 0.8,
+  "bg_avg": 254.7,
+  "fill": 0.319,
+  "avg_rgb": [
+   229,
+   234,
+   232
+  ],
+  "sat": 4.9,
+  "phash": "cb63280c6142bddf"
+ },
+ {
+  "file": "concept_tiantong_hou.png",
+  "size": "1024x1024",
+  "bytes": 1071293,
+  "bg_dist": 0.7,
+  "bg_avg": 254.8,
+  "fill": 0.379,
+  "avg_rgb": [
+   218,
+   218,
+   223
+  ],
+  "sat": 5.3,
+  "phash": "ed6de92f99344925"
+ },
+ {
+  "file": "concept_tiantong_na.png",
+  "size": "1024x1024",
+  "bytes": 742516,
+  "bg_dist": 0.9,
+  "bg_avg": 254.8,
+  "fill": 0.452,
+  "avg_rgb": [
+   192,
+   180,
+   176
+  ],
+  "sat": 16.6,
+  "phash": "35c80e6f86aedf1f"
+ },
+ {
+  "file": "concept_tiantong_shou.png",
+  "size": "1024x1024",
+  "bytes": 825713,
+  "bg_dist": 0.7,
+  "bg_avg": 254.9,
+  "fill": 0.437,
+  "avg_rgb": [
+   189,
+   202,
+   201
+  ],
+  "sat": 13.5,
+  "phash": "57caae3d1e53d481"
+ },
+ {
+  "file": "concept_tianyi_cui.png",
+  "size": "1024x1024",
+  "bytes": 308062,
+  "bg_dist": 0.1,
+  "bg_avg": 255.0,
+  "fill": 0.145,
+  "avg_rgb": [
+   247,
+   247,
+   238
+  ],
+  "sat": 8.9,
+  "phash": "cb63280c6142bddf"
+ },
+ {
+  "file": "concept_tianyi_gao.png",
+  "size": "1024x1024",
+  "bytes": 1135045,
+  "bg_dist": 6.6,
+  "bg_avg": 250.4,
+  "fill": 0.3,
+  "avg_rgb": [
+   235,
+   218,
+   210
+  ],
+  "sat": 25.6,
+  "phash": "d5a79f1716c3066a"
+ },
+ {
+  "file": "concept_tianyi_hu.png",
+  "size": "1024x1024",
+  "bytes": 785504,
+  "bg_dist": 0.8,
+  "bg_avg": 254.7,
+  "fill": 0.379,
+  "avg_rgb": [
+   201,
+   208,
+   200
+  ],
+  "sat": 7.2,
+  "phash": "efe7dc54ba84f0b2"
+ },
+ {
+  "file": "concept_tianyi_huan.png",
+  "size": "1024x1024",
+  "bytes": 1062351,
+  "bg_dist": 2.3,
+  "bg_avg": 253.7,
+  "fill": 0.389,
+  "avg_rgb": [
+   214,
+   226,
+   216
+  ],
+  "sat": 12.4,
+  "phash": "cb63280c6142bddf"
+ },
+ {
+  "file": "concept_tianyi_jie.png",
+  "size": "1024x1024",
+  "bytes": 887974,
+  "bg_dist": 0.8,
+  "bg_avg": 254.7,
+  "fill": 0.449,
+  "avg_rgb": [
+   184,
+   183,
+   171
+  ],
+  "sat": 13.4,
+  "phash": "dfff38c93e9b78db"
+ },
+ {
+  "file": "concept_tianyi_jiu.png",
+  "size": "1024x1024",
+  "bytes": 1008856,
+  "bg_dist": 2.8,
+  "bg_avg": 253.6,
+  "fill": 0.41,
+  "avg_rgb": [
+   199,
+   169,
+   168
+  ],
+  "sat": 30.6,
+  "phash": "822620707be16e06"
+ },
+ {
+  "file": "concept_tianyi_kou.png",
+  "size": "1024x1024",
+  "bytes": 554362,
+  "bg_dist": 0.2,
+  "bg_avg": 255.0,
+  "fill": 0.351,
+  "avg_rgb": [
+   209,
+   215,
+   211
+  ],
+  "sat": 6.1,
+  "phash": "799cb9837f457b89"
+ },
+ {
+  "file": "concept_tianyi_qi.png",
+  "size": "1024x1024",
+  "bytes": 736432,
+  "bg_dist": 0.3,
+  "bg_avg": 254.9,
+  "fill": 0.343,
+  "avg_rgb": [
+   230,
+   219,
+   216
+  ],
+  "sat": 13.4,
+  "phash": "762fc99e7a159bcf"
+ },
+ {
+  "file": "concept_tianyi_qing.png",
+  "size": "1024x1024",
+  "bytes": 755031,
+  "bg_dist": 0.3,
+  "bg_avg": 254.9,
+  "fill": 0.38,
+  "avg_rgb": [
+   211,
+   219,
+   203
+  ],
+  "sat": 16.0,
+  "phash": "48161c0d01a0a55d"
+ },
+ {
+  "file": "concept_tianyi_tuo.png",
+  "size": "1024x1024",
+  "bytes": 1097054,
+  "bg_dist": 2.7,
+  "bg_avg": 253.5,
+  "fill": 0.383,
+  "avg_rgb": [
+   205,
+   208,
+   196
+  ],
+  "sat": 11.8,
+  "phash": "addcacbe3d1c42d6"
+ },
+ {
+  "file": "concept_tianyi_wen.png",
+  "size": "1024x1024",
+  "bytes": 1181692,
+  "bg_dist": 2.5,
+  "bg_avg": 253.6,
+  "fill": 0.425,
+  "avg_rgb": [
+   204,
+   215,
+   217
+  ],
+  "sat": 13.4,
+  "phash": "ab3727b63cb920cb"
+ },
+ {
+  "file": "concept_tianyi_xun.png",
+  "size": "1024x1024",
+  "bytes": 379678,
+  "bg_dist": 0.1,
+  "bg_avg": 255.0,
+  "fill": 0.218,
+  "avg_rgb": [
+   233,
+   231,
+   229
+  ],
+  "sat": 3.9,
+  "phash": "14c2a5bab5efa7f8"
+ },
+ {
+  "file": "concept_tianyi_xun_adm.png",
+  "size": "1024x1024",
+  "bytes": 650928,
+  "bg_dist": 0.9,
+  "bg_avg": 254.7,
+  "fill": 0.266,
+  "avg_rgb": [
+   227,
+   227,
+   223
+  ],
+  "sat": 4.1,
+  "phash": "226eb90d2c306620"
+ },
+ {
+  "file": "concept_tianyi_yuan.png",
+  "size": "1024x1024",
+  "bytes": 1599662,
+  "bg_dist": 2.6,
+  "bg_avg": 253.2,
+  "fill": 0.444,
+  "avg_rgb": [
+   176,
+   174,
+   166
+  ],
+  "sat": 10.0,
+  "phash": "4475f7c55eb44cdc"
+ },
+ {
+  "file": "concept_tianyi_zeng.png",
+  "size": "1024x1024",
+  "bytes": 616415,
+  "bg_dist": 0.4,
+  "bg_avg": 254.9,
+  "fill": 0.359,
+  "avg_rgb": [
+   208,
+   195,
+   194
+  ],
+  "sat": 13.1,
+  "phash": "c27bcaefb9b4cd05"
+ },
+ {
+  "file": "concept_tongpeng_shi.png",
+  "size": "1024x1024",
+  "bytes": 1038965,
+  "bg_dist": 0.6,
+  "bg_avg": 254.8,
+  "fill": 0.35,
+  "avg_rgb": [
+   208,
+   200,
+   185
+  ],
+  "sat": 22.7,
+  "phash": "cddea582151a4181"
+ },
+ {
+  "file": "concept_tuoluo_ao.png",
+  "size": "1024x1024",
+  "bytes": 486288,
+  "bg_dist": 0.3,
+  "bg_avg": 254.9,
+  "fill": 0.252,
+  "avg_rgb": [
+   214,
+   209,
+   202
+  ],
+  "sat": 12.0,
+  "phash": "44937da61a98a80e"
+ },
+ {
+  "file": "concept_tuoluo_chen.png",
+  "size": "1024x1024",
+  "bytes": 551007,
+  "bg_dist": 0.2,
+  "bg_avg": 254.9,
+  "fill": 0.365,
+  "avg_rgb": [
+   202,
+   200,
+   198
+  ],
+  "sat": 4.4,
+  "phash": "5b621a8290143368"
+ },
+ {
+  "file": "concept_tuoluo_cheng.png",
+  "size": "1024x1024",
+  "bytes": 951074,
+  "bg_dist": 0.2,
+  "bg_avg": 255.0,
+  "fill": 0.409,
+  "avg_rgb": [
+   204,
+   202,
+   198
+  ],
+  "sat": 5.9,
+  "phash": "42461709184526eb"
+ },
+ {
+  "file": "concept_tuoluo_hou.png",
+  "size": "1024x1024",
+  "bytes": 489821,
+  "bg_dist": 0.3,
+  "bg_avg": 254.9,
+  "fill": 0.302,
+  "avg_rgb": [
+   202,
+   198,
+   193
+  ],
+  "sat": 8.2,
+  "phash": "6062c5d162f76334"
+ },
+ {
+  "file": "concept_tuoluo_kang.png",
+  "size": "1024x1024",
+  "bytes": 446520,
+  "bg_dist": 1.0,
+  "bg_avg": 254.7,
+  "fill": 0.29,
+  "avg_rgb": [
+   206,
+   197,
+   187
+  ],
+  "sat": 19.5,
+  "phash": "89a421484cf8440e"
+ },
+ {
+  "file": "concept_tuoluo_mo.png",
+  "size": "1024x1024",
+  "bytes": 807393,
+  "bg_dist": 0.6,
+  "bg_avg": 254.8,
+  "fill": 0.354,
+  "avg_rgb": [
+   206,
+   203,
+   194
+  ],
+  "sat": 11.7,
+  "phash": "e5f374f1e58c6a7b"
+ },
+ {
+  "file": "concept_tuoluo_qian.png",
+  "size": "1024x1024",
+  "bytes": 487364,
+  "bg_dist": 0.4,
+  "bg_avg": 254.9,
+  "fill": 0.273,
+  "avg_rgb": [
+   210,
+   198,
+   200
+  ],
+  "sat": 12.0,
+  "phash": "91a8d70870635f7c"
+ },
+ {
+  "file": "concept_tuoluo_shou.png",
+  "size": "1024x1024",
+  "bytes": 1040639,
+  "bg_dist": 0.9,
+  "bg_avg": 254.7,
+  "fill": 0.407,
+  "avg_rgb": [
+   176,
+   172,
+   171
+  ],
+  "sat": 5.6,
+  "phash": "b2515f6b6ad0ce91"
+ },
+ {
+  "file": "concept_wenchang_chuang.png",
+  "size": "1024x1024",
+  "bytes": 1078824,
+  "bg_dist": 0.8,
+  "bg_avg": 254.8,
+  "fill": 0.271,
+  "avg_rgb": [
+   231,
+   230,
+   224
+  ],
+  "sat": 6.0,
+  "phash": "d3e98cc1cc73d044"
+ },
+ {
+  "file": "concept_wenchang_dai.png",
+  "size": "1024x1024",
+  "bytes": 832623,
+  "bg_dist": 0.8,
+  "bg_avg": 254.6,
+  "fill": 0.314,
+  "avg_rgb": [
+   202,
+   202,
+   195
+  ],
+  "sat": 6.3,
+  "phash": "a7f9c85423af05e6"
+ },
+ {
+  "file": "concept_wenchang_deng.png",
+  "size": "1024x1024",
+  "bytes": 927615,
+  "bg_dist": 0.3,
+  "bg_avg": 255.0,
+  "fill": 0.399,
+  "avg_rgb": [
+   198,
+   203,
+   209
+  ],
+  "sat": 10.6,
+  "phash": "95d8d720d19aea60"
+ },
+ {
+  "file": "concept_wenchang_hou.png",
+  "size": "1024x1024",
+  "bytes": 874765,
+  "bg_dist": 1.1,
+  "bg_avg": 254.5,
+  "fill": 0.443,
+  "avg_rgb": [
+   169,
+   172,
+   160
+  ],
+  "sat": 12.2,
+  "phash": "dcf80f54b488e15f"
+ },
+ {
+  "file": "concept_wenqu_hu.png",
+  "size": "1024x1024",
+  "bytes": 1439450,
+  "bg_dist": 6.4,
+  "bg_avg": 251.3,
+  "fill": 0.428,
+  "avg_rgb": [
+   215,
+   214,
+   203
+  ],
+  "sat": 11.5,
+  "phash": "d202e98f50eef0f2"
+ },
+ {
+  "file": "concept_wenqu_jiu.png",
+  "size": "1024x1024",
+  "bytes": 1371331,
+  "bg_dist": 2.8,
+  "bg_avg": 253.1,
+  "fill": 0.407,
+  "avg_rgb": [
+   199,
+   200,
+   185
+  ],
+  "sat": 14.7,
+  "phash": "5bbc068ba83d70cf"
+ },
+ {
+  "file": "concept_wenqu_li.png",
+  "size": "1024x1024",
+  "bytes": 961613,
+  "bg_dist": 0.2,
+  "bg_avg": 254.9,
+  "fill": 0.38,
+  "avg_rgb": [
+   227,
+   223,
+   217
+  ],
+  "sat": 9.3,
+  "phash": "cb63280c6142bddf"
+ },
+ {
+  "file": "concept_wenqu_mi.png",
+  "size": "1024x1024",
+  "bytes": 1513290,
+  "bg_dist": 10.9,
+  "bg_avg": 246.5,
+  "fill": 0.463,
+  "avg_rgb": [
+   211,
+   202,
+   196
+  ],
+  "sat": 14.6,
+  "phash": "67dfedeeece4dce2"
+ },
+ {
+  "file": "concept_wenqu_mo.png",
+  "size": "1024x1024",
+  "bytes": 1021910,
+  "bg_dist": 0.7,
+  "bg_avg": 254.8,
+  "fill": 0.416,
+  "avg_rgb": [
+   187,
+   182,
+   185
+  ],
+  "sat": 5.2,
+  "phash": "6049e1ab11457d8a"
+ },
+ {
+  "file": "concept_wenqu_qi.png",
+  "size": "1024x1024",
+  "bytes": 869733,
+  "bg_dist": 0.2,
+  "bg_avg": 254.9,
+  "fill": 0.316,
+  "avg_rgb": [
+   230,
+   228,
+   221
+  ],
+  "sat": 8.7,
+  "phash": "7abd9150646b3d1d"
+ },
+ {
+  "file": "concept_wenqu_song.png",
+  "size": "1024x1024",
+  "bytes": 1617935,
+  "bg_dist": 2.9,
+  "bg_avg": 253.0,
+  "fill": 0.467,
+  "avg_rgb": [
+   189,
+   188,
+   182
+  ],
+  "sat": 7.2,
+  "phash": "a3ec41569e8a337f"
+ },
+ {
+  "file": "concept_wenqu_suan.png",
+  "size": "1024x1024",
+  "bytes": 1461662,
+  "bg_dist": 3.4,
+  "bg_avg": 252.8,
+  "fill": 0.445,
+  "avg_rgb": [
+   202,
+   205,
+   188
+  ],
+  "sat": 16.8,
+  "phash": "a0860b479f566863"
+ },
+ {
+  "file": "concept_wenqu_suo.png",
+  "size": "1024x1024",
+  "bytes": 1259883,
+  "bg_dist": 2.8,
+  "bg_avg": 253.1,
+  "fill": 0.408,
+  "avg_rgb": [
+   221,
+   219,
+   209
+  ],
+  "sat": 12.0,
+  "phash": "b53b8bb4c7e00c9a"
+ },
+ {
+  "file": "concept_wenqu_tan.png",
+  "size": "1024x1024",
+  "bytes": 1212969,
+  "bg_dist": 3.9,
+  "bg_avg": 252.5,
+  "fill": 0.436,
+  "avg_rgb": [
+   207,
+   198,
+   202
+  ],
+  "sat": 8.4,
+  "phash": "857f9131532bc431"
+ },
+ {
+  "file": "concept_wenqu_xi.png",
+  "size": "1024x1024",
+  "bytes": 595270,
+  "bg_dist": 0.1,
+  "bg_avg": 255.0,
+  "fill": 0.319,
+  "avg_rgb": [
+   223,
+   223,
+   220
+  ],
+  "sat": 3.1,
+  "phash": "5d31202dd45688ed"
+ },
+ {
+  "file": "concept_wenqu_xing.png",
+  "size": "1024x1024",
+  "bytes": 794864,
+  "bg_dist": 0.2,
+  "bg_avg": 254.9,
+  "fill": 0.3,
+  "avg_rgb": [
+   222,
+   221,
+   219
+  ],
+  "sat": 2.2,
+  "phash": "2c652d68175aa8ba"
+ },
+ {
+  "file": "concept_wenqu_xue.png",
+  "size": "1024x1024",
+  "bytes": 1576480,
+  "bg_dist": 3.6,
+  "bg_avg": 252.7,
+  "fill": 0.366,
+  "avg_rgb": [
+   195,
+   193,
+   188
+  ],
+  "sat": 6.4,
+  "phash": "8a68e2acc3d88326"
+ },
+ {
+  "file": "concept_wenqu_yan.png",
+  "size": "1024x1024",
+  "bytes": 817872,
+  "bg_dist": 0.9,
+  "bg_avg": 254.7,
+  "fill": 0.328,
+  "avg_rgb": [
+   220,
+   220,
+   207
+  ],
+  "sat": 12.6,
+  "phash": "9684ee9aace4a191"
+ },
+ {
+  "file": "concept_wenqu_zheng.png",
+  "size": "1024x1024",
+  "bytes": 1106449,
+  "bg_dist": 0.8,
+  "bg_avg": 254.7,
+  "fill": 0.444,
+  "avg_rgb": [
+   217,
+   214,
+   204
+  ],
+  "sat": 12.9,
+  "phash": "82d47f73afe1535f"
+ },
+ {
+  "file": "concept_wojiao_cang.png",
+  "size": "1024x1024",
+  "bytes": 915695,
+  "bg_dist": 0.5,
+  "bg_avg": 254.9,
+  "fill": 0.382,
+  "avg_rgb": [
+   193,
+   193,
+   191
+  ],
+  "sat": 2.4,
+  "phash": "2cd42a38b2bd5d4c"
+ },
+ {
+  "file": "concept_wuqu_dai.png",
+  "size": "1024x1024",
+  "bytes": 538918,
+  "bg_dist": 0.3,
+  "bg_avg": 254.9,
+  "fill": 0.259,
+  "avg_rgb": [
+   216,
+   209,
+   210
+  ],
+  "sat": 7.4,
+  "phash": "afff1124bd654155"
+ },
+ {
+  "file": "concept_wuqu_han.png",
+  "size": "1024x1024",
+  "bytes": 597560,
+  "bg_dist": 0.2,
+  "bg_avg": 255.0,
+  "fill": 0.332,
+  "avg_rgb": [
+   216,
+   225,
+   227
+  ],
+  "sat": 11.2,
+  "phash": "c8f2a36a4b5e505e"
+ },
+ {
+  "file": "concept_wuqu_jian.png",
+  "size": "1024x1024",
+  "bytes": 1635704,
+  "bg_dist": 4.2,
+  "bg_avg": 252.3,
+  "fill": 0.503,
+  "avg_rgb": [
+   171,
+   171,
+   167
+  ],
+  "sat": 4.2,
+  "phash": "28475fb0a8e20c3d"
+ },
+ {
+  "file": "concept_wuqu_ning.png",
+  "size": "1024x1024",
+  "bytes": 939225,
+  "bg_dist": 1.4,
+  "bg_avg": 254.0,
+  "fill": 0.306,
+  "avg_rgb": [
+   217,
+   207,
+   206
+  ],
+  "sat": 10.4,
+  "phash": "0bed502eeb344fc6"
+ },
+ {
+  "file": "concept_wuqu_tui.png",
+  "size": "1024x1024",
+  "bytes": 974582,
+  "bg_dist": 0.6,
+  "bg_avg": 254.8,
+  "fill": 0.343,
+  "avg_rgb": [
+   201,
+   198,
+   188
+  ],
+  "sat": 12.4,
+  "phash": "d5e76fe846223347"
+ },
+ {
+  "file": "concept_wuqu_xing.png",
+  "size": "1024x1024",
+  "bytes": 1839134,
+  "bg_dist": 13.7,
+  "bg_avg": 246.1,
+  "fill": 0.467,
+  "avg_rgb": [
+   174,
+   176,
+   174
+  ],
+  "sat": 2.6,
+  "phash": "d37156df5d076c09"
+ },
+ {
+  "file": "concept_wuqu_xiu.png",
+  "size": "1024x1024",
+  "bytes": 508967,
+  "bg_dist": 0.2,
+  "bg_avg": 254.9,
+  "fill": 0.288,
+  "avg_rgb": [
+   222,
+   215,
+   215
+  ],
+  "sat": 7.2,
+  "phash": "92b56a180356fab1"
+ },
+ {
+  "file": "concept_wuqu_zhi.png",
+  "size": "1024x1024",
+  "bytes": 979656,
+  "bg_dist": 0.6,
+  "bg_avg": 254.8,
+  "fill": 0.327,
+  "avg_rgb": [
+   207,
+   206,
+   197
+  ],
+  "sat": 9.5,
+  "phash": "bba13209d3a69f44"
+ },
+ {
+  "file": "concept_wuting_qu.png",
+  "size": "1024x1024",
+  "bytes": 829853,
+  "bg_dist": 0.3,
+  "bg_avg": 254.9,
+  "fill": 0.288,
+  "avg_rgb": [
+   207,
+   205,
+   204
+  ],
+  "sat": 3.2,
+  "phash": "3acf9f88a5cf5851"
+ },
+ {
+  "file": "concept_xiuyi_bi.png",
+  "size": "1024x1024",
+  "bytes": 892812,
+  "bg_dist": 1.0,
+  "bg_avg": 254.6,
+  "fill": 0.309,
+  "avg_rgb": [
+   217,
+   216,
+   211
+  ],
+  "sat": 5.6,
+  "phash": "958c67731def849c"
+ },
+ {
+  "file": "concept_xuanming_liu.png",
+  "size": "1024x1024",
+  "bytes": 746200,
+  "bg_dist": 0.2,
+  "bg_avg": 254.9,
+  "fill": 0.266,
+  "avg_rgb": [
+   216,
+   220,
+   221
+  ],
+  "sat": 5.7,
+  "phash": "281e12e3e8cbee4c"
+ },
+ {
+  "file": "concept_xuanming_yuan.png",
+  "size": "1024x1024",
+  "bytes": 697476,
+  "bg_dist": 2.0,
+  "bg_avg": 254.1,
+  "fill": 0.152,
+  "avg_rgb": [
+   236,
+   239,
+   239
+  ],
+  "sat": 3.3,
+  "phash": "758a49c56f513417"
+ },
+ {
+  "file": "concept_xuanwu_ren.png",
+  "size": "1024x1024",
+  "bytes": 1429569,
+  "bg_dist": 2.7,
+  "bg_avg": 253.0,
+  "fill": 0.421,
+  "avg_rgb": [
+   171,
+   178,
+   176
+  ],
+  "sat": 7.0,
+  "phash": "136eaed1aa956192"
+ },
+ {
+  "file": "concept_yantai_chen.png",
+  "size": "1024x1024",
+  "bytes": 754810,
+  "bg_dist": 0.2,
+  "bg_avg": 254.9,
+  "fill": 0.311,
+  "avg_rgb": [
+   209,
+   209,
+   207
+  ],
+  "sat": 1.9,
+  "phash": "921eaa4dd065b9f6"
+ },
+ {
+  "file": "concept_yinshou_zhang.png",
+  "size": "1024x1024",
+  "bytes": 1683936,
+  "bg_dist": 4.9,
+  "bg_avg": 251.8,
+  "fill": 0.418,
+  "avg_rgb": [
+   197,
+   189,
+   185
+  ],
+  "sat": 12.3,
+  "phash": "c3077d86b9acd0d0"
+ },
+ {
+  "file": "concept_zhai_zhu_bi.png",
+  "size": "1024x1024",
+  "bytes": 1259806,
+  "bg_dist": 1.7,
+  "bg_avg": 253.8,
+  "fill": 0.372,
+  "avg_rgb": [
+   211,
+   207,
+   191
+  ],
+  "sat": 19.5,
+  "phash": "98a98556528a8b4d"
+ },
+ {
+  "file": "concept_zhezhi_li.png",
+  "size": "1024x1024",
+  "bytes": 1326921,
+  "bg_dist": 7.1,
+  "bg_avg": 249.5,
+  "fill": 0.346,
+  "avg_rgb": [
+   210,
+   199,
+   196
+  ],
+  "sat": 14.3,
+  "phash": "5e98fbf249b17f37"
+ },
+ {
+  "file": "concept_zhuyin_xian.png",
+  "size": "1024x1024",
+  "bytes": 1036355,
+  "bg_dist": 0.9,
+  "bg_avg": 254.6,
+  "fill": 0.423,
+  "avg_rgb": [
+   188,
+   182,
+   170
+  ],
+  "sat": 18.4,
+  "phash": "b1f8ab586b01262d"
+ }
+]
