@@ -163,6 +163,7 @@ with zipfile.ZipFile(ZIP, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
         (APP / "05_素材库说明与接入.md", "01_文档/素材库说明与接入.md"),
         (APP / "07_执行清单.md", "01_文档/执行清单.md"),
         (APP / "补丁_001_性别字段与大运算法.md", "01_文档/补丁_001_性别字段与大运算法.md"),
+        (APP / "补丁_002_定盘问卷判据.md", "01_文档/补丁_002_定盘问卷判据.md"),
     ]
     for src, dst in docs:
         if src.exists():
